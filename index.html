@@ -4,18 +4,24 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">News</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ul class="recent_posts_list">
+    {%  for post in site.posts limit: 5 %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+          <header class="post-header">
+            <h1 class="post-title">{{ post.title }}</h1>
+            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+          </header>
+
+          <article class="post-content">
+            {{ post.content }}
+          </article>
+        </div>
       </li>
     {% endfor %}
   </ul>
+
+  <a href="{{ site.baseurl }}/posts.html">Older posts</a>
 
 </div>
