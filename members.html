@@ -1,0 +1,17 @@
+---
+layout: page
+title: Members
+---
+
+<div class="members">
+    <ul>
+    {% for member in site.data.members %}
+        <li>
+            <a href="{{ member.site }}">{{ member.name}}</a>
+            {%if member.position %}
+                - <strong>{{member.position}}</strong>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</div>

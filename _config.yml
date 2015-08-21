@@ -1,0 +1,12 @@
+# Site settings
+title: Stevens Game Development Club
+email: sgdc@stevens.edu
+description: > # this means to ignore newlines until "baseurl:"
+    Game development club at Stevens Institute of Technology
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sgdc.github.io" # the base hostname & protocol for your site
+github_username: sgdc
+youtube_channel: UCLN2t6B7Sq7GVK6IqBG6cXg
+
+# Build settings
+markdown: kramdown

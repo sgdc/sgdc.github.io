@@ -1,0 +1,20 @@
+- name: A Tempo
+  desc: A Tempo is a rhythm-based fighting game designed for the JAM and later adopted by Shower Thoughts Development. Fight as the Nella Fantasia moving to the beat!
+  devs:
+    - Brian Intile
+    - David Estes-Smargiassi
+    - Adam Gincel
+    - Robyn Verril
+    - Alex Massenzio
+    - Jordan Van Horsen
+  event: JAM Launch Title
+  img: a-tempo.jpg
+
+- name: Castle Point Purge
+  desc: Castle Point Purge is a game that was developed to earn points during the Stevens Gear and Triangle R.A.G.E. event, hence the quickly designed title screen requiring the user select a grade. Castle Point is under attack! In this simple top down 2D shooter, defend Castle Point by using the Stevens Cannon!
+  devs:
+    - Kevin Quigley
+    - Adam Gincel
+  event: R.A.G.E. 2014
+  img: castlePointPurge.jpg
+  download: http://griffengames.blogspot.com/p/castle-point-purge.html

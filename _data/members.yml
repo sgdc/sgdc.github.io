@@ -1,0 +1,39 @@
+- name: Kevin Quigley
+  class: 4/4
+  position: President
+  picture: kevin_quigley.jpg
+  games:
+    - Magnemaze
+  site: http://www.hydegriffen.com
+
+- name: Jason Gardella
+  class: 2/5
+  position: Vice President
+  picture: jason_gardella.png
+  games:
+    - Shear Fear
+    - Mate For Life
+  site: https://github.com/jgardella
+
+- name: Adam Gincel
+  class: 1/4
+  position: Treasurer
+  picture: adam_gincel.jpg
+  games:
+    - Spherical Saunter
+  site: https://github.com/agincel
+
+- name: Alex Massenzio
+  class: 1/4
+  position: Secretary
+  picture: alex_massenzio.jpg
+  games:
+    - We Guys
+  site: https://github.com/AlexMassenzio
+
+- name: Brian Intile
+  class: 2/4
+  picture: brian_intile.jpg
+  games:
+    - Magnemaze
+  site: https://github.com/Gman8r

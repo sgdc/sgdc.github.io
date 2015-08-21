@@ -1,0 +1,22 @@
+---
+layout: page
+title: Games
+---
+
+<div class="games">
+    <ul>
+    {% for game in site.data.games %}
+        <li>
+            <strong>{{ game.name }}</strong>
+            <p>{{ game.description }}</p>
+            <strong>Devs:</strong>
+            <ul>
+            {% for dev in game.devs %}
+                <li>{{ dev }}</li>
+            {% endfor %}
+            </ul>
+            <strong>Event:</strong> {{ game.event }}
+        </li>
+    {% endfor %}
+    </ul>
+</div>
