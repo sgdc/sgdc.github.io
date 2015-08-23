@@ -3,19 +3,21 @@ layout: page
 title: Members
 ---
 
-<div class="members">
-    <ul>
-    {% for member in site.data.members %}
-        <li>
-            {% if member.site %}
-                <a href="{{ member.site }}">{{ member.name }}</a>
-            {% else %}
-                {{ member.name }}
-            {% endif %}
-            {% if member.position %}
-                - <strong>{{member.position}}</strong>
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-</div>
+<table class="members">
+    <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Class</th>
+    </tr>
+{% for member in site.data.members %}
+    <tr>
+        {% if member.site %}
+        <td><a href="{{ member.site }}">{{ member.name }}</a></td>
+        {% else %}
+        <td>{{ member.name }}</td>
+        {% endif %}
+        <td>{{member.position}}</td>
+        <td>{{ member.class }}</td>
+    </tr>
+{% endfor %}
+</table>

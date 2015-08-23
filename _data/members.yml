@@ -7,7 +7,7 @@
   site: http://www.hydegriffen.com
 
 - name: Jason Gardella
-  class: 2/5
+  class: 3/5
   position: Vice President
   picture: jason_gardella.png
   games:
@@ -16,7 +16,7 @@
   site: https://github.com/jgardella
 
 - name: Adam Gincel
-  class: 1/4
+  class: 2/4
   position: Treasurer
   picture: adam_gincel.jpg
   games:
@@ -24,7 +24,7 @@
   site: https://github.com/agincel
 
 - name: Alex Massenzio
-  class: 1/4
+  class: 2/4
   position: Secretary
   picture: alex_massenzio.jpg
   games:
@@ -32,7 +32,8 @@
   site: https://github.com/AlexMassenzio
 
 - name: Brian Intile
-  class: 2/4
+  class: 3/4
+  position: Cabinet Manager
   picture: brian_intile.jpg
   games:
     - Magnemaze
