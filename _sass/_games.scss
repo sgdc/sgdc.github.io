@@ -9,6 +9,7 @@
         margin-bottom: 20px;
     }
 
+
     // Main info styles (game name and image)
     div.game_main_info {
 
@@ -53,6 +54,35 @@
             li:nth-child(2n) {
                 color: $grey-color;
             }
+        }
+    }
+}
+
+// Small screen styles
+@include media-query($on-palm) {
+
+    .game {
+        // Make main info full width, hide image
+        div.game_main_info {
+            width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+            width:         calc(100% - (#{$spacing-unit} / 2));
+            text-align: center;
+
+            img {
+              display: none;
+            }
+        }
+
+        // Make desc full width
+        div.game_desc {
+            text-align: center;
+            width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+            width:         calc(100% - (#{$spacing-unit} / 2));
+        }
+
+        // Hide devs
+        div.game_extra_info {
+            display: none;
         }
     }
 }
