@@ -38,3 +38,12 @@
   games:
     - Magnemaze
   site: https://github.com/Gman8r
+
+- name: Frank DiCola
+  class: Alumnus
+  position: Alumni Rep
+  picture: frank_dicola.jpg
+  games:
+    - SkyRunner
+    -  Mr. Game
+  site: www.yoshgunn.com
