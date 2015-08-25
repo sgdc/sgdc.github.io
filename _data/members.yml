@@ -32,4 +32,7 @@
   class: Alumnus
   position: Alumni Rep
   picture: frank_dicola.jpg
-  site: www.yoshgunn.com
+  games:
+    - SkyRunner
+    -  Mr. Game
+  site: http://www.yoshgunn.com
