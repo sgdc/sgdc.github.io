@@ -2,7 +2,7 @@
 title: Stevens Game Development Club
 email: sgdc@stevens.edu
 description: > # this means to ignore newlines until "baseurl:"
-    Stevens Game Development Club
+    Game Development Club at Stevens Instutute of Technology
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sgdc.github.io" # the base hostname & protocol for your site
 github_username: sgdc
