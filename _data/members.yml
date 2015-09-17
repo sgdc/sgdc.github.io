@@ -4,28 +4,28 @@
   picture: kevin_quigley.jpg
   site: http://www.hydegriffen.com
 
-- name: Jason Gardella
-  class: 3/5
-  position: Vice President
-  picture: jason_gardella.png
-  site: https://github.com/jgardella
-
 - name: Adam Gincel
   class: 2/4
-  position: Treasurer
+  position: Vice President
   picture: adam_gincel.jpg
   site: https://github.com/agincel
 
 - name: Alex Massenzio
   class: 2/4
-  position: Secretary
+  position: Treasurer
   picture: alex_massenzio.jpg
   site: https://github.com/AlexMassenzio
 
-- name: Brian Intile
-  class: 3/4
+  name: Robyn Verrill
+  class: 2/4
+  position: Secretary
+  picture: 
+  site: 
+
+- name: James Romph
+  class: 2/4
   position: Cabinet Manager
-  picture: brian_intile.jpg
+  picture: 
   site: https://github.com/Gman8r
 
 - name: Frank DiCola
