@@ -58,3 +58,141 @@
   google: https://play.google.com/store/apps/details?id=com.stdev.juliet&hl=en
   download: https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoILVRuUjQ0cGJUbm8/view
 
+- name: Life After Prison
+  desc: Based on the theme of Freedom, this 2D Platformer features a character who has served 15 years in prison after being wrongfully convicted for the murder of his family. Play single player to follow the character and their journey to get vengeance, or have a shank off with your friends in multiplayer mode. 
+  devs:
+    - Kevin Quigley
+  event: Fall 2014 Game Jam II
+  img: lifeAfterPrison.jpg
+  download: http://griffengames.blogspot.com/p/life-after-prison.html
+
+- name: Magnemaze
+  desc: Magnemaze is a mobile puzzle game by Shower Thoughts Development. Play as a magnetic ball and change the polarity of the room to move! Download for free on Google Play Store or Amazon App Store!
+  devs:
+    - Kevin Quigley
+    - Brian Intile
+    - Adam Gincel
+  event: Fall 2013 Game Jam
+  img: magnemaze.jpg
+  amazon: http://www.amazon.com/Shower-Thoughts-Development-Magnemaze/dp/B00RNRHE9I/ref=sr_1_1?ie=UTF8&qid=1420222127&sr=8-1&keywords=magnemaze
+  google: https://play.google.com/store/apps/details?id=com.stdev.magnemaze.android&hl=en
+
+- name: Mate For Life
+  desc: Defend your she-horse from aggreesive he-horses and predators in this riveting underwater tale!
+  devs:
+    - Jason Gardella
+  event: Fall 2013 Game Jam
+  img: mate-for-life.jpg
+
+- name: Noise Source
+  desc: Noise Source is a retro arcade shooter game that was designed to be used as a learning aid for the first SGDC Learn Jam. With a handful of modifications, it was transformed into a game used to earn points in the Stevens Gear and Triangle R.A.G.E. event (hence the grade selection). Pilot your fighter as your attempt to rid the campus of the source of unbearable noises from above.
+  devs:
+    - Kevin Quigley
+    - James Romph
+    - Adam Gincel
+  event: Fall 2014 Learn Jam I/R.A.G.E. 2014
+  img: noiseSource.jpg
+  download: http://griffengames.blogspot.com/p/noise-source.html
+
+- name: obj_char
+  desc: obj_char is a 2D puzzle platformer by Shower Thoughts Development that won an SGDC 1-week Game Jam. Play as obj_char, the sentient stand-in sprite and destroy the game before the developers delete you.
+  devs:
+    - Kevin Quigley
+    - Brian Intile
+    - Jake Dellaria
+  event: Spring 2014 Game Jam
+  img: obj_char.jpg
+  download: https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoIM2RBdmRMZjNvMGs/
+
+- name: OPAF
+  desc: OPAF is a Shower Thoughts Development fighting game and took 2nd Place in an SGDC Game Jam. Made in just 48-hours and later ported to the JAM, OPAF challenges you against your friends in a death match of over-powered spells to determine who is the best wizard!
+  devs:
+    - Brian Intile
+    - Kevin Quigley
+    - Adam Gincel
+    - Jordan Van Horsen
+    - Alex Massenzio
+  event: Fall 2014 Game Jam I
+  img: opaf.jpg
+  download: https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoIZnBuX2JFRk1nOEk/view
+
+- name: Ricochet
+  desc: Ricochet, by James Romph, is a 2D puzzle game and is the winner of the Hardest Gameplay award at the Games++ 2015 Game Jam! Test out the latest and greatest in atomic particle manipulation technology by completing the given training exercises.
+  devs:
+    - James Romph
+  event: Games++ 2015
+  img: ricochet.jpg
+  download: https://dl.dropboxusercontent.com/u/36650520/tehpilot/sgdc/g%2B%2B/ricochet-Default-1.0.0.2.exe
+
+- name: Shear Fear
+  desc: Herd the sheep into the barn as they run away from the horrifying shears!
+  devs:
+    - Nicholas Antonov
+    - Jason Gardella
+  event: Spring 2014 Game Jam
+  img: shear-fear.png
+  download: http://nicholasantonov.github.io/Shear-Fear/
+  src: https://github.com/NicholasAntonov/Shear-Fear
+
+- name: Skyrunner
+  desc: SkyRunner is a mobile game by SGDC alumni Frank DiCola and Jack Kelly. Run on walls in this endless runner and compete for the high score! Download for free on Google Play Store and Apple App Store!
+  devs:
+    - Frank DiCola
+    - Jack Kelly
+  event: Kii to Unity Contest
+  img: sky-runner.jpg
+  google: https://play.google.com/store/apps/details?id=com.jfmc.skyr&hl=en
+  apple: https://itunes.apple.com/us/app/skyrunner-mobile/id936243684?mt=8
+
+- name: Snogger
+  desc: Snogger is a game made by James Romph, Alex Thieke, and others which brilliantly combines Snake and Frogger. Save your snake family in this exciting crossover between two classic arcade games!
+  devs:
+    - James Romph
+    - Alex Thieke
+    - Hope Brandes
+    - Tim Barbara
+  event: JAM Launch Title
+  img: snogger.jpg
+
+- name: Spherical Saunter
+  desc: Spherical Saunter is a 3D Rolling Puzzle Platformer, inspired by games like Marble Mania, Super Monkey Ball, and Marble Madness. The game was a personal project that was adapted in time for the unveiling of the JAM in Spring 2015. The first beta can be downloaded at the link provided.
+  devs:
+    - Adam Gincel
+  event: JAM Launch Title
+  img: SphericalS.PNG
+  download: http://1drv.ms/1H48dWi
+
+- name: Super Shower Scubs
+  desc: Shower Scrubs is a prototype for a game that adapts mecahnics from the popular game Super Smash Bros. to the Shower Thoughts Development Universe. Made in just two days, choose from 6 characters and 5 maps each with their own unique music. Scrubs requires controllers to play. Use D-Pad for menus and Smash Controls in game.
+  devs:
+    - Kevin Quigley
+  event: Spring 2015 Game Jam III
+  img: superShowerScrubs.jpg
+  download: http://griffengames.blogspot.com/p/super-shower-scrubs.html
+
+- name: Temporal Rift
+  desc: Play as a time traveler whose time travel device cannot gain enough power to boost him back to his own time in this 2D platformer.
+  devs:
+    - Kevin Quigley
+    - Michael Quigley
+    - Sarah Quigley
+  event: Games++ 2015
+  img: temporal-rift.png
+  download: http://griffengames.blogspot.com/p/temporal-rift.html
+
+- name: The Notebook
+  desc: The Notebook is an atmospheric platformer in which you explore the notebook of Allen Griffen. The game was not completed due to time restraints, but it still offers a few levels of concept design.
+  devs:
+    - Kevin Quigley
+  event: Spring 2015 Game Jam IV'
+  img: theNotebook.jpg
+  download: https://drive.google.com/file/d/0BxUwM3q0V1obV1FlOUNFeDZzZkk/view
+
+- name: We Guys
+  desc: This co-op I Wanna Be The Guy fangame built in UE4 took a top three spot in SGDC's Game Jam III.
+  devs:
+    - Adam Gincel
+    - Alex Massenzio
+  event: Spring 2015 Game Jam III
+  img: WeGuys.png
+  download: http://1drv.ms/17c58IX

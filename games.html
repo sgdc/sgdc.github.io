@@ -22,15 +22,27 @@ title: Games
                 {% endfor %}
                 </ul>
 
+
+                <strong>Download Links:</strong>
+                <ul class="download_list">
                 {% for link in game.download %}
-                    <strong>Download Links:</strong>
-                    <ul class="download_list">
                     <li><a href={{ link }}>Download</a></li>
-                    {% for playstorelink in game.google %}
-                        <li><a href={{playstorelink}}>Google Play Store</a></li>
-                    {% endfor %}
-                    </ul>
                 {% endfor %}
+                {% for googlelink in game.google %}
+                    <li><a href={{googlelink}}>Google Play Store</a></li>
+                {% endfor %}
+                {% for amazonlink in game.amazon %}
+                    <li><a href={{amazonlink}}>Amazon Appstore</a></li>
+                {% endfor %}
+                {% for applelink in game.apple %}
+                    <li><a href={{applelink}}>Apple App Store</a></li>
+                {% endfor %}
+                {% for srclink in game.src %}
+                    <li><a href={{srclink}}>Source</a></li>
+                {% endfor %}
+                    
+                
+                </ul>
             </div>
         </li>
     {% endfor %}
