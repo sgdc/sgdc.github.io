@@ -21,6 +21,13 @@ title: Games
                     <li>{{ dev }}</li>
                 {% endfor %}
                 </ul>
+
+                {% for link in game.download %}
+                    <strong>Download Link:</strong>
+                    <ul class="dev_list">
+                    <li><a href={{ link }}>Download</a></li>
+                    </ul>
+                {% endfor %}
             </div>
         </li>
     {% endfor %}
