@@ -19,42 +19,42 @@
   img: castlePointPurge.jpg
   download: http://griffengames.blogspot.com/p/castle-point-purge.html
 
-name: Chip Simulator
-desc: This game was made over a number of hours with audience input given at SGDC's first Let's Make a Game in Spring 2015. The game tasks you with collecting chips to raise your saltiness, among other things.
-devs:
-  - Adam Gincel
-  - Kevin Quigley
-  - Jack Farzan
-  - Everyone Present at 'Let's Make a Game'
-event: Let's Make a Game 2015
-img: ChipSim.png
-download: http://1drv.ms/1Gwvcwm
+- name: Chip Simulator
+  desc: This game was made over a number of hours with audience input given at SGDC's first Let's Make a Game in Spring 2015. The game tasks you with collecting chips to raise your saltiness, among other things.
+  devs:
+    - Adam Gincel
+    - Kevin Quigley
+    - Jack Farzan
+    - Everyone Present at 'Let's Make a Game'
+  event: Let's Make a Game 2015
+  img: ChipSim.png
+  download: http://1drv.ms/1Gwvcwm
 
-name: Freeze
-desc: Freeze is the winner of a 72-hour Game Jam by Brian Intile. A Touhou fan game - freeze bullets and compete against your friends for the title of 'the strongest.'
-devs:
-  - Brian Intile
-img: freeze.jpg
-event: Spring 2015 Game Jam III
-download: http://www.mediafire.com/download/76ctvzsfk91nzkk/Freeze.exe
+- name: Freeze
+  desc: Freeze is the winner of a 72-hour Game Jam by Brian Intile. A Touhou fan game - freeze bullets and compete against your friends for the title of 'the strongest.'
+  devs:
+    - Brian Intile
+  img: freeze.jpg
+  event: Spring 2015 Game Jam III
+  download: http://www.mediafire.com/download/76ctvzsfk91nzkk/Freeze.exe
 
-name: Impulse
-desc: Impulse is a First Person Physics Platformer, inspired by various glitches found when playing Halo Online, and, of course, by Portal. The game took first prize in Game Jam IV.
-devs:
-  - Adam Gincel
-img: Impulse.png
-event: Game Jam IV
-download: http://1drv.ms/1DsQs43
+- name: Impulse
+  desc: Impulse is a First Person Physics Platformer, inspired by various glitches found when playing Halo Online, and, of course, by Portal. The game took first prize in Game Jam IV.
+  devs:
+    - Adam Gincel
+  img: Impulse.png
+  event: Game Jam IV
+  download: http://1drv.ms/1DsQs43
 
-name: Juliet
-desc: Juliet is a Shower Thoughts Development Android title made for GMCJAM17. Play as Juliet, a girl who can only move in sync with her clones as you navigate through challenging puzzles. Use your clones to help you reach the goal in each level; hopefully at least one of you can survive. Download free on Play Store!
-devs: 
-  - Kevin Quigley
-  - Brian Intile
-  - Robyn Verrill
-  - Adam Gincel
-img: juliet.jpg
-event: GMCJAM17
-google: https://play.google.com/store/apps/details?id=com.stdev.juliet&hl=en
-download: https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoILVRuUjQ0cGJUbm8/view
+- name: Juliet
+  desc: Juliet is a Shower Thoughts Development Android title made for GMCJAM17. Play as Juliet, a girl who can only move in sync with her clones as you navigate through challenging puzzles. Use your clones to help you reach the goal in each level; hopefully at least one of you can survive. Download free on Play Store!
+  devs: 
+    - Kevin Quigley
+    - Brian Intile
+    - Robyn Verrill
+    - Adam Gincel
+  img: juliet.jpg
+  event: GMCJAM17
+  google: https://play.google.com/store/apps/details?id=com.stdev.juliet&hl=en
+  download: https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoILVRuUjQ0cGJUbm8/view
 
