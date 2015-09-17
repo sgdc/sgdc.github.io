@@ -57,6 +57,12 @@
             li:nth-child(2n) {
                 color: $grey-color;
             }
+        ul.download_list {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+            margin-left: 10px;
+            font-size: 13px;
         }
     }
 }
