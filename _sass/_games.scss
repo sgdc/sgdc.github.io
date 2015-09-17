@@ -34,6 +34,7 @@
     // Game description styles
     div.game_desc {
         margin-right: 20px;
+        font-size: 15px;
         float: left;
         width: -webkit-calc(40% - (#{$spacing-unit} / 2));
         width:         calc(40% - (#{$spacing-unit} / 2));
@@ -50,7 +51,7 @@
             -webkit-column-count: 2;
             column-count: 2;
             margin-left: 10px;
-            font-size: 10px;
+            font-size: 13px;
 
             li:nth-child(2n) {
                 color: $grey-color;
