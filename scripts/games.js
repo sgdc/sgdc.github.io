@@ -15,15 +15,81 @@ function getItems()
 {
 	return {
 		"data": [
-					/*{
-				"type": ,
-				"title": ,
-				"time": ,
-				"thumbnail": ,
-				"description": ,
-				"screenshots": [],
-				"links": [],
+			/*{
+				"title": "",
+				"time": "",
+				"thumbnail": "",
+				"description": "",
+				"links": [{"text": "", "link": ""}],
+				"devs": [""]
 			},*/
+			//Game Jam VIII
+			{
+				"title": "Eight Seconds",
+				"time": "Game Jam VIII (1st)",
+				"thumbnail": "./images/games/eightSeconds.png",
+				"description": "Eight Seconds (until the Void consumes you) was the 1st place submission to Game Jam VIII. Underground experiments run by mad scientists are always promising until they run amok. Thankfully, the powers of limited time travel can save bright minds from impending demise.",
+				"links": [{"text": "Download", "link": "http://tehpilot.github.io/games/sgdc8/8s-final-v1.3.exe"}],
+				"devs": ["James Romph"]
+			},
+			{
+				"title": "Streak",
+				"time": "Game Jam VIII (2nd)",
+				"thumbnail": "./images/games/streak.png",
+				"description": "Streak is a simple 2D puzzle game optimized for mobile, with support for keyboard and Xbox controller as well. Paint over the light gray patterns and then exit the path in order to complete a level! What's your Streak?",
+				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/streak"}],
+				"devs": ["Kevin Quigley"]
+			},
+			{
+				"title": "Backfire",
+				"time": "Game Jam VIII (3rd)",
+				"thumbnail": "./images/games/backfire.png",
+				"description": "In Backfire, all of your actions have consequences. Bullets can bounce off of walls but they stay around forever and can damage you if you aren't careful. The game is infinite, and keeps going until you run out of health and die. See how many waves you can clear before you are overwhelmed by bullets.",
+				"links": [{"text": "Download", "link": "https://ian-allemand.itch.io/backfire"}],
+				"devs": ["Ian Allemand"]
+			},
+			{
+				"title": "Sunglasses Unlimited",
+				"time": "Game Jam VIII",
+				"thumbnail": "./images/games/sunglassesUnlimited.png",
+				"description": "Race as far as you can to find all of Adam's Lost Sunglasses! This endless runner developed in Unity won Best Sound in Game Jam VIII.",
+				"links": [{"text": "Download", "link": "https://waveparadigm.itch.io/sunglasses-unlimited"}],
+				"devs": ["Adam Gincel", "Alex Massenzio"]
+			},
+			{
+				"title": "Limitless",
+				"time": "Game Jam VIII",
+				"thumbnail": "./images/games/limitless.png",
+				"description": "Limitless is a 3D runner in which you strive to reach the distant infinity. However, your journey is being put into jeopardy by the lingering \"Null Barrier\", which seeks to nullify your existence. Can you reach infinity, or will your efforts be nullified? Limitless won Best Visuals in Game Jam VIII.",
+				"links": [{"text": "Download", "link": "https://chrishittner.itch.io/limitless"}],
+				"devs": ["Chris Hittner"]
+			},
+			{
+				"title": "Möbius Jumper",
+				"time": "Game Jam VIII",
+				"thumbnail": "./images/games/mobiusJumper.png",
+				"description": "Mobius Jumper is a game where you are running to dodge obstacles on a mobius strip. But be careful! When you land from jumping or moving, you create dents that reappear on the other side as bumps! How long can you survive?",
+				"links": [{"text": "Download", "link": "https://david-estes-smargiassi.itch.io/mobius-jumper"}],
+				"devs": ["David Estes-Smargiassi", "Andy Wiggins"]
+			},
+			{
+				"title": "Operation Pegasus",
+				"time": "Game Jam VIII",
+				"thumbnail": "./images/games/operationPegasus.png",
+				"description": "Operation Pegasus is a puzzle game in which the player writes code to solve challenges.",
+				"links": [{"text": "Download", "link": "https://richardkopelow.itch.io/operation-pegasus"}],
+				"devs": ["Richard Kopelow"]
+			},
+			//Games++ 2016
+			{
+				"title": "Stroll",
+				"time": "Games++ 2016",
+				"thumbnail": "./images/games/stroll.png",
+				"description": "Take a Stroll through a series of peaceful but thought provoking puzzles. Wander through levels to match the color of your goals while using leap-frog movement.",
+				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/stroll"}, {"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.hydegriffen.strolldemo&hl=en"}],
+				"devs": ["Kevin Quigley", "Adam Gincel"]				
+			},
+			//Game Jam VII
 			{
 				"title": "Memory", 
 				"time": "Game Jam VII (1st)",
@@ -33,24 +99,195 @@ function getItems()
 				"devs": ["Adam Gincel"]
 			},
 			{
+				"title": "Slipspace Cartographer",
+				"time": "Game Jam VII (2nd)",
+				"thumbnail": "./images/games/slipspaceCartographer.png",
+				"description": "Scientific experimentation has found unexplored dimensions weaved in the fabric of numerous parallel universes, and a brave explorer is needed to map out the uncharted, seemingly infinite territory of the beyond. Slipspace is a 1st Person 3D platformer writtin in GameMaker: Studio.",
+				"links": [{"text": "Download", "link": "http://tehpilot.github.io/games/sgdc7/slipspace-Default-1.0.0.2.zip"}],
+				"devs": ["James Romph"]
+			},
+			{
+				"title": "Project HiWay",
+				"time": "Game Jam VII (3rd)",
+				"thumbnail": "./images/games/projectHiway.png",
+				"description": "An experiment with the unexplored genre: \"VR Rhythm Game\". Hiway holds the distinction of being the first Jam game ever submitted for Oculus Rift.",
+				"links": [{"text": "Download", "link": "https://alexmassenzio.itch.io/project-hiway"}],
+				"devs": ["Alex Massenzio"]
+			},
+			{
+				"title": "LOST_IN_TRACKING",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/lostInTracking.png",
+				"description": "/*DO NOT RELEASE - EXPERIMENTAL VHS 3D PLATFORMER*/",
+				"links": [{"text": "Download", "link": "https://peridot.itch.io/lost-in"}],
+				"devs": ["Christian Harrypersad"]
+			},
+			{
+				"title": "Laser Lab",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/laserLab.jpg",
+				"description": "Laser Lab: The Test Chamber - In this experimental game, your task is to be tested for a laser weapon experiment on behalf of Laser Labs. This game has the distinction of being the first Jam game ever submitted for Gear VR.",
+				"links": [{"text": "Android APK Download", "link": "https://chrishittner.itch.io/laser-lab"}],
+				"devs": ["Chris Hittner"]
+			},
+			{
+				"title": "8p4c",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/8p4c.png",
+				"description": "8p4c - Eight Players, Four Controllers, is an experimental multiplayer game. Features eight player multiplayer, and allows spectators to interact with the game via their phones.",
+				"links": [{"text": "Download", "link": "https://andrewbarry1.itch.io/8p4c"}],
+				"devs": ["Andrew Barry"]
+			},
+			{
+				"title": "Hyglox",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/hyglox.png",
+				"description": "Hyglox has players search a map for collectibles which influence what fighter they get in a 1v1 fighting game. It features tons of artwork and different beasts.",
+				"links": [{"text": "Download", "link": "https://taber.itch.io/hyglox"}],
+				"devs": ["Taber McFarlin", "Kristen Buglio"]
+			},
+			{
+				"title": "We All Scream",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/weAllScream.png",
+				"description": "Dan loves ice cream, convenient that it falls from the sky thanks to the cold climate and flying cows. Dan's dairy based lifestyle is threatened when one of his neighbor's experiments goes awry. Now there are a bunch of burning coal creatures running around warming the world. Extinguish the creatures before all hope goes down the drain like melted ice cream.",
+				"links": [{"text": "Download", "link": "https://richardkopelow.itch.io/we-all-scream"}],
+				"devs": ["Richard Kopelow"]
+			},
+			{
+				"title": "Drone Zone",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/droneZone.png",
+				"description": "In the year 20XX the United States Government embarked on a secret project to develop a new type of drone. This new machine would be smaller than an insect, but fast enough to dodge a speeding bullet. Initial tests have proven it to be effective, but skilled operators are needed to unlock its full potential. How long can you last in the drone zone?",
+				"links": [{"text": "Download", "link": "https://ian-allemand.itch.io/drone-zone"}],
+				"devs": ["Ian Allemand"]
+			},
+			{
+				"title": "After-Life",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/afterLife.png",
+				"description": "In this puzzle game adaptation of John Conway's famous math simulation, players enjoy challenging levels as they attempt to turn a preset unstable layout into a \"still-life\".",
+				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/after-life"}],
+				"devs": ["Kevin Quigley"]
+			},
+			{
+				"title": "Power Up",
+				"time": "Game Jam VII",
+				"thumbnail": "./images/games/powerUp.png",
+				"description": "The Typing Quicktime Event Based Fighting Game.",
+				"links": [{"text": "Download", "link": "https://leftoverbird.itch.io/powerup"}],
+				"devs": ["Robyn Verrill"]
+			},
+			//Game Jam VI
+			{
+				"title": "Stealth Game 2",
+				"time": "Game Jam VI (1st)",
+				"thumbnail": "./images/games/stealthGame2.png",
+				"description": "An evil organization's plans are set in motion, and only you can halt their efforts. Get inside their headquarters and extract everything that can help undo their diabolical contrivances - from packages to enemy agents.",
+				"links": [{"text": "Download", "link": "http://tehpilot.github.io/games/sgdc6/stealth-game-2_package-3.zip"}],
+				"devs": ["James Romph"]
+			},
+			{
 				"title": "Maguffin", 
-				"time": "Game Jam VI",
-				"thumbnail": "./images/items/Maguffin/thumb.png", 
+				"time": "Game Jam VI (2nd)",
+				"thumbnail": "./images/games/maguffin.png", 
 				"description": "Maguffin was my first project using GameMaker: Studio. Over a week I learned the software from scratch and had a very respectable final product. This won second place in SGDC's Game Jam VI.", 
 				"links": [{"text": "Download here!", "link": "https://waveparadigm.itch.io/maguffin"}],
 				"devs": ["Adam Gincel"]
 			},
 			{
+				"title": "Demonochrome",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/demonochrome.png",
+				"description": "Extract the color from this peaceful world as the demonic goat Intingo. This game won Best Art in Game Jam VI.",
+				"links": [{"text": "Download", "link": "https://taber.itch.io/demonochrome"}],
+				"devs": ["Taber McFarlin", "Kristen Buglio"]
+			},
+			{
+				"title": "When Life Gives you Lemons",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/whenLifeGivesYouLemons.png",
+				"description": "A lemony experience created by David Estes-Smargiassi for a week-long Game Jam sponsored by the Stevens Game Development Club. This game won Best Music in Game Jam VI.",
+				"links": [{"text": "Download", "link": "https://david-estes-smargiassi.itch.io/when-life-gives-you-lemons"}],
+				"devs": ["David Estes-Smargiassi"]
+			},
+			{
+				"title": "EXCAVATION",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/excavation.png",
+				"description": "As a miner for the extraterrestrial corporation MarsTek, you are left in an obscure sector of the planet with the vague objective of mining Marsium, a resource important to the survival of the human race. Unbeknownst to them, you brought friends.",
+				"links": [{"text": "Download", "link": "https://andrewbarry1.itch.io/excavation"}],
+				"devs": ["Andrew Barry"]
+			},
+			{
+				"title": "Future Extraction",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/futureExtraction.png",
+				"description": "A sprint time trial made in UE4 by Christian Harrypersad!",
+				"links": [{"text": "Download", "link": "https://peridot.itch.io/future-extraction"}],
+				"devs": ["Christian Harrypersad"]
+			},
+			{
+				"title": "Graey",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/graey.png",
+				"description": "Join Graey on his short adventure through someone else's life.",
+				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/graey?secret=2INrvBgsPkjcbo11dVkCPw6JguA"}],
+				"devs": ["Kevin Quigley"]
+			},
+			{
+				"title": "Vanilla Extract",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/vanillaExtract.png",
+				"description": "Use your HEART to collect crystals and save lives. Move around to avoid bad things.",
+				"links": [{"text": "Download", "link": "https://ian-allemand.itch.io/vanilla-extract"}],
+				"devs": ["Ian Allemand"]
+			},
+			{
+				"title": "The Extractor",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/theExtractor.png",
+				"description": "Fight through a wave of bad guys. Save the hostage. It's your job to extract them from danger... no one else can do it. ",
+				"links": [{"text": "Download", "link": "https://yoshgunn.itch.io/the-extractor"}],
+				"devs": ["Frank DiCola"]
+			},
+			{
+				"title": "ShadowBoxing",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/shadowboxing.png",
+				"description": "A 2-Player Fighting Game from the Shadowy Depths - No plot, only FIGHTING!!",
+				"links": [{"text": "Download", "link": "https://leftoverbird.itch.io/shadowboxing"}],
+				"devs": ["Robyn Verrill"]
+			},
+			{
+				"title": "Wostrinos",
+				"time": "Game Jam VI",
+				"thumbnail": "./images/games/wostrinos.png",
+				"description": "A simple sim. Mine resources. Make money. Don't let you people starve.",
+				"links": [{"text": "Download", "link": "https://infested.itch.io/wostrinos"}],
+				"devs": ["Greg Goldshteyn"]
+			},
+			//Game Jam V
+			{
+				"title": "Interstellar Tournament",
+				"time": "Game Jam V (1st)",
+				"thumbnail": "./images/games/interstellarTournament.png",
+				"description": "Deep space territory is super valuable for all the factions of the galaxy, and allied and opposing forces alike clash over every square inch. Take to the skies and knock your opponents out of your space!",
+				"links": [],
+				"devs": ["James Romph"]
+			},
+			{
 				"title": "Aggressive Expansion",
-				"time": "Game Jam V",
+				"time": "Game Jam V (2nd)",
 				"thumbnail": "./images/items/AggressiveExpansion/thumb.png",
 				"description": "Aggressive Expansion was made for SGDC's Game Jam V. The theme was \"expansion.\" Aggressive Expansion is a 2 player racing game completely different from everybody's favorite rocket powered vehicular soccer game. A version 1.1 was released shortly after the closing ceremony, fixing several bugs people ran into during its first play session.",
 				"links": [{"text": "Download here!", "link": "https://drive.google.com/file/d/0B4V6h-fMgMqTZzhfcGF0djI2azA/view?usp=sharing"}],
 				"devs": ["Adam Gincel", "Kevin Quigley"]
 			},
+			//Summer 2015
 			{
 				"title": "Pause", 
-				"time": "August 2015",
+				"time": "Side Project - 8/15",
 				"thumbnail": "./images/items/Pause/thumb.png", 
 				"description": "A First Person Puzzle Platformer made in Unreal Engine 4 that brings the player through various physics and timing based puzzles wherein they can freeze time at the press of a button. Activate and control various physics objects and pause them in various states to make your way to the end of each level.", 
 				"links": [],
@@ -58,12 +295,13 @@ function getItems()
 			},
 			{
 				"title": "Rig 'er Bigger",
-				"time": "Summer 2015",
+				"time": "Side Project - 7/15",
 				"thumbnail": "./images/items/RigErBigger/thumb.png",
 				"description": "Rig 'er Bigger was a summer 2015 project inspired by Big Rigs: Over the Road Racing. Rig 'er Bigger is an intentionally weird and bizarre racing game, featuring 4 levels and up to 4 player multiplayer, this project grew much bigger than the joke it was originally intended to be.",
 				"links": [{"text": "Download here!", "link": "https://drive.google.com/file/d/0BxUwM3q0V1obaDZPel9HZWhQeTg/view"}],
 				"devs": ["Adam Gincel", "Kevin Quigley"],
 			},
+			//Game Jam IV
 			{		
 				"title": "Impulse" ,
 				"time": "Game Jam IV (1st)" ,
@@ -80,6 +318,7 @@ function getItems()
 				"links": [{"text": "Download", "link": "https://drive.google.com/file/d/0BxUwM3q0V1obV1FlOUNFeDZzZkk/view\ "}],
 				"devs": ["Kevin Quigley"]
 			},
+			//LMAG1
 			{		
 				"title": "Chip Simulator",
 				"time": "Let's Make a Game 2015",
@@ -88,12 +327,13 @@ function getItems()
 				"links": [{"text": "Download", "link": "http://1drv.ms/1Gwvcwm"}],
 				"devs": ["Adam Gincel", "Kevin Quigley", "Jack Farzan", "Let's Make a Game Attendees"]
 			},
+			//Games++ 2015
 			{		
 				"title": "Ricochet" ,
 				"time": "Games++ 2015" ,
 				"thumbnail": "./images/games/ricochet.jpg" ,
 				"description": "Ricochet, by James Romph, is a 2D puzzle game and is the winner of the Hardest Gameplay award at the Games++ 2015 Game Jam! Test out the latest and greatest in atomic particle manipulation technology by completing the given training exercises." ,
-				"links": [],
+				"links": [{"text": "Download", "link": "https://dl.dropboxusercontent.com/u/36650520/tehpilot/sgdc/g%2B%2B/ricochet-Default-1.0.0.2.exe"}],
 				"devs": ["James Romph", "Adam Gincel"]
 			},
 			{		
@@ -104,6 +344,7 @@ function getItems()
 				"links": [{"text": "Play Online", "link": "http://griffengames.blogspot.com/p/temporal-rift.html"}],
 				"devs": ["Kevin Quigley", "Michael Quigley", "Sarah Quigley"]
 			},
+			//JAM LAUNCH
 			{
 				"title": "A Tempo",
 				"time": "JAM Launch Title",
@@ -120,15 +361,7 @@ function getItems()
 				"links": [],
 				"devs": ["James Romph", "Alex Thieke", "Hope Brandes", "Tim Barbara"]
 			},
-			{		
-				"title": "Juliet" ,
-				"time": "GMC JAM 17" ,
-				"thumbnail": "./images/games/juliet.jpg" ,
-				"description": "Juliet is a Shower Thoughts Development Android title made for GMCJAM17. Play as Juliet, a girl who can only move in sync with her clones as you navigate through challenging puzzles. Use your clones to help you reach the goal in each level; hopefully at least one of you can survive. Download free on Play Store!" ,
-				"links": [{"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.stdev.juliet&hl=en"}, 
-						{"text": "Download", "link": "https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoILVRuUjQ0cGJUbm8/view"}],
-				"devs": ["Brian Intile", "Kevin Quigley", "Adam Gincel", "Robyn Verrill"]
-			},
+			//Game Jam III
 			{		
 				"title": "Freeze",
 				"time": "Game Jam III (1st)" ,
@@ -149,18 +382,29 @@ function getItems()
 				"title": "We Guys",
 				"time": "Game Jam III",
 				"thumbnail": "./images/items/WeGuys/thumb.png",
-				"description": "A co-op platformer inspired by I Wanna Be the Guy created for Game Jam III, where the theme was \"global\". Built to be horrifically difficult, we have seen pairs of players threaten all sorts of things on each other and on us upon playing it. This was a good learning experience, as it was my first foray into UE4's 2D workflow.", 
+				"description": "A co-op platformer inspired by I Wanna Be the Guy created for Game Jam III, where the theme was \"global\". Built to be horrifically difficult, pairs of players have threatened all sorts of things on each other and on the game's creators upon playing it. Made in UE4's 2D workflow.", 
 				"links": [{"text": "Download here!", "link": "http://1drv.ms/17c58IX"}],
 				"devs": ["Adam Gincel", "Alex Massenzio"]
 			},
+			//Misc
+			{		
+				"title": "Juliet" ,
+				"time": "GMC JAM 17" ,
+				"thumbnail": "./images/games/juliet.jpg" ,
+				"description": "Juliet is a Shower Thoughts Development Android title made for GMCJAM17. Play as Juliet, a girl who can only move in sync with her clones as you navigate through challenging puzzles. Use your clones to help you reach the goal in each level; hopefully at least one of you can survive. Download free on Play Store!" ,
+				"links": [{"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.stdev.juliet&hl=en"}, 
+						{"text": "Download", "link": "https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoILVRuUjQ0cGJUbm8/view"}],
+				"devs": ["Brian Intile", "Kevin Quigley", "Adam Gincel", "Robyn Verrill"]
+			},
 			{ 
 				"title": "Spherical Saunter", 
-				"time": "November 2014",
+				"time": "Side Project - 11/14",
 				"thumbnail": "./images/items/SphericalSaunter/thumb.png", 
-				"description": "Spherical Saunter was my first big project in Unreal Engine 4. It is a 3D Rolling Puzzle Platforming game, similar to games like Super Monkey Ball and the Kororinpa Marble series for Wii. I have learned many things since then, but the currently released beta has 22 normal levels, 2 secret levels, and 2 multiplayer levels.",
+				"description": "Spherical Saunter is a 3D Rolling Puzzle Platforming game, similar to games like Super Monkey Ball and the Kororinpa Marble series for Wii. The currently released beta has 22 normal levels, 2 secret levels, and 2 multiplayer levels.",
 				"links": [{"text": "Download the beta here!", "link": "http://1drv.ms/1H48dWi"}],
 				"devs": ["Adam Gincel"]
 			},
+			//Game Jam II
 			{		
 				"title": "Life After Prison" ,
 				"time": "Game Jam II" ,
@@ -169,6 +413,7 @@ function getItems()
 				"links": [{"text": "Play Online", "link": "http://griffengames.blogspot.com/p/life-after-prison.html"}],
 				"devs": ["Kevin Quigley"]
 			},
+			//RAGE2014
 			{		
 				"title": "Castle Point Purge",
 				"time": "R.A.G.E. 2014",
@@ -177,6 +422,7 @@ function getItems()
 				"links": [{"text": "Play online!", "link": "http://griffengames.blogspot.com/p/castle-point-purge.html"}],
 				"devs": ["Kevin Quigley", "Adam Gincel"]
 			},
+			//Learn Jam I
 			{		
 				"title": "Noise Source" ,
 				"time": "Learn Jam I" ,
@@ -185,6 +431,7 @@ function getItems()
 				"links": [{"text": "Play Online", "link": "http://griffengames.blogspot.com/p/noise-source.html"}],
 				"devs": ["Kevin Quigley", "James Romph", "Adam Gincel"]
 			},
+			//Game Jam I
 			{		
 				"title": "OPAF" ,
 				"time": "Game Jam I" ,
@@ -193,6 +440,7 @@ function getItems()
 				"links": [{"text": "Download", "link": "https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoIZnBuX2JFRk1nOEk/view"}],
 				"devs": ["Brian Intile", "Kevin Quigley", "Adam Gincel", "Jordan Van Horsen", "Alex Massenzio"]
 			},
+			//Game Jam 0
 			{		
 				"title": "obj_char" ,
 				"time": "Spring 2014 Game Jam" ,
@@ -211,6 +459,16 @@ function getItems()
 				"devs": ["Nicholas Antonov", "Jason Gardella"]
 			},
 			{		
+				"title": "Skyrunner" ,
+				"time": "Kii to Unity Contest" ,
+				"thumbnail": "./images/games/sky-runner.jpg" ,
+				"description": "SkyRunner is a mobile game by SGDC alumni Frank DiCola and Jack Kelly. Run on walls in this endless runner and compete for the high score! Download for free on Google Play Store and Apple App Store!" ,
+				"links": [{"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.jfmc.skyr&hl=en"},
+						  {"text": "Apple App Store", "link": "https://itunes.apple.com/us/app/skyrunner-mobile/id936243684?mt=8"}],
+				"devs": ["Frank DiCola", "Jack Kelly"]
+			},
+			//Game Jam -1
+			{		
 				"title": "Magnemaze" ,
 				"time": "Fall 2013 Game Jam",
 				"thumbnail": "./images/games/magnemaze.jpg" ,
@@ -226,15 +484,6 @@ function getItems()
 				"description": "Defend your she-horse from aggreesive he-horses and predators in this riveting underwater tale!",
 				"links": [],
 				"devs": ["Jason Gardella"]
-			},
-			{		
-				"title": "Skyrunner" ,
-				"time": "Kii to Unity Contest" ,
-				"thumbnail": "./images/games/sky-runner.jpg" ,
-				"description": "SkyRunner is a mobile game by SGDC alumni Frank DiCola and Jack Kelly. Run on walls in this endless runner and compete for the high score! Download for free on Google Play Store and Apple App Store!" ,
-				"links": [{"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.jfmc.skyr&hl=en"},
-						  {"text": "Apple App Store", "link": "https://itunes.apple.com/us/app/skyrunner-mobile/id936243684?mt=8"}],
-				"devs": ["Frank DiCola", "Jack Kelly"]
 			},
 		],
 	};
