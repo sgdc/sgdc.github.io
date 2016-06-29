@@ -83,7 +83,7 @@ function getItems()
 			{		
 				"title": "Chip Simulator",
 				"time": "Let's Make a Game 2015",
-				"thumbnail": "./images/games/chipSim.png",
+				"thumbnail": "./images/games/ChipSim.png",
 				"description": "This game was made over a number of hours with audience input given at SGDC's first Let's Make a Game in Spring 2015. The game tasks you with collecting chips to raise your saltiness, among other things.",
 				"links": [{"text": "Download", "link": "http://1drv.ms/1Gwvcwm"}],
 				"devs": ["Adam Gincel", "Kevin Quigley", "Jack Farzan", "Let's Make a Game Attendees"]
@@ -188,7 +188,7 @@ function getItems()
 			{		
 				"title": "OPAF" ,
 				"time": "Game Jam I" ,
-				"thumbnail": "./i/j/opaf.jpg" ,
+				"thumbnail": "./images/games/opaf.jpg" ,
 				"description": "OPAF is a Shower Thoughts Development fighting game and took 2nd Place in an SGDC Game Jam. Made in just 48-hours and later ported to the JAM, OPAF challenges you against your friends in a death match of over-powered spells to determine who is the best wizard!" ,
 				"links": [{"text": "Download", "link": "https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoIZnBuX2JFRk1nOEk/view"}],
 				"devs": ["Brian Intile", "Kevin Quigley", "Adam Gincel", "Jordan Van Horsen", "Alex Massenzio"]
@@ -204,7 +204,7 @@ function getItems()
 			{		
 				"title": "Shear Fear" ,
 				"time": "Spring 2014 Game Jam" ,
-				"thumbnail": "./images/games/shear-fear.jpg" ,
+				"thumbnail": "./images/games/shear-fear.png" ,
 				"description": "Herd the sheep into the barn as they run away from the horrifying shears!" ,
 				"links": [{"text": "Play Online", "link": "http://nicholasantonov.github.io/Shear-Fear/"},
 				          {"text": "View Source", "link": "https://github.com/NicholasAntonov/Shear-Fear"}],
