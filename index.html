@@ -1,0 +1,52 @@
+<!doctype html>
+<html ng-app="page" stu;e="height: 100%">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- My Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+	<link rel="stylesheet" type="text/css" href="./style/style.css" />
+
+	<!-- My Scripts -->
+	<script src="./scripts/members.js"></script>
+	<script src="./scripts/games.js"></script>
+	<script src="./scripts/page.js"></script>
+	<script src="./scripts/app.js"></script>
+
+	<title>Stevens Game Development Club</title>
+	<meta name="description" content="The Stevens Game Development Club website." />
+	<link rel="shortcut icon" href="images/favicon.png" />
+
+</head>
+
+<body ng-controller="PageController as pgCtrl" style="padding-top: 5px !important;" ng-init="pgCtrl.checkPage()">
+	<navbar></navbar>
+
+    <div class="container">
+      <jumbotron></jumbotron>
+    </div> <!-- /container -->
+
+</body>
+
+
+
+<script type="text/javascript">
+//close dropdown on click anywhere
+$(document).on('click',function(){
+	$('.collapse').collapse('hide');
+})
+</script>
+
+</html>

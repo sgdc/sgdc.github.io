@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Adam Gincel</title>
+  <meta name="description" content="Adam Gincel's website." />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <link rel="shortcut icon" href="../images/logo.png" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1><a href="../index.html">Adam Gincel</a></h1>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../games.html">Games</a></li>
+          <li><a href="../music.html">Music</a></li>
+          <li class="current"><a href="../programming.html">Programming</a></li>
+          <li><a href="../contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <div id="site_content">
+      <div id="content" class="noSidebar">
+      <h1>AdamTestBot</h1>
+      <img src="../images/AdamTestBot.png" style="float: left; padding-right: 24px;" /><p style="padding-left: 16px;">Welcome to the homepage for AdamTestBot, a Telegram Chat Bot written by Adam Gincel! AdamTestBot is open source, and the source can be found <a href="https://github.com/agincel/AdamTestBot">here</a>! I may add a fancy command list here later. For now, you can join a Telegram Supergroup <a href="http://telegram.me/adamtestbotgroup">here</a> where you can directly ask me questions about it. Below are some live updating stats from the bot!</p>
+      <br /><br/>
+      <h3>AdamTestBot Stats</h3>
+        <div id="blazeStats" style="float: left; width: 20%;"><h2>Blaze Stats</h2></div>
+
+        <div id="ledger" style="float:left; width: 30%;"><h2>BotCoin Ledger</h2></div>
+
+        <div id="stocks" style="float: left; width: 20%;"><h2>BotCoin Stocks</h2></div>
+        <br /><br />
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js">
+  </script>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>
+  </script>
+
+  <script>
+  var myDataRef = new Firebase('https://adamtestbotstats.firebaseio.com/stats');
+  var timeOnStartup = Date.now();
+  var liveData = {};
+  var hasSeenB = false;
+  var hasSeenData = false;
+  $('#messageInput').keypress(function(e){
+    if(e.keyCode == 13)
+    {
+      var name = $('#nameInput').val();
+      var text = $('#messageInput').val();
+      //if(text != "" && name != "")
+        //myDataRef.push({name: name, text: text, timestamp: Date.now()});
+
+      //document.getElementById('messageInput').value = "";
+    }
+  });
+
+  myDataRef.on('child_added', function(snapshot){
+    var message = snapshot.val();
+    //console.log(myDataRef.key("/stats"));
+    displayChatMessage(message.blazeDb, message.btcLedger, message.stocks);
+  });
+
+  function displayChatMessage(blazeDb, ledger, stocks) {
+      var div = document.createElement('div');
+      div.id = "newBDB";
+      
+      var inn = "<div><table>";
+      for (var user in blazeDb) {
+        inn += "<tr><td>" + blazeDb[user][0] + "</td><td>" + blazeDb[user][1] + "</td></tr>";
+      }
+      inn += "</table></div>"
+      div.innerHTML = inn;
+      var bDiv = document.getElementById("blazeStats");
+      if (hasSeenData)
+        bDiv.removeChild(document.getElementById("newBDB"));
+      bDiv.appendChild(div);
+
+      div = document.createElement('div');
+      div.id = "newLedger";
+      
+      inn = "<div><table>";
+      for (var user in ledger)
+      {
+        inn += "<tr><td>" + ledger[user][0] + "</td><td>" + ledger[user][1] + "BtC</td><td>" + ledger[user][2] + "BtC/hr</td></tr>";
+      }
+      inn += "</table></div>";
+      div.innerHTML = inn;
+      var lDiv = document.getElementById("ledger");
+      if (hasSeenData)
+        lDiv.removeChild(document.getElementById("newLedger"));
+      lDiv.appendChild(div);
+
+      div = document.createElement('div');
+      div.id = "newStocks";
+      
+      inn = "<div><table>";
+      for (var stock in stocks)
+      {
+        inn += "<tr><td>" + stocks[stock][0] + "</td><td>" + stocks[stock][1] + "BtC/share</td></tr>";
+      }
+      inn += "</table></div>";
+      div.innerHTML = inn;
+      var messageDiv = document.getElementById("stocks");
+      if(hasSeenData)
+        messageDiv.removeChild(document.getElementById("newStocks"));
+      messageDiv.appendChild(div);
+      hasSeenData = true;
+    };
+  </script>
+
+
+</body>
+</html>

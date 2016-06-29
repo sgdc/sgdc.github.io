@@ -1,0 +1,127 @@
+body {
+	background-color: #FDFDFD;
+	padding-top: 70px;
+}
+
+.item-selected {
+	background-color: rgba(255, 255, 255, 0.95);
+	border: 2px solid black !important;
+}
+
+.navbar-custom {
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0) !important;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0em;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+.jumbotron-custom {
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 0em !important;
+	padding-top: 10px;
+}
+
+.selected-image {
+	border: 2px solid black !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.nav.navbar-nav li a {
+	color: black !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: 16px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.activeMemberField {
+	background-color: red;
+	border: 1px solid black;
+	color: white;
+}
+
+.activeMember {
+	color: black;
+	background-color: #00ea12 !important;
+}
+
+
+.game {
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.game.left {
+	padding-left: 3%; 
+	width: 25%;
+	padding-bottom: 5px;
+}
+
+.game.center { 
+	width: 50%;
+}
+ .game.right {
+ 	padding-top: 2%;
+ 	width: 25%;
+ 	padding-right: 3%;
+ }
+
+@media only screen and (max-width: 580px) {
+	/* phones */
+	.game {
+		float: none;
+		height: auto;
+		text-align: center !important;
+	}
+
+	#devlist {
+		display: none;
+	}
+
+	#gameTime {
+
+	}
+
+	.game.left, .game.right, .game.center{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-bottom: 1%;
+	}
+
+	.game.center {
+		padding-bottom: 0px;
+	}
+
+	.game.center p{
+		padding-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	#logo-wrapper {
+		width: 100% !important;
+	}
+
+	#logo {
+		width: 80% !important;
+		height: auto !important;
+	}
+}

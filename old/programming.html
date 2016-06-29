@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Adam Gincel</title>
+  <meta name="description" content="Adam Gincel's website." />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="shortcut icon" href="images/logo.png" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>Adam Gincel</h1>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li class="current"><a href="programming.html">Programming</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <div id="site_content">
+
+      <div id="content" class="noSidebar">
+        <!-- insert the page content here -->
+        <h1>Programming Projects</h1>
+        <p>This page is home to any side projects I develop. School projects most likely won't end up here, unless there's something special about them.</p>
+
+        <div class="game">
+        <h3><a href="programming/NYCWiFi/">NYC Public WiFi Visualization</a></h3>
+        <span class="left"><a href="programming/NYCWiFi"><img src="images/nycwifi.png" alt="NYC Wifi logo" /></a></span>
+        <p>An interactive data visualization of NYC's Free Public WiFi networks I made in with D3.js. Sort the networks by location or type!</p>
+        <span class="right"><h5><a href="programming/NYCWiFi">Try out the visualization!</a></h5></span>
+        </div>
+
+        <div class="game">
+        <h3><a href="programming/crowdpixel.html">Crowd Pixel</a></h3>
+        <span class="left"><a href="programming/crowdpixel.html"><img src="images/CrowdPixel.png" alt="Crowdpixel logo" /></a></span>
+        <p>My second experiment with Firebase: type in a hex code and a "pixel" of that color gets added to the image! Enjoy this effectively crowd-generated image, which updates in real time!</p>
+        <span class="right"><h5><a href="programming/crowdpixel.html">Contribute to Crowd Pixel!</a></h5></span>
+        </div>
+
+		    <div class="game">
+        <h3><a href="programming/adamtestchat.html">Firebase Chat Test</a></h3>
+        <span class="left"><a href="programming/adamtestchat.html"><img src="images/FireBase.png" alt="Firebase logo" /></a></span>
+        <p>I was exposed to many amazing APIs and tools when I visited Hack RU IX on October 3-4 2015; one of which was Firebase, a way to store data to database and read from it in runtime using Javascript and no PHP or SQL. I I decided to try learning it and, following their tutorial, managed to get a simple chat running. The page will only show messages posted within the past hour. Give it a try at the link below!</p>
+        <span class="right"><h5><a href="programming/adamtestchat.html">Try Firebase Chat!</a></h5></span>
+        </div>
+
+        <div class="game">
+        <h3>AdamTestBot</h3>
+        <span class="left"><img src="images/AdamTestBot.png" alt="AdamTestBot profile picture" /></span>
+        <p>AdamTestBot was my first foray into Python. After <a href="http://telegram.org">Telegram</a> released their Core Bot API, I decided to dive in headfirst, learning basic HTTP requests and sending JSON-formatted data back and forth from a Raspberry Pi. The bot responds to commands starting with a forward slash and can do time-sensitive responses as well as leaderboard storing and dictionary lookups.</p>
+        <span class="right"><h5><a href="programming/atbstats.html">See live information!</a></h5></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

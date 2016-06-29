@@ -1,0 +1,82 @@
+<!-- Main component for a primary marketing message or call to action -->
+<div class="jumbotron jumbotron-custom" style="text-align: center;">
+	<div ng-show="pgCtrl.valueIsInArray([1])" > <!-- Home and Blog -->
+		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">{{pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].title}}</h1>
+		<br/>
+		<p ng-repeat="contents in pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].content">{{contents}}</p>
+	</div>
+
+	<div ng-show="pgCtrl.valueIsInArray([2])"> <!-- Games -->
+			<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
+				{{pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].title}}
+			</h1>
+			<br/>
+			<p ng-repeat="contents in pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].content" style="font-size: 14px;">{{contents}}</p>
+			
+			<!-- Item Gallery -->
+			<item-gallery></item-gallery>
+	</div>
+
+	<div ng-show="pgCtrl.valueIsInArray([3])" > <!-- Members -->
+		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">{{pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].title}}</h1>
+		<br/>
+		<p ng-repeat="contents in pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].content">{{contents}}</p>
+
+		<h2 style="margin: 0px; padding-bottom: 5px;">E-Board</h2> <!-- E-Board -->
+		<table style="margin-left: auto; margin-right: auto; font-size: 16px;">
+			<tr>
+				<td style="min-width: 10em;"><strong>Name</strong></td>
+				<td style="min-width: 10em;"><strong>Position</strong></td>
+				<td style="min-width: 10em;"><strong>Year</strong></td>
+			</tr>
+			<tr ng-repeat="member in pgCtrl.members.eboard" style="height: 2.5em;">
+				<td>{{member.name}}</td>
+				<td>{{member.title}}</td>
+				<td>{{member.year}}</td>
+			</tr>
+		</table>
+
+		<h3 style="margin: 0px; padding-bottom: 5px;" ng-show="pgCtrl.members.minorboard.length > 0">Minor Board</h3>
+		<table style="margin-left: auto; margin-right: auto; font-size: 16px;" ng-show="pgCtrl.members.minorboard.length > 0"> <!-- Minor Board -->
+			<tr>
+				<td style="min-width: 10em;"><strong>Name</strong></td>
+				<td style="min-width: 10em;"><strong>Position</strong></td>
+				<td style="min-width: 10em;"><strong>Year</strong></td>
+			</tr>
+			<tr ng-repeat="member in pgCtrl.members.minorboard" style="height: 2.5em;">
+				<td>{{member.name}}</td>
+				<td>{{member.title}}</td>
+				<td>{{member.year}}</td>
+			</tr>
+		</table>
+		<br /><br />
+
+		<h2 style="margin: 0px; padding-bottom: 5px;">Alumni</h2> <!-- Alumni -->
+		<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+			<tr>
+				<td style="min-width: 10em;"><strong>Name</strong></td>
+				<td style="min-width: 10em;"><strong>Graduation Year</strong></td>
+			</tr>
+			<tr ng-repeat="member in pgCtrl.members.alumni" style="height: 2.5em;">
+				<td>{{member.name}}</td>
+				<td>{{member.year}}</td>
+			</tr>
+		</table>
+		<br /><br />
+
+		<h2 style="margin: 0px; padding-bottom: 5px;">Members</h2> <!-- Members -->
+		<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+			<tr>
+				<td style="min-width: 10em;"><strong>Name</strong></td>
+				<td style="min-width: 10em;"><strong>Year</strong></td>
+				<td style="min-width: 5em;"><strong>Active</strong></td>
+			</tr>
+			<tr ng-repeat="member in pgCtrl.members.members" style="height: 2.5em;">
+				<td>{{member.name}}</td>
+				<td>{{member.year}}</td>
+				<td class="activeMemberField" ng-class="{'activeMember': {{member.active}}}">{{member.active}}</td>
+			</tr>
+		</table>
+
+	</div>
+</div>

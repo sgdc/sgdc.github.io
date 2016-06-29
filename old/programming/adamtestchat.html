@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Adam Gincel</title>
+  <meta name="description" content="Adam Gincel's website." />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <link rel="shortcut icon" href="../images/logo.png" />
+
+  <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js">
+  </script>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>
+  </script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1><a href="../index.html">Adam Gincel</a></h1>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../games.html">Games</a></li>
+          <li><a href="../music.html">Music</a></li>
+          <li class="current"><a href="../programming.html">Programming</a></li>
+          <li><a href="../contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <div id="site_content">
+      <div id="content" class="noSidebar">
+        <!-- insert the page content here -->
+        <a href="../programming.html">Back to Programming Projects...</a>
+        <h1>Firebase Chat Test</h1>
+        <h5><i>Made during: HackRU IX</i></h5>
+        <p>Enter your name and type a message, then press enter! Firebase updates all people viewing the page simultaneously without refreshing the page and without PHP or SQL. It's pretty cool. </p>
+        <input type='text' id='nameInput' placeholder='Enter your Name'><br /><br />
+        <input type='text' id='messageInput' placeholder='Message'><br /><br />
+        <div id="messagesDiv"></div>
+        <br /><br />
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+  var myDataRef = new Firebase('https://adamtestchat.firebaseio.com');
+  var timeOnStartup = Date.now();
+  $('#messageInput').keypress(function(e){
+    if(e.keyCode == 13)
+    {
+      var name = $('#nameInput').val();
+      var text = $('#messageInput').val();
+      if(text != "" && name != "")
+        myDataRef.push({name: name, text: text, timestamp: Date.now()});
+
+      document.getElementById('messageInput').value = "";
+    }
+  });
+
+  myDataRef.on('child_added', function(snapshot){
+    var message = snapshot.val();
+    displayChatMessage(message.name, message.text, message.timestamp);
+  });
+
+  function displayChatMessage(name, text, time) {
+    if(time + (3600 * 1000) >= timeOnStartup)
+    {
+      var div = document.createElement('div');
+      div.innerHTML = "<div><i>" + name + ": </i>" + text + "</div>";
+      var messageDiv = document.getElementById("messagesDiv");
+      messageDiv.insertBefore(div, messageDiv.firstChild);
+    }
+      };
+  </script>
+
+
+</body>
+</html>
