@@ -27,7 +27,7 @@
 			<tr>
 				<td style="min-width: 10em;"><strong>Name</strong></td>
 				<td style="min-width: 10em;"><strong>Position</strong></td>
-				<td style="min-width: 10em;"><strong>Year</strong></td>
+				<td class="table-year" style="min-width: 10em;"><strong>Year</strong></td>
 			</tr>
 			<tr ng-repeat="member in pgCtrl.members.eboard" style="height: 2.5em;">
 				<td>{{member.name}}</td>
@@ -41,7 +41,7 @@
 			<tr>
 				<td style="min-width: 10em;"><strong>Name</strong></td>
 				<td style="min-width: 10em;"><strong>Position</strong></td>
-				<td style="min-width: 10em;"><strong>Year</strong></td>
+				<td style="min-width: 10em;" class="table-year"><strong>Year</strong></td>
 			</tr>
 			<tr ng-repeat="member in pgCtrl.members.minorboard" style="height: 2.5em;">
 				<td>{{member.name}}</td>
@@ -59,7 +59,7 @@
 			</tr>
 			<tr ng-repeat="member in pgCtrl.members.alumni" style="height: 2.5em;">
 				<td>{{member.name}}</td>
-				<td>{{member.year}}</td>
+				<td class="table-year">{{member.year}}</td>
 			</tr>
 		</table>
 		<br /><br />

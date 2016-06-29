@@ -124,4 +124,12 @@ body {
 		width: 80% !important;
 		height: auto !important;
 	}
+
+	.table-year {
+		display: none;
+	}
+
+	td {
+		width: 50% !important;
+	}
 }
