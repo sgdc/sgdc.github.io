@@ -39,19 +39,13 @@ app.controller('PageController', ['$http', function($http) {
 				window.location.hash = this.navMembers[i].display.toLowerCase();
 			}
 		}
-
-			/*if (pieces[1] == "games") {
-				this.value = 2;
-			}
-			else if (pieces[1] == "members") {
-				this.value = 3;
-			}*/
 	}
 
 	this.valueMap = getValueMap();
 
 	this.pageContents = getPageContents();
 	this.items = getItems();
+	this.jams = getJams().data;
 	this.members = getMembers();
 }]);
 

@@ -1,4 +1,17 @@
-function getItems($http)
+function getJams()
+{
+	return {
+		"data": [
+			{"name": "Summer Jam III", "link": "http://itch.io/jam/sgdc-sj3"},
+			{"name": "Game Jam VIII", "link": "http://itch.io/jam/sgdc-gj8"},
+			{"name": "Game Jam VII", "link": "http://itch.io/jam/sgdc-gj7"},
+			{"name": "Game Jam VI", "link": "http://itch.io/jam/sgdc-gj6"},
+		]
+	};
+}
+
+
+function getItems()
 {
 	return {
 		"data": [

@@ -10,9 +10,19 @@
 			<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 				{{pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].title}}
 			</h1>
-			<br/>
+			<br />
 			<p ng-repeat="contents in pgCtrl.pageContents.data[pgCtrl.valueMap[pgCtrl.value]].content" style="font-size: 14px;">{{contents}}</p>
+
+			<h2>Game Jams</h2>
+			<ul style="list-style-type: none; margin: 0px; padding: 0px; font-size: 18px;">
+				<li ng-repeat="jam in pgCtrl.jams">
+					<a href="jam.link">{{jam.name}}</a>
+				</li>
+			</ul>
+
+			<br />
 			
+			<h3>Games List</h3>
 			<!-- Item Gallery -->
 			<item-gallery></item-gallery>
 	</div>
