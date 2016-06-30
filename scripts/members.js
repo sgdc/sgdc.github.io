@@ -11,10 +11,10 @@ function getMembers() {
 			{"name": "Andrew Barry", "year": "2/4", "active": true},
 			{"name": "Kristen Buglio", "year": "2/4", "active": true},
 			{"name": "Christian Harrypersad", "year": "3/4", "active": true},
-			{"name": "Richard Kopelow", "year": "3/4", "active": true},
+			{"name": "Richard Kopelow", "year": "3/5", "active": true},
 			{"name": "Jack Kraszewski", "year": "2/4", "active": true},
 			{"name": "Taber McFarlin", "year": "2/4", "active": true},
-			{"name": "Chris Hittner", "year": "2/4", "active": false},
+			{"name": "Chris Hittner", "year": "2/4", "active": true},
 			{"name": "Robyn Verrill", "year": "3/4", "active": true},
 		],
 		"alumni": [
