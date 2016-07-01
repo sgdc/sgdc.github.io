@@ -1,20 +1,17 @@
 function getJams()
 {
-	return {
-		"data": [
+	return [
 			{"name": "Summer Jam III", "link": "http://itch.io/jam/sgdc-sj3"},
 			{"name": "Game Jam VIII", "link": "http://itch.io/jam/sgdc-gj8"},
 			{"name": "Game Jam VII", "link": "http://itch.io/jam/sgdc-gj7"},
 			{"name": "Game Jam VI", "link": "http://itch.io/jam/sgdc-gj6"},
-		]
-	};
+		];
 }
 
 
-function getItems()
+function getGames()
 {
-	return {
-		"data": [
+	return [
 			/*{
 				"title": "",
 				"time": "",
@@ -485,6 +482,5 @@ function getItems()
 				"links": [],
 				"devs": ["Jason Gardella"]
 			},
-		],
-	};
+		];
 }

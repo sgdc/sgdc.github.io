@@ -82,6 +82,31 @@ body {
  	padding-right: 3%;
  }
 
+.centered-horizontal-list {
+	width: 100%; 
+	margin: 0px auto 10px; 
+	padding: 0px; 
+	list-style: none; 
+	position: relative; 
+	display: block; 
+	text-align: center;
+}
+
+.centered-horizontal-list li {
+	position: relative; 
+	border: 0px none; 
+	margin-left: 2%; 
+	margin-right: 2%; 
+	height: auto; 
+	display: inline-block; 
+	margin-bottom: 2%;
+}
+
+.centered-horizontal-list li img {
+	height: 100px;
+	width: auto;
+}
+
 @media only screen and (max-width: 580px) {
 	/* phones */
 	.game {
@@ -96,6 +121,11 @@ body {
 
 	#gameTime {
 
+	}
+
+	.centered-horizontal-list li img {
+		width: 100px;
+		height: auto;
 	}
 
 	.game.left, .game.right, .game.center{

@@ -1,0 +1,76 @@
+<!-- Member Tables to show on Members Tab -->
+<h2 style="margin: 0px; padding-bottom: 5px;">E-Board</h2> <!-- E-Board -->
+<table style="margin-left: auto; margin-right: auto; font-size: 16px;">
+	<tr>
+		<td style="min-width: 10em;"><strong>Name</strong></td>
+		<td style="min-width: 10em;"><strong>Position</strong></td>
+		<td class="table-year" style="min-width: 10em;"><strong>Year</strong></td>
+	</tr>
+	<tr ng-repeat="member in pgCtrl.members.eboard" style="height: 2.5em;">
+		<td>
+			<a ng-show="member.link.length > 0" href="{{member.link}}">
+			{{member.name}}</a>
+			<div ng-hide="member.link.length > 0">
+			{{member.name}}</div>
+		</td>
+		<td>{{member.title}}</td>
+		<td class="table-year">{{member.year}}</td>
+	</tr>
+</table>
+
+<h3 style="margin: 0px; padding-bottom: 5px;" ng-show="pgCtrl.members.minorboard.length > 0">Minor Board</h3>
+<table style="margin-left: auto; margin-right: auto; font-size: 16px;" ng-show="pgCtrl.members.minorboard.length > 0"> <!-- Minor Board -->
+	<tr>
+		<td style="min-width: 10em;"><strong>Name</strong></td>
+		<td style="min-width: 10em;"><strong>Position</strong></td>
+		<td style="min-width: 10em;" class="table-year"><strong>Year</strong></td>
+	</tr>
+	<tr ng-repeat="member in pgCtrl.members.minorboard" style="height: 2.5em;">
+		<td>
+			<a ng-show="member.link.length > 0" href="{{member.link}}">
+			{{member.name}}</a>
+			<div ng-hide="member.link.length > 0">
+			{{member.name}}</div>
+		</td>
+		<td>{{member.title}}</td>
+		<td class="table-year">{{member.year}}</td>
+	</tr>
+</table>
+<br /><br />
+
+<h2 style="margin: 0px; padding-bottom: 5px;">Alumni</h2> <!-- Alumni -->
+<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+	<tr>
+		<td style="min-width: 10em;"><strong>Name</strong></td>
+		<td style="min-width: 10em;"><strong>Graduation Year</strong></td>
+	</tr>
+	<tr ng-repeat="member in pgCtrl.members.alumni" style="height: 2.5em;">
+		<td>
+			<a ng-show="member.link.length > 0" href="{{member.link}}">
+			{{member.name}}</a>
+			<div ng-hide="member.link.length > 0">
+			{{member.name}}</div>
+		</td>
+		<td>{{member.year}}</td>
+	</tr>
+</table>
+<br /><br />
+
+<h2 style="margin: 0px; padding-bottom: 5px;">Members</h2> <!-- Members -->
+<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+	<tr>
+		<td style="min-width: 10em;"><strong>Name</strong></td>
+		<td style="min-width: 10em;" class="table-year"><strong>Year</strong></td>
+		<td style="min-width: 5em;"><strong>Active</strong></td>
+	</tr>
+	<tr ng-repeat="member in pgCtrl.members.members" style="height: 2.5em;">
+		<td>
+		<a ng-show="member.link.length > 0" href="{{member.link}}">
+			{{member.name}}</a>
+			<div ng-hide="member.link.length > 0">
+			{{member.name}}</div>
+		</td>
+		<td class="table-year">{{member.year}}</td>
+		<td class="activeMemberField" ng-class="{'activeMember': {{member.active}}}">{{member.active}}</td>
+	</tr>
+</table>

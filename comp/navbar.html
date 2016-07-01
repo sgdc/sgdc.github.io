@@ -15,18 +15,20 @@
           </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-              <li class="dropdown" ng-show="pgCtrl.dropdownMembers.length" ng-class="{active: pgCtrl.value >= 10}">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="nav navbar-nav"> <!-- first, all normal navbar options -->
+            <li ng-repeat="member in pgCtrl.navMembers track by $index" 
+                ng-class="{'active': pgCtrl.value == $index}">
+                <a href="" ng-click="pgCtrl.setValue($index);"><strong>{{member.display}}</strong></a>
+            </li> 
+            <!-- next, if anyone changes dropdownMembers in page.js -->
+            <li class="dropdown" ng-show="pgCtrl.dropdownMembers.length">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li ng-repeat="member in pgCtrl.dropdownMembers" ng-class="{'active': pgCtrl.value === member.value}">
-                  <a href="" ng-click="pgCtrl.setValue(member.value)">{{member.display}}</a>
+                <li ng-repeat="member in pgCtrl.dropdownMembers track by $index" ng-class="{'active': pgCtrl.value === $index + pgCtrl.navMembers.length}">
+                  <a href="" ng-click="pgCtrl.setValue($index + pgCtrl.navMembers.length)">{{member.display}}</a>
                 </li>
               </ul>
             </li>
-            <li ng-repeat="member in pgCtrl.navMembers" 
-                ng-class="{'active': pgCtrl.value === member.value}">
-                <a href="" ng-click="pgCtrl.setValue(member.value);"><strong>{{member.display}}</strong></a></li>
           </ul>
         </div>
       </div>

@@ -1,53 +1,57 @@
 var app = angular.module('page', []);
 var tryJson = false;
 
-app.controller('PageController', ['$http', function($http) {
-	this.value = 1;
+app.controller('PageController', function() {
+	this.value = 0;
 	this.dropdownMembers = getNavbarDropdownMembers();
 	this.navMembers = getNavbarMembers();
+	this.redirects = getRedirects();
+	this.socialMediaLinks = getSocialMediaLinks();
+
+	this.checkPage = function () {
+		//called on page load
+		var url = window.location.href;
+
+		var pieces = url.split("#");
+		//check for #tabName, automatically jump there
+		for (var i = 0; pieces.length > 1 && i < this.navMembers.length; i++) {
+			if(pieces[1].toLowerCase() == this.navMembers[i].display.toLowerCase()) {
+				this.value = i;
+				window.location.hash = this.navMembers[i].display.toLowerCase();
+			}
+		}
+
+		//check for redirects, defined in page.js
+		for(var i = 0; pieces.length > 1 && i < this.redirects.length; i++) {
+			if(pieces[1].toLowerCase() == this.redirects[i].name.toLowerCase()) {
+				window.location.hash = "";
+				window.location.href = this.redirects[i].link;
+			}
+		}
+	}
 
 	this.setValue = function(v){
 		if (this.value != v)
 		{
 			this.value = v;
 			for(var i = 0; i < this.navMembers.length; i++) {
-				if (v == this.navMembers[i].value) {
+				if (v == i) {
 					window.location.hash = this.navMembers[i].display.toLowerCase();
 				}
 			}
 		}
 	};
-	this.valueIsInArray = function(v){
-		for(var i = 0; i < v.length; i++)
-		{
-			if (v[i] === this.value)
-				return true;
-		}
-		return false;
+	this.valueIs = function (v){
+		return this.value === v;
 	};
 
 
 
-
-	this.checkPage = function () {
-		var url = window.location.href;
-
-		var pieces = url.split("#");
-		for (var i = 0; pieces.length > 1 && i < this.navMembers.length; i++) {
-			if(pieces[1].toLowerCase() == this.navMembers[i].display.toLowerCase()) {
-				this.value = this.navMembers[i].value;
-				window.location.hash = this.navMembers[i].display.toLowerCase();
-			}
-		}
-	}
-
-	this.valueMap = getValueMap();
-
 	this.pageContents = getPageContents();
-	this.items = getItems();
-	this.jams = getJams().data;
+	this.games = getGames();
+	this.jams = getJams();
 	this.members = getMembers();
-}]);
+});
 
 
 app.directive('navbar', function(){
@@ -78,4 +82,10 @@ app.directive('itemGallery', function(){
 	};
 });
 
+app.directive('memberTables', function(){
+	return {
+		restrict: 'E',
+		templateUrl: './comp/member-tables.html',
+	};
+});
 
