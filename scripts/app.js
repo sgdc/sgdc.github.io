@@ -3,10 +3,8 @@ var tryJson = false;
 
 app.controller('PageController', function() {
 	this.value = 0;
-	this.dropdownMembers = getNavbarDropdownMembers();
-	this.navMembers = getNavbarMembers();
 	this.redirects = getRedirects();
-	this.socialMediaLinks = getSocialMediaLinks();
+	this.pageContents = getPageContents();
 
 	this.checkPage = function () {
 		//called on page load
@@ -24,6 +22,7 @@ app.controller('PageController', function() {
 		//check for redirects, defined in page.js
 		for(var i = 0; pieces.length > 1 && i < this.redirects.length; i++) {
 			if(pieces[1].toLowerCase() == this.redirects[i].name.toLowerCase()) {
+				this.pageContents[0].title = "Redirecting...";
 				window.location.hash = "";
 				window.location.href = this.redirects[i].link;
 			}
@@ -45,11 +44,15 @@ app.controller('PageController', function() {
 		return this.value === v;
 	};
 
-
-
-	this.pageContents = getPageContents();
+	//navbar data
+	this.dropdownMembers = getNavbarDropdownMembers();
+	this.navMembers = getNavbarMembers();
+	//homepage data
+	this.socialMediaLinks = getSocialMediaLinks();
+	//games page data
 	this.games = getGames();
 	this.jams = getJams();
+	//members page data
 	this.members = getMembers();
 });
 

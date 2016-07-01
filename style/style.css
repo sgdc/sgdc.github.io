@@ -1,5 +1,6 @@
 body {
-	background-color: #FDFDFD;
+	/*background-color: #FDFDFD;*/
+	background-image: url('../images/background.png');
 	padding-top: 70px;
 }
 
@@ -49,15 +50,12 @@ body {
   text-align: center;
 }
 
-.activeMemberField {
-	background-color: red;
-	border: 1px solid black;
-	color: white;
+.glyphicon-remove {
+	color: red;
 }
 
-.activeMember {
-	color: black;
-	background-color: #00ea12 !important;
+.glyphicon-ok {
+	color: #00ea12;
 }
 
 

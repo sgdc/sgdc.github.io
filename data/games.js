@@ -164,7 +164,7 @@ function getGames()
 				"time": "Game Jam VII",
 				"thumbnail": "./images/games/afterLife.png",
 				"description": "In this puzzle game adaptation of John Conway's famous math simulation, players enjoy challenging levels as they attempt to turn a preset unstable layout into a \"still-life\".",
-				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/after-life"}],
+				"links": [{"text": "Download", "link": "https://hydegriffen.itch.io/after-life"}, {"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.hydegriffen.afterlife"}],
 				"devs": ["Kevin Quigley"]
 			},
 			{

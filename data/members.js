@@ -8,9 +8,10 @@ function getMembers() {
 		],
 		"members": [
 			{"name": "Ian Allemand", "year": "3/4", "active": true},
+			{"name": "Nicholas Antonov", "year": "4/5", "active": false},
 			{"name": "Andrew Barry", "year": "2/4", "active": true},
 			{"name": "Ben Blease", "year": "3/4", "active": true},
-			{"name": "Alex Buhse", "year": "3/4", "active": true},
+			{"name": "Alex Buhse", "year": "3/4", "active": false},
 			{"name": "Kristen Buglio", "year": "2/4", "active": true},
 			{"name": "Christian Harrypersad", "year": "3/4", "active": true, "link": "http://chemicalplant.zone"},
 			{"name": "Chris Hittner", "year": "2/4", "active": true},

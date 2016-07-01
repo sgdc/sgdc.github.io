@@ -71,6 +71,6 @@
 			{{member.name}}</div>
 		</td>
 		<td class="table-year">{{member.year}}</td>
-		<td class="activeMemberField" ng-class="{'activeMember': {{member.active}}}">{{member.active}}</td>
+		<td><i class="glyphicon" ng-class="{'glyphicon-ok': {{member.active}}, 'glyphicon-remove': {{!member.active}}}"></i></td>
 	</tr>
 </table>
