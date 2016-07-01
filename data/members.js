@@ -25,7 +25,7 @@ function getMembers() {
 		],
 		"alumni": [
 			{"name": "Frank Dicola", "year": "2015", "link": "http://yoshgunn.com"},
-			{"name": "Kevin Quigley", "year": "2016", "link": "http://hydegriffen.com"},
+			{"name": "Kevin Quigley", "year": "2016", "link": "http://www.hydegriffen.com"},
 		]
 	}
 }
