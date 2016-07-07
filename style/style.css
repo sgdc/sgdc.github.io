@@ -1,5 +1,5 @@
 body {
-	/*background-color: #FDFDFD;*/
+	/*background-color: #FDFDFD; /* our original background color */
 	background-image: url('../images/background.png');
 	padding-top: 70px;
 }
@@ -22,7 +22,17 @@ body {
     box-shadow: none;
 }
 
+.member-table {
+	margin-left: auto; 
+	margin-right: auto; 
+	font-size: 16px; 
+	padding-bottom: 5em;
+	width: 50%;
+}
 
+.member-table td {
+	width: 30%;
+}
 
 .jumbotron-custom {
 	background-color: rgba(255, 255, 255, 0);
@@ -106,6 +116,8 @@ body {
 }
 
 @media only screen and (max-width: 580px) {
+
+
 	/* phones */
 	.game {
 		float: none;
@@ -119,6 +131,17 @@ body {
 
 	#gameTime {
 
+	}
+
+	.jumbotron-custom {
+		width: 100% !important;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	.container {
+		margin: 0px;
+		padding: 0px;
 	}
 
 	.centered-horizontal-list li img {
@@ -157,7 +180,21 @@ body {
 		display: none;
 	}
 
-	td {
+	.member-table {
+		width: 75%;
+		padding-bottom: 3em;
+		font-size: 14px;
+	}
+
+	.member-table.alumni {
+		width: 60%;
+	}
+
+	.member-table.members{
+		width: 70%;
+	}
+
+	.member-table td {
 		width: 50% !important;
 	}
 }

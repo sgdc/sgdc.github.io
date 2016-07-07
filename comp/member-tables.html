@@ -1,6 +1,6 @@
 <!-- Member Tables to show on Members Tab -->
-<h2 style="margin: 0px; padding-bottom: 5px;">E-Board</h2> <!-- E-Board -->
-<table style="margin-left: auto; margin-right: auto; font-size: 16px;">
+<h3 style="margin: 0px; padding-bottom: 5px;">E-Board</h2> <!-- E-Board -->
+<table class="member-table">
 	<tr>
 		<td style="min-width: 10em;"><strong>Name</strong></td>
 		<td style="min-width: 10em;"><strong>Position</strong></td>
@@ -18,8 +18,8 @@
 	</tr>
 </table>
 
-<h3 style="margin: 0px; padding-bottom: 5px;" ng-show="pgCtrl.members.minorboard.length > 0">Minor Board</h3>
-<table style="margin-left: auto; margin-right: auto; font-size: 16px;" ng-show="pgCtrl.members.minorboard.length > 0"> <!-- Minor Board -->
+<h4 style="margin: 0px; padding-bottom: 5px;" ng-show="pgCtrl.members.minorboard.length > 0">Minor Board</h3>
+<table class="member-table" ng-show="pgCtrl.members.minorboard.length > 0"> <!-- Minor Board -->
 	<tr>
 		<td style="min-width: 10em;"><strong>Name</strong></td>
 		<td style="min-width: 10em;"><strong>Position</strong></td>
@@ -39,7 +39,7 @@
 <br /><br />
 
 <h2 style="margin: 0px; padding-bottom: 5px;">Alumni</h2> <!-- Alumni -->
-<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+<table class="member-table alumni">
 	<tr>
 		<td style="min-width: 10em;"><strong>Name</strong></td>
 		<td style="min-width: 10em;"><strong>Graduation Year</strong></td>
@@ -57,7 +57,7 @@
 <br /><br />
 
 <h2 style="margin: 0px; padding-bottom: 5px;">Members</h2> <!-- Members -->
-<table style="margin-left: auto; margin-right: auto; font-size: 16px; padding-bottom: 5em;">
+<table class="member-table members">
 	<tr>
 		<td style="min-width: 10em;"><strong>Name</strong></td>
 		<td style="min-width: 10em;" class="table-year"><strong>Year</strong></td>
