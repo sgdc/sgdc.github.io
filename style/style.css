@@ -1,5 +1,5 @@
 body {
-	/*background-color: #FDFDFD; /* our original background color */
+	/*background-color: #FDFDFD;*/
 	background-image: url('../images/background.png');
 	padding-top: 70px;
 }
@@ -22,17 +22,7 @@ body {
     box-shadow: none;
 }
 
-.member-table {
-	margin-left: auto; 
-	margin-right: auto; 
-	font-size: 16px; 
-	padding-bottom: 5em;
-	width: 50%;
-}
 
-.member-table td {
-	width: 30%;
-}
 
 .jumbotron-custom {
 	background-color: rgba(255, 255, 255, 0);
@@ -115,9 +105,17 @@ body {
 	width: auto;
 }
 
+.member-table {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+
+.member-table td {
+	width: 33%;
+}
+
 @media only screen and (max-width: 580px) {
-
-
 	/* phones */
 	.game {
 		float: none;
@@ -131,11 +129,6 @@ body {
 
 	#gameTime {
 
-	}
-
-	.container {
-		margin: 0px;
-		padding: 0px;
 	}
 
 	.centered-horizontal-list li img {
@@ -175,7 +168,7 @@ body {
 	}
 
 	.member-table {
-		width: 75%;
+		width: 90%;
 		padding-bottom: 3em;
 		font-size: 14px;
 	}
