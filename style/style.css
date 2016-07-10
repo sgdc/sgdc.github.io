@@ -22,8 +22,6 @@ body {
     box-shadow: none;
 }
 
-
-
 .jumbotron-custom {
 	background-color: rgba(255, 255, 255, 0);
 	border-radius: 0em !important;
@@ -115,6 +113,24 @@ body {
 	width: 33%;
 }
 
+.member-table.catalog{
+	width: 50%;
+}
+
+.member-table.catalog img {
+	width: 5em !important;
+}
+
+.videoWrapper {
+}
+.videoWrapper iframe {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 32vw;
+	height: 18vw;
+}
+
 @media only screen and (max-width: 580px) {
 	/* phones */
 	.game {
@@ -179,5 +195,30 @@ body {
 
 	.member-table td {
 		width: 50% !important;
+	}
+
+	.member-table.catalog {
+		width: 90%;
+	}
+
+	.member-table.catalog img {
+		width: 50% !important;
+	}
+
+	.member-table.catalog td.picture {
+		width: 50px !important;
+		max-width: 10px !important;
+	}
+
+	.member-table.catalog td.link {
+		width: auto !important;
+	}
+
+	.videoWrapper iframe {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75vw;
+		height: 42.18vw;
 	}
 }

@@ -91,7 +91,7 @@ function getGames()
 				"title": "Memory", 
 				"time": "Game Jam VII (1st)",
 				"thumbnail": "./images/items/Memory/thumb.png", 
-				"description": "Memory was my first place submission to SGDC's Game Jam VII. In it, the player undergoes the 'Memorysort Experiment', and goes through versions of my previous games. Along the way the experiment goes wrong, and mechanics of the various games start to get merged together.", 
+				"description": "Memory sees the player undergo the 'Memorysort Experiment', bringing them through versions of Adam's older games. Along the way the experiment goes wrong, and mechanics of the various games start to get merged together.", 
 				"links": [{"text": "Download here!", "link": "https://waveparadigm.itch.io/memory"}],
 				"devs": ["Adam Gincel"]
 			},
@@ -188,7 +188,7 @@ function getGames()
 				"title": "Maguffin", 
 				"time": "Game Jam VI (2nd)",
 				"thumbnail": "./images/games/maguffin.png", 
-				"description": "Maguffin was my first project using GameMaker: Studio. Over a week I learned the software from scratch and had a very respectable final product. This won second place in SGDC's Game Jam VI.", 
+				"description": "Maguffin is an action-rpg wherein players have to extract a magically overpowering maguffin from each level. Maguffin features drop-in four player co-op and won second place in SGDC's Game Jam VI.", 
 				"links": [{"text": "Download here!", "link": "https://waveparadigm.itch.io/maguffin"}],
 				"devs": ["Adam Gincel"]
 			},
@@ -282,14 +282,6 @@ function getGames()
 				"devs": ["Adam Gincel", "Kevin Quigley"]
 			},
 			//Summer 2015
-			{
-				"title": "Pause", 
-				"time": "Side Project - 8/15",
-				"thumbnail": "./images/items/Pause/thumb.png", 
-				"description": "A First Person Puzzle Platformer made in Unreal Engine 4 that brings the player through various physics and timing based puzzles wherein they can freeze time at the press of a button. Activate and control various physics objects and pause them in various states to make your way to the end of each level.", 
-				"links": [],
-				"devs": ["Adam Gincel"]
-			},
 			{
 				"title": "Rig 'er Bigger",
 				"time": "Side Project - 7/15",

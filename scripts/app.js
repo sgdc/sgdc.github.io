@@ -54,6 +54,9 @@ app.controller('PageController', function() {
 	this.jams = getJams();
 	//members page data
 	this.members = getMembers();
+
+	//catalog page data
+	this.catalog = getCatalog();
 });
 
 

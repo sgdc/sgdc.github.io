@@ -6,8 +6,11 @@
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
 		<br/>
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
-		<br /><br />
 		<!-- Important Links -->
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/hRU1-ekMvMI" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<br />
 		<ul class="centered-horizontal-list">
 			<li ng-repeat="item in pgCtrl.socialMediaLinks">
 				<a href="{{item.link}}">
@@ -33,7 +36,7 @@
 			</ul>
 
 			<br />	
-			<h3>Games List</h3>
+			<h3>Games List ({{pgCtrl.games.length}})</h3>
 			<!-- Games Gallery -->
 			<item-gallery></item-gallery>
 	</article>
@@ -47,8 +50,74 @@
 	</article>
 
 
+	<article ng-show="pgCtrl.valueIs(3)"> <!-- Catalog -->
+		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
+			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
+		<br/> <!-- create a p for each string in content -->
+		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content" style="font-size: 14px;">{{contents}}</p>	
+
+		<h2>$50 Tier</h2>
+
+		<table class="member-table catalog">
+			<tr>
+				<td><strong>Picture</strong></td>
+				<td style="min-width: 10em;"><strong>Link</strong></td>
+			</tr>
+
+			<tr ng-repeat="item in pgCtrl.catalog.fifty">
+				<td class="picture"><img src="{{item.image}}" /></td>
+				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+			</tr>
+		</table>
+
+		<br />
+
+		<h2>$40 Tier</h2>
+		<table class="member-table catalog">
+			<tr>
+				<td><strong>Picture</strong></td>
+				<td style="min-width: 10em;"><strong>Link</strong></td>
+			</tr>
+
+			<tr ng-repeat="item in pgCtrl.catalog.forty">
+				<td class="picture"><img src="{{item.image}}" /></td>
+				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+			</tr>
+		</table>
+		<br />
+
+		<h2>$25 Tier</h2>
+		<table class="member-table catalog">
+			<tr>
+				<td><strong>Picture</strong></td>
+				<td style="min-width: 10em;"><strong>Link</strong></td>
+			</tr>
+
+			<tr ng-repeat="item in pgCtrl.catalog.twentyfive">
+				<td class="picture"><img src="{{item.image}}" /></td>
+				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+			</tr>
+		</table>
+		<br />
+
+		<h2>$20 Tier</h2>
+		<table class="member-table catalog">
+			<tr>
+				<td><strong>Picture</strong></td>
+				<td style="min-width: 10em;"><strong>Link</strong></td>
+			</tr>
+
+			<tr ng-repeat="item in pgCtrl.catalog.twenty">
+				<td class="picture"><img src="{{item.image}}" /></td>
+				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+			</tr>
+		</table>
+		<br />
+
+	</article>
+
 	<!-- Unused currently -->
-	<article ng-show="pgCtrl.valueIs(3)"> <!-- Example, if anyone comes along wanting more tabs -->
+	<article ng-show="pgCtrl.valueIs(4)"> <!-- Example, if anyone comes along wanting more tabs -->
 		<!-- Display heading defined in page.js -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
@@ -56,6 +125,7 @@
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>	
 
 		<!-- put whatever else you want -->
+
 	</article>
 
 
