@@ -99,7 +99,7 @@ function getGames()
 				"title": "Slipspace Cartographer",
 				"time": "Game Jam VII (2nd)",
 				"thumbnail": "./images/games/slipspaceCartographer.png",
-				"description": "Scientific experimentation has found unexplored dimensions weaved in the fabric of numerous parallel universes, and a brave explorer is needed to map out the uncharted, seemingly infinite territory of the beyond. Slipspace is a 1st Person 3D platformer writtin in GameMaker: Studio.",
+				"description": "Scientific experimentation has found unexplored dimensions weaved in the fabric of numerous parallel universes, and a brave explorer is needed to map out the uncharted, seemingly infinite territory of the beyond. Slipspace is a 1st Person 3D platformer written in GameMaker: Studio.",
 				"links": [{"text": "Download", "link": "http://tehpilot.github.io/games/sgdc7/slipspace-Default-1.0.0.2.zip"}],
 				"devs": ["James Romph"]
 			},

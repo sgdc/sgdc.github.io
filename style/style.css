@@ -9,6 +9,22 @@ body {
 	border: 2px solid black !important;
 }
 
+.item {
+	position: relative; /*
+	border: 1px black solid; 
+	border-radius: .25em; */
+
+	background-color: #f5f5f5;
+	background-image: url('../images/redox.png');
+	box-shadow: 2px 2px 2px #888888;
+
+	margin-left: 2%; 
+	margin-right: 2%; 
+	width: 85%; 
+	display: inline-block; 
+	margin-bottom: 18px;
+}
+
 .navbar-custom {
 	background-image: none;
 	background-color: rgba(255, 255, 255, 0) !important;

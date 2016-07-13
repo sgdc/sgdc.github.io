@@ -1,14 +1,13 @@
 <!-- Item Gallery -->
 <ul style="width: 100%; margin: 0px auto 10px; padding: 0px; list-style: none; position: relative; display: block; text-align: center;">
-	<li ng-repeat="item in pgCtrl.games track by $index" 
-		style="position: relative; border: 1px black solid; border-radius: .25em; margin-left: 2%; margin-right: 2%px; width: 85%; display: inline-block; margin-bottom: 10px;">
+	<li ng-repeat="item in pgCtrl.games track by $index" class="item">
 		<section style="margin-top: 10px; margin-left: auto; margin-right: auto; width: 100%;">
 
 			<div class="game left"> <!-- Image and Title -->
 				<h2 style="font-size: 20px; padding: 0px; margin: 3%; margin-top: 0px;">
 					{{item.title}}</h2>
 				<img ng-src="{{item.thumbnail}}" style="width: 80%; max-width: 128px; height: auto; margin-bottom: 10px;"></img>
-				<h2 id="gameTime" style="font-size: 16px; padding:0px; margin:1%; margin-top: 0px;">
+				<h2 id="gameTime" style="font-size: 16px; padding:0px; margin:1%; margin-top: 0px; padding-bottom: 5px;">
 					{{item.time}}</h2>
 			</div>
 

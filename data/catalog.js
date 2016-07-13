@@ -13,7 +13,7 @@ function getCatalog() {
 		],
 		"forty": [
 			{"image": "./images/catalog/xbox360Controller.jpg", "text": "Xbox 360 Wireless Controller", "link": "https://www.amazon.com/Microsoft-Wireless-Controller-Windows-Console/dp/B004QRKWKQ/ref=sr_1_3?s=pc&ie=UTF8&qid=1467991472&sr=1-3&keywords=xbox+360+controller"},
-			{"image": "./images/catalog/portablePhoneCharger.jpg", "text": "Portable Phone Charger", "link": "https://www.amazon.com/Elivebuy-20800mAh-External-Capacity-Lightning/dp/B01E0WK8I2/ref=sr_1_2?s=wireless&ie=UTF8&qid=1468002833&sr=1-2&keywords=portable+phone+charger&refinements=p_36%3A3500-4000"},
+			{"image": "./images/catalog/portablePhoneCharger.jpg", "text": "20800 mAH Portable USB Phone Charger", "link": "https://www.amazon.com/Elivebuy-20800mAh-External-Capacity-Lightning/dp/B01E0WK8I2/ref=sr_1_2?s=wireless&ie=UTF8&qid=1468002833&sr=1-2&keywords=portable+phone+charger&refinements=p_36%3A3500-4000"},
 			{"image": "./images/catalog/128gbMicroSDCard.jpg", "text": "128gb MicroSD Card", "link": "https://www.amazon.com/SanDisk-microSDXC-Standard-Packaging-SDSQUNC-128G-GN6MA/dp/B010Q57S62/ref=sr_1_1?s=wireless&ie=UTF8&qid=1468002911&sr=1-1&keywords=128gb+micro+sd+card"},
 			{"image": "./images/catalog/128gbFlashDrive.jpg", "text": "128gb Flash Drive", "link": "https://www.amazon.com/SanDisk-Ultra-Type-CTM-128GB-SDCZ450-128G-G46/dp/B01BUSN0DO/ref=sr_1_2?s=electronics&ie=UTF8&qid=1468002976&sr=1-2&keywords=128gb+flash+drive&refinements=p_36%3A3500-4000"},
 			{"image": "./images/catalog/pokemonGoPlus.jpg", "text": "Pokemon Go Plus", "link": "http://www.gamestop.com/accessories/pokemon-go-plus/131550"},
