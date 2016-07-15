@@ -57,6 +57,8 @@ app.controller('PageController', function() {
 
 	//catalog page data
 	this.catalog = getCatalog();
+
+	this.events = getEvents();
 });
 
 
@@ -95,3 +97,16 @@ app.directive('memberTables', function(){
 	};
 });
 
+app.directive('catalog', function(){
+	return {
+		restrict: 'E',
+		templateUrl: './comp/catalog.html',
+	};
+});
+
+app.directive('events', function(){
+	return {
+		restrict: 'E',
+		templateUrl: './comp/events.html',
+	};
+});

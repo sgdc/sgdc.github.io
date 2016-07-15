@@ -1,0 +1,56 @@
+<!-- catalog.html -->
+<h2>$50 Tier</h2>
+<table class="member-table catalog">
+	<tr>
+		<td><strong>Picture</strong></td>
+		<td style="min-width: 10em;"><strong>Link</strong></td>
+	</tr>
+
+	<tr ng-repeat="item in pgCtrl.catalog.fifty">
+		<td class="picture"><img src="{{item.image}}" /></td>
+		<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+	</tr>
+</table>
+
+<br />
+
+<h2>$40 Tier</h2>
+<table class="member-table catalog">
+	<tr>
+		<td><strong>Picture</strong></td>
+		<td style="min-width: 10em;"><strong>Link</strong></td>
+	</tr>
+
+	<tr ng-repeat="item in pgCtrl.catalog.forty">
+		<td class="picture"><img src="{{item.image}}" /></td>
+		<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+	</tr>
+</table>
+<br />
+
+<h2>$25 Tier</h2>
+<table class="member-table catalog">
+	<tr>
+		<td><strong>Picture</strong></td>
+		<td style="min-width: 10em;"><strong>Link</strong></td>
+	</tr>
+
+	<tr ng-repeat="item in pgCtrl.catalog.twentyfive">
+		<td class="picture"><img src="{{item.image}}" /></td>
+		<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+	</tr>
+</table>
+<br />
+
+<h2>$20 Tier</h2>
+<table class="member-table catalog">
+	<tr>
+		<td><strong>Picture</strong></td>
+		<td style="min-width: 10em;"><strong>Link</strong></td>
+	</tr>
+
+	<tr ng-repeat="item in pgCtrl.catalog.twenty">
+		<td class="picture"><img src="{{item.image}}" /></td>
+		<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
+	</tr>
+</table>

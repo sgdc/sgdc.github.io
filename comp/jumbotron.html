@@ -6,11 +6,14 @@
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
 		<br/>
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
-		<!-- Important Links -->
+
+		<!-- Featured Youtube video -->
 		<div class="videoWrapper">
 			<iframe src="https://www.youtube.com/embed/hRU1-ekMvMI" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<br />
+
+		<!-- Important Links -->
 		<ul class="centered-horizontal-list">
 			<li ng-repeat="item in pgCtrl.socialMediaLinks">
 				<a href="{{item.link}}">
@@ -27,97 +30,41 @@
 			</h1>
 			<br />
 			<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content" style="font-size: 14px;">{{contents}}</p>
-
-			<h2>Game Jams</h2> <!-- Display Game Jams -->
-			<ul style="list-style-type: none; margin: 0px; padding: 0px; font-size: 18px;">
-				<li ng-repeat="jam in pgCtrl.jams">
-					<a href="{{jam.link}}">{{jam.name}}</a>
-				</li>
-			</ul>
-
-			<br />	
+			
 			<h3>Games List ({{pgCtrl.games.length}})</h3>
 			<!-- Games Gallery -->
-			<item-gallery></item-gallery>
+			<item-gallery></item-gallery> <!-- located in ./comp/item-gallery.html -->
 	</article>
 
-	<article ng-show="pgCtrl.valueIs(2)" > <!-- Members -->
+	<article ng-show="pgCtrl.valueIs(2)"> <!-- Events -->
+		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
+			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
+		<br/>
+		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
+
+		<events></events> <!-- located in ./comp/events.html -->
+	</article>
+
+	<article ng-show="pgCtrl.valueIs(3)" > <!-- Members -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
 		<br/>
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
-		<member-tables></member-tables>
+		<member-tables></member-tables> <!-- located in ./comp/member-tables.html -->
 	</article>
 
 
-	<article ng-show="pgCtrl.valueIs(3)"> <!-- Catalog -->
+	<article ng-show="pgCtrl.valueIs(4)"> <!-- Catalog -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
 		<br/> <!-- create a p for each string in content -->
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content" style="font-size: 14px;">{{contents}}</p>	
 
-		<h2>$50 Tier</h2>
-
-		<table class="member-table catalog">
-			<tr>
-				<td><strong>Picture</strong></td>
-				<td style="min-width: 10em;"><strong>Link</strong></td>
-			</tr>
-
-			<tr ng-repeat="item in pgCtrl.catalog.fifty">
-				<td class="picture"><img src="{{item.image}}" /></td>
-				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
-			</tr>
-		</table>
-
-		<br />
-
-		<h2>$40 Tier</h2>
-		<table class="member-table catalog">
-			<tr>
-				<td><strong>Picture</strong></td>
-				<td style="min-width: 10em;"><strong>Link</strong></td>
-			</tr>
-
-			<tr ng-repeat="item in pgCtrl.catalog.forty">
-				<td class="picture"><img src="{{item.image}}" /></td>
-				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
-			</tr>
-		</table>
-		<br />
-
-		<h2>$25 Tier</h2>
-		<table class="member-table catalog">
-			<tr>
-				<td><strong>Picture</strong></td>
-				<td style="min-width: 10em;"><strong>Link</strong></td>
-			</tr>
-
-			<tr ng-repeat="item in pgCtrl.catalog.twentyfive">
-				<td class="picture"><img src="{{item.image}}" /></td>
-				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
-			</tr>
-		</table>
-		<br />
-
-		<h2>$20 Tier</h2>
-		<table class="member-table catalog">
-			<tr>
-				<td><strong>Picture</strong></td>
-				<td style="min-width: 10em;"><strong>Link</strong></td>
-			</tr>
-
-			<tr ng-repeat="item in pgCtrl.catalog.twenty">
-				<td class="picture"><img src="{{item.image}}" /></td>
-				<td class="link"><a href="{{item.link}}">{{item.text}}</a></td>
-			</tr>
-		</table>
-		<br />
-
+		<catalog></catalog> <!-- located in ./comp/catalog.html -->
 	</article>
 
 	<!-- Unused currently -->
-	<article ng-show="pgCtrl.valueIs(4)"> <!-- Example, if anyone comes along wanting more tabs -->
+	<article ng-show="pgCtrl.valueIs(5)"> <!-- Example, if anyone comes along wanting more tabs -->
 		<!-- Display heading defined in page.js -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 

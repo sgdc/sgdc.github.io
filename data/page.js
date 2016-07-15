@@ -34,6 +34,7 @@ function getNavbarMembers()
 	return [
 		{link: '#', display: 'Home'},
 		{link: '#', display: 'Games'},
+		{link: '#', display: 'Events'},
 		{link: '#', display: 'Members'},
 		{link: '#', display: 'Catalog'},
 	];	
@@ -44,6 +45,7 @@ function getPageContents()
 	return [
 			{"title": "Stevens Game Development Club", "content": ["Welcome to the Stevens Game Development Club! We are a Student Organization at Stevens Institute of Technology. We foster a learning environment -- no experience is necessary."]},
 			{"title": "Games", "content": ["Our club has plenty of talent working on some awesome games. We host two game jams each semester, and some members go above and beyond, working on side projects alone or in teams. This is a place to showcase some of their work."]},
+			{"title": "Events", "content": ["Typically our club hosts 5 events each semester: 2 Game Jams, a public outreach event, our showcase, and a speaker event. Sometimes we host unofficial events or joint events. This page will tell you when and where events are happening."]},
 			{"title": "Members", "content": []},
 			{"title": "Prize Catalog", "content": ["When members win a prize in a Game Jam, we recommend our catalog of options to them. The prizes are organized by price, and may or may not be available at a given time. If you are a member who won a prize and want something not on this list, feel free to contact the e-board to work something out. Prizes are as flexible as we can make them."]}
 		];

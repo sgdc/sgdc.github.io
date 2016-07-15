@@ -133,6 +133,18 @@ body {
 	width: 50%;
 }
 
+.member-table.events {
+	width: 60%;
+}
+
+.member-table.events tr {
+	height: 2em;
+}
+
+.member-table.events td{
+	min-width: 33%;
+}
+
 .member-table.catalog img {
 	width: 5em !important;
 }
@@ -147,7 +159,7 @@ body {
 	height: 18vw;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 650px) {
 	/* phones */
 	.game {
 		float: none;
@@ -228,6 +240,15 @@ body {
 
 	.member-table.catalog td.link {
 		width: auto !important;
+	}
+
+	.member-table.events {
+		width: 98%;
+	}
+
+	.member-table.events td {
+		font-size: 12px;
+		width: 33% !important;
 	}
 
 	.videoWrapper iframe {
