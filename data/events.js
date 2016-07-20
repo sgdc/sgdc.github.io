@@ -10,10 +10,20 @@ function getEvents() {
 			{"name": "Spring Showcase 2016", "time": "4/29/16", "location": "Jacobus Lounge"},
 		],
 		"present": [
+			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
+			//don't worry if this is empty, the table will hide itself until it is populated
 			{"name": "Summer Jam III", "time": "6/1/16 - 8/19/16", "location": "N/A", "link": "https://itch.io/jam/sgdc-sj3"},	
-		]
+		],
+		"upcoming": [
+			//{"name": "Game Jam IX", "time": "TBD", "location": "Lieb 318"},
+		],
 	};
+
+	//place new events in upcoming, then move them to present in the week beforeish of the event until it is done
+	//then move it to the end of past
+
 	eventList.past.reverse();
 	eventList.present.reverse();
+	eventList.upcoming.reverse();
 	return eventList;
 }
