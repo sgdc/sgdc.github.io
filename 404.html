@@ -5,8 +5,8 @@ permalink: /404.html
 <!doctype html>
 <html>
 	<head>
-	<script src="./data/page.js"></script>
-	<script src="./data/redirects.js"></script>
+	<script src="/data/page.js"></script>
+	<script src="/data/redirects.js"></script>
 	<script>
 	window.onload = function () {
 		var isRedirect = false;
@@ -32,7 +32,6 @@ permalink: /404.html
 			hash = "404";
 
 		var newLocation = "http://sgdc.ml/#" + hash;
-		console.log("Redirecting...");
 		window.location = newLocation;
 	}
 	</script>
