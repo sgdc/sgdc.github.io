@@ -39,7 +39,7 @@ app.controller('PageController', function() {
 			this.notFound = false;
 			for(var i = 0; i < this.navMembers.length; i++) {
 				if (v == i) {
-					window.location.hash = this.navMembers[i].display.toLowerCase();
+					window.location.hash = this.navMembers[i].toLowerCase();
 				}
 			}
 		}
