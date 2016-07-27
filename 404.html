@@ -9,30 +9,37 @@ permalink: /404.html
 	<script src="/data/redirects.js"></script>
 	<script>
 	window.onload = function () {
+		var isNavbar = false;
 		var isRedirect = false;
+		var redirectLink = "";
 		var s = window.location.href;
 		var hash = s.substring(s.lastIndexOf('/') + 1, s.length).toLowerCase();
 
-		var navbarMembers = getNavbarMembers();
-		for(var i = 0; i < navbarMembers.length; i++) {
-			if (hash === navbarMembers[i].toLowerCase()) {
+		var redirects = getRedirects();
+		for(var i = 0; i < redirects.length; i++) {
+			if (hash === redirects[i].name) {
 				isRedirect = true;
+				redirectLink = redirects[i].link;
 			}
 		}
 
-		if (!isRedirect) {
-			var redirects = getRedirects();
-			for(var i = 0; i < redirects.length; i++) {
-				if (hash === redirects[i].name) {
-					isRedirect = true;
+		if (isRedirect) {
+			window.location = redirectLink;
+		}
+		else {
+			var navbarMembers = getNavbarMembers();
+			for(var i = 0; i < navbarMembers.length; i++) {
+				if (hash === navbarMembers[i].toLowerCase()) {
+					isNavbar = true;
 				}
 			}
-		}
-		if (!isRedirect)
-			hash = "404";
 
-		var newLocation = "http://sgdc.ml/#" + hash;
-		window.location = newLocation;
+			if (!isNavbar)
+				hash = "404";
+
+			var newLocation = "http://sgdc.ml/#" + hash;
+			window.location = newLocation;
+		}
 	}
 	</script>
 	</head>
