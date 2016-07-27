@@ -1,10 +1,15 @@
 <!-- Main component for a primary marketing message or call to action -->
 <div class="jumbotron jumbotron-custom" style="text-align: center;">
 
+
+
 	<article ng-show="pgCtrl.valueIs(0)" > <!-- Home and Blog -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
 		<br/>
+
+		<p ng-show="pgCtrl.notFound"><i>Sorry, we couldn't find that page. You have been redirected to the homepage.</i></p>
+
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
 
 		<!-- Featured Youtube video -->

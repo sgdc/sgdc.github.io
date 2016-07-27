@@ -3,7 +3,7 @@
     <div style="width: 100%;">
       <div id="logo-wrapper" style="width: 500px; margin-left: auto; margin-right: auto;">
         <a href="http://sgdc.ml">
-        <img src="./images/logo.png" id="logo" style="height: 151px; width: auto; display: block; margin: 0 auto; padding-top: 10px; padding-bottom: 20px;" />
+        <img src="./images/logo.png" id="logo" />
         </a>
       </div>
     </div>
@@ -22,7 +22,7 @@
           <ul class="nav navbar-nav"> <!-- first, all normal navbar options -->
             <li ng-repeat="member in pgCtrl.navMembers track by $index" 
                 ng-class="{'active': pgCtrl.value == $index}">
-                <a href="" ng-click="pgCtrl.setValue($index);"><strong>{{member.display}}</strong></a>
+                <a href="" ng-click="pgCtrl.setValue($index);"><strong>{{member}}</strong></a>
             </li> 
             <!-- next, if anyone changes dropdownMembers in page.js -->
             <li class="dropdown" ng-show="pgCtrl.dropdownMembers.length">

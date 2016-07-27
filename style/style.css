@@ -25,6 +25,15 @@ body {
 	margin-bottom: 18px;
 }
 
+#logo {
+	height: 151px; 
+	width: auto; 
+	display: block; 
+	margin: 0 auto; 
+	padding-top: 10px; 
+	padding-bottom: 20px;
+}
+
 .navbar-custom {
 	background-image: none;
 	background-color: rgba(255, 255, 255, 0) !important;

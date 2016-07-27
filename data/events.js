@@ -15,7 +15,9 @@ function getEvents() {
 			{"name": "Summer Jam III", "time": "6/1/16 - 8/19/16", "location": "N/A", "link": "https://itch.io/jam/sgdc-sj3"},	
 		],
 		"upcoming": [
+			{"name": "Learn Jam 2016", "time": "TBD", "location": "TBD", "link": "events/template"},
 			//{"name": "Game Jam IX", "time": "TBD", "location": "Lieb 318"},
+			
 		],
 	};
 

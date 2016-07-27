@@ -5,6 +5,7 @@ app.controller('PageController', function() {
 	this.value = 0;
 	this.redirects = getRedirects();
 	this.pageContents = getPageContents();
+	this.notFound = false;
 
 	this.checkPage = function () {
 		//called on page load
@@ -13,10 +14,12 @@ app.controller('PageController', function() {
 		var pieces = url.split("#");
 		//check for #tabName, automatically jump there
 		for (var i = 0; pieces.length > 1 && i < this.navMembers.length; i++) {
-			if(pieces[1].toLowerCase() == this.navMembers[i].display.toLowerCase()) {
+			if(pieces[1].toLowerCase() == this.navMembers[i].toLowerCase()) {
 				this.value = i;
-				window.location.hash = this.navMembers[i].display.toLowerCase();
+				window.location.hash = this.navMembers[i].toLowerCase();
 			}
+			if(pieces[1].startsWith('404'))
+				this.notFound = true;
 		}
 
 		//check for redirects, defined in page.js
@@ -33,6 +36,7 @@ app.controller('PageController', function() {
 		if (this.value != v)
 		{
 			this.value = v;
+			this.notFound = false;
 			for(var i = 0; i < this.navMembers.length; i++) {
 				if (v == i) {
 					window.location.hash = this.navMembers[i].display.toLowerCase();
@@ -51,7 +55,6 @@ app.controller('PageController', function() {
 	this.socialMediaLinks = getSocialMediaLinks();
 	//games page data
 	this.games = getGames();
-	this.jams = getJams();
 	//members page data
 	this.members = getMembers();
 

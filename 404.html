@@ -1,0 +1,39 @@
+---
+permalink: /404.html
+---
+
+<!doctype html>
+<html>
+	<head>
+	<script src="./data/page.js"></script>
+	<script src="./data/redirects.js"></script>
+	<script>
+	window.onload = function () {
+		var isRedirect = false;
+		var s = window.location.href;
+		var hash = s.substring(s.lastIndexOf('/') + 1, s.length).toLowerCase();
+
+		var navbarMembers = getNavbarMembers();
+		for(var i = 0; i < navbarMembers.length; i++) {
+			if (hash === navbarMembers[i].toLowerCase) {
+				isRedirect = true;
+			}
+		}
+
+		if (!isRedirect) {
+			var redirects = getRedirects();
+			for(var i = 0; i < redirects.length; i++) {
+				if (hash === redirects[i].name) {
+					isRedirect = true;
+				}
+			}
+		}
+		if (!isRedirect)
+			hash = "404";
+
+		var newLocation = "http://sgdc.ml/#" + hash;
+		window.location = newLocation;
+	}
+	</script>
+	</head>
+</html>
