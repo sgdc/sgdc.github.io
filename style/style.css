@@ -143,15 +143,27 @@ body {
 }
 
 .member-table.events {
-	width: 60%;
+	width: 70%;
 }
 
 .member-table.events tr {
 	height: 2em;
+	border-bottom: 0.5px rgba(0, 0, 0, 0.1) solid;
 }
 
 .member-table.events td{
 	min-width: 33%;
+	padding: 10px;
+	line-height: 16px;
+}
+
+.member-table.events td div {
+	margin: 0px;
+	padding: 0px;
+}
+
+.member-table.events td div i {
+	font-size: 10px;
 }
 
 .member-table.catalog img {

@@ -12,6 +12,19 @@ function getRedirects()
 		{name: "lj16", link: "http://sgdc.ml/events/learnjam"},
 		{name: "learnjam", link: "http://sgdc.ml/events/learnjam"},
 
-		//tbd...
+		//social media redirects
+		{name: "facebook", link: "https://www.facebook.com/groups/433857053307661/"},
+		{name: "twitter", link: "https://twitter.com/stevensgdc"},
+		{name: "youtube", link: "https://www.youtube.com/channel/UCLN2t6B7Sq7GVK6IqBG6cXg"},
+		{name: "github", link: "https://github.com/sgdc"},
+		{name: "itch", link: "https://sgdc.itch.io"},
+		{name: "itchio", link: "https://sgdc.itch.io"},
+		{name: "slack", link: "http://sgdclub.slack.com"},
+
+		//game specific redirects...
+		//
+
+		//other...
+
 	];
 }
