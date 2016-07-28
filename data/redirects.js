@@ -8,9 +8,9 @@ function getRedirects()
 		{name: "sj3", link: "http://itch.io/jam/sgdc-sj3"},
 
 		//learn jam 16
-		{name: "lj", link: "http://sgdc.ml/event/learnjam"},
-		{name: "lj16", link: "http://sgdc.ml/event/learnjam"},
-		{name: "learnjam", link: "http://sgdc.ml/event/learnjam"},
+		{name: "lj", link: "http://sgdc.ml/events/learnjam"},
+		{name: "lj16", link: "http://sgdc.ml/events/learnjam"},
+		{name: "learnjam", link: "http://sgdc.ml/events/learnjam"},
 
 		//tbd...
 	];
