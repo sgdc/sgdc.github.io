@@ -94,8 +94,8 @@ function getEvents() {
 			{name: "Summer Jam III", time: "6/1/16 - 8/19/16", location: "N/A", link: "https://itch.io/jam/sgdc-sj3", theme: "Season"},	
 		],
 		upcoming: [
-			{name: "Learn Jam 2016", time: "TBD", location: "TBD", link: "events/learnjam"},
-			//{name: "Game Jam IX", time: "TBD", location: "Lieb 318"},
+			{name: "Learn Jam 2016", time: "9/10/16", location: "Peirce 116", link: "events/learnjam"},
+			{name: "Game Jam IX", time: "9/23/16 - 9/25/16", location: "Lieb 318", theme: "TBD"},
 			
 		],
 	};
@@ -105,6 +105,6 @@ function getEvents() {
 
 	eventList.past.reverse();
 	eventList.present.reverse();
-	eventList.upcoming.reverse();
+	//eventList.upcoming.reverse();
 	return eventList;
 }
