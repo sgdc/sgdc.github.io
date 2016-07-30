@@ -27,6 +27,7 @@ function getRedirects()
 		//
 
 		//other...
+		{name: "history", link: "https://docs.google.com/document/d/1AZXTElflEoeN5jxgLK3nEjello8zRV9_afkmz5CQm5Y/"},
 
 	];
 }
