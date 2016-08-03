@@ -1,5 +1,5 @@
 // A list of all events to be displayed in the events tab. Links are optional.
-// So as to not have to enter events at the top, I reverse the array.
+// So as to not have to enter past events at the top, I reverse the past array.
 
 //when entering upcoming events, place newer ones at the bottom of the upcoming list
 //as they become relevant, move them to present
@@ -104,7 +104,7 @@ function getEvents() {
 	//then move it to the end of past
 
 	eventList.past.reverse();
-	eventList.present.reverse();
+	//eventList.present.reverse();
 	//eventList.upcoming.reverse();
 	return eventList;
 }
