@@ -7,6 +7,9 @@ app.controller('PageController', function() {
 	this.pageContents = getPageContents();
 	this.notFound = false;
 
+	this.eAddress = "sgdc_stevens.edu";
+	this.eAddress = this.eAddress.replace("_", "@"); //paranoia
+
 	this.checkPage = function () {
 		//called on page load
 		var url = window.location.href;
