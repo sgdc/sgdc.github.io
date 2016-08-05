@@ -28,6 +28,8 @@ function getRedirects()
 
 		//other...
 		{name: "history", link: "https://docs.google.com/document/d/1AZXTElflEoeN5jxgLK3nEjello8zRV9_afkmz5CQm5Y/"},
+		{name: "mail", link: "https://lists.stevens.edu/mailman/listinfo/sgdc"},
+		{name: "mailadmin", link: "https://lists.stevens.edu/mailman/admin/sgdc"},
 
 	];
 }
