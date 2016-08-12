@@ -23,6 +23,11 @@ function getRedirects()
 		{name: "drive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 		{name: "googledrive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 
+		//ducksync redirects
+		{name: "ducksync", link: "https://orgsync.com/48081/chapter"},
+		{name: "addgame", link: "https://orgsync.com/48081/forms/157281/"},
+		{name: "addmember", link: "https://orgsync.com/48081/forms/157277/"},
+		
 		//game specific redirects...
 		//
 
