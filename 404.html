@@ -43,7 +43,7 @@ permalink: /404.html
 					var newLocation = "http://sgdc.ml/#" + hash;
 					window.location = newLocation;
 				} else { //if /redirects, display all redirects on page
-					var allRedirects = "<h1>SGDC Website Redirects</h1><br />";
+					var allRedirects = "<h1>SGDC Website Redirects</h1>";
 					for (var i = 0; i < redirects.length; i++) {
 						allRedirects += "/" + redirects[i].name;
 						allRedirects += ": <a href=\"" + redirects[i].link + "\">" + redirects[i].link + "</a><br /><br />";
