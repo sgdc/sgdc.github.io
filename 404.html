@@ -36,11 +36,20 @@ permalink: /404.html
 					}
 				}
 
-				if (!isNavbar)
+				if (!isNavbar && hash != "redirects")
 					hash = "404";
-
-				var newLocation = "http://sgdc.ml/#" + hash;
-				window.location = newLocation;
+				
+				if (hash != "redirects") {
+					var newLocation = "http://sgdc.ml/#" + hash;
+					window.location = newLocation;
+				} else {
+					var allRedirects = "";
+					for (var i = 0; i < redirects.length; i++) {
+						allRedirects += "/" + redirects[i].name;
+						allRedirects += ": <a href=\"" + redirects[i].link + "\">" + redirects[i].link + "</a>\n";
+					}
+					document.body.innerHTML = allRedirects;
+				}
 			}
 		} catch (e) {
 			window.location = "http://sgdc.ml/#404";
