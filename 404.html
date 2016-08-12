@@ -46,7 +46,7 @@ permalink: /404.html
 					var allRedirects = "";
 					for (var i = 0; i < redirects.length; i++) {
 						allRedirects += "/" + redirects[i].name;
-						allRedirects += ": <a href=\"" + redirects[i].link + "\">" + redirects[i].link + "</a>\n";
+						allRedirects += ": <a href=\"" + redirects[i].link + "\">" + redirects[i].link + "</a><br />";
 					}
 					document.body.innerHTML = allRedirects;
 				}
