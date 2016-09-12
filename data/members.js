@@ -29,7 +29,8 @@ function getMembers() {
 		],
 		alumni: [
 			{name: "Andrew Grapsas", year: "20--"},
-			{name: "Willy Abeel", year: "20--", link: "http://willy-world.net/"},
+			{name: "Willy Abeel", year: "2011", link: "http://willy-world.net/"},
+			{name: "Dan Katz", year: "2011"},
 			{name: "Kenny Goff", year: "20--"},
 			{name: "Greg McLeod", year: "2012", link: "http://www.greg-mcleod.com/"},
 			{name: "Jack Kelly", year: "2013"},
