@@ -61,7 +61,7 @@ function getEvents() {
 			{name: "Game Jam III", time: "2/13/15 - 2/16/15", location: "Lieb 318", theme: "Global"},
 			{name: "Games++ 2015", time: "3/4/15", location: "MPK", link: "http://www.gamesplusplus.org/"},
 			{name: "Learn Jam II", time: "3/7/15", location: "BC122"},
-			{name: "Doug Lombardi Q&A 2015", time: "3/24/15", location: "Lieb 318"},
+			{name: "Doug Lombardi Q&A 2015", time: "3/24/15", location: "Lieb 318", link: "https://www.youtube.com/watch?v=eP2xvPkat3M"},
 			{name: "Let's Make a Game 1", time: "4/4/15", location: "BC122"},
 			{name: "Game Jam IV", time: "4/10/15 - 4/17/15", location: "Lieb 318", theme: "Discrete"},
 			{name: "Spring Showcase 2015", time: "4/24/15", location: "Hayden Lounge"},
@@ -84,20 +84,20 @@ function getEvents() {
 			{name: "Game Jam VIII", time: "4/8/16 - 4/15/16", location: "Lieb 318", link: "https://itch.io/jam/sgdc-gj8", theme: "Infinity"},
 			{name: "Spring Showcase 2016", time: "4/29/16", location: "Jacobus Lounge"},
 
-	      		//Summer '16
-
-                        {name: "Summer Jam III", time: "6/1/16 - 8/19/16", location: "N/A", link: "https://itch.io/jam/sgdc-sj3", theme: "Season"},	
+	      	//Summer '16
+            {name: "Summer Jam III", time: "6/1/16 - 8/19/16", location: "N/A", link: "https://itch.io/jam/sgdc-sj3", theme: "Season"},	
 
 			//Fall '16
+			{name: "Learn Jam 2016", time: "9/11/16", location: "Peirce 116", link: "events/learnjam"},
+			
 		],
 		present: [
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
+			{name: "Game Jam IX", time: "9/23/16 - 9/25/16", location: "Lieb 318", theme: "TBD"},
 	
 		],
 		upcoming: [
-			{name: "Learn Jam 2016", time: "9/11/16", location: "Peirce 116", link: "events/learnjam"},
-			{name: "Game Jam IX", time: "9/23/16 - 9/25/16", location: "Lieb 318", theme: "TBD"},
 			
 		],
 	};

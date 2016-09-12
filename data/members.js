@@ -28,8 +28,12 @@ function getMembers() {
 			{name: "Robyn Verrill", year: "3/4", active: true},
 		],
 		alumni: [
+			{name: "Andrew Grapsas", year: "20--"},
+			{name: "Willy Abeel", year: "20--", link: "http://willy-world.net/"},
+			{name: "Kenny Goff", year: "20--"},
 			{name: "Greg McLeod", year: "2012", link: "http://www.greg-mcleod.com/"},
 			{name: "Jack Kelly", year: "2013"},
+			{name: "Vinnie Simonetti", year: "2014"},
 			{name: "Frank Dicola", year: "2015", link: "http://yoshgunn.com"},
 			{name: "Kevin Quigley", year: "2016", link: "http://www.hydegriffen.com"},
 		]
