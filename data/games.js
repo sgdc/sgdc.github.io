@@ -10,6 +10,31 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
+			//Game Jam IX
+			{
+				title: "Pakij",
+				time: "Game Jam IX (1st)",
+				thumbnail: "./images/games/pakij.png",
+				description: "A procedurally generated escape simulator. Play as a rejected cardboard box trying to survive.",
+				//links: [{"text": "", "link": ""}],
+				devs: ["James Romph", "Alex Massenzio", "Ben Blease"],
+			},
+			{
+				title: "Tracks",
+				time: "Game Jam IX (2nd)",
+				thumbnail: "./images/games/tracks.png",
+				description: "An on-rails experience -- Candice is a new conductor, helping with shipments from Products Inc. Will she run into any trouble along the way, and will philosophy degree help her?",
+				links: [{"text": "Download (Windows)", "link": "https://waveparadigm.itch.io/tracks"}],
+				devs: ["Adam Gincel", "Ari Fiekowsky"]
+			},
+			{
+				title: "Keep Rolling Rolling Rolling Rolling (yeah)",
+				time: "Game Jam IX (3rd)",
+				thumbnail: "./images/games/keeprolling.png",
+				description: "A competitive, skill-based dice game for up to four players. Roll dice to get your ball to the center before anyone else can. Roll one normal die and one modifier die that has strange consequences. At any time during your turn you can 'Change the Game' and change which bonus dice can be rolled. By changing the game, you can Control the Quality of game play and possibly gain an edge over your opponents.",
+				links: [{"text": "Download", "link": "https://ian-allemand.itch.io/keep-rolling-rolling-rolling-rolling-yeah"}],
+				devs: ["Ian Allemand"]
+			},
 			//Game Jam VIII
 			{
 				title: "Eight Seconds",
