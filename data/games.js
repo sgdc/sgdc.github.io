@@ -30,7 +30,7 @@ function getGames()
 			{
 				title: "Keep Rolling Rolling Rolling Rolling (yeah)",
 				time: "Game Jam IX (3rd)",
-				thumbnail: "./images/games/keeprolling.png",
+				thumbnail: "./images/games/keeprolling.jpg",
 				description: "A competitive, skill-based dice game for up to four players. Roll dice to get your ball to the center before anyone else can. Roll one normal die and one modifier die that has strange consequences. At any time during your turn you can 'Change the Game' and change which bonus dice can be rolled. By changing the game, you can Control the Quality of game play and possibly gain an edge over your opponents.",
 				links: [{"text": "Download", "link": "https://ian-allemand.itch.io/keep-rolling-rolling-rolling-rolling-yeah"}],
 				devs: ["Ian Allemand"]
