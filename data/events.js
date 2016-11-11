@@ -90,6 +90,7 @@ function getEvents() {
 			//Fall '16
 			{name: "Learn Jam 2016", time: "9/11/16", location: "Peirce 116", link: "events/learnjam"},
 			{name: "Game Jam IX", time: "9/23/16 - 9/25/16", location: "Lieb 120", theme: "Quality Control", link: "https://itch.io/jam/sgdc-gj9"},
+			{name: "Q&A With Omar Shakir", time: "11/9/16", location: "Skyline Room"},
 			
 		],
 		present: [
@@ -98,8 +99,7 @@ function getEvents() {
 	
 		],
 		upcoming: [
-			{name: "Guest Speaker Event", time: "11/9/16", location: "Fielding Room"},
-			{name: "Game Jam X", time: "11/11/16 - 11/18/16", location: "Lieb 120", theme: "TBD"}
+			{name: "Game Jam X", time: "11/11/16 - 11/18/16", location: "Lieb 120", theme: "TBD", link: "http://itch.io/jam/sgdc-gj10"}
 		],
 	};
 
