@@ -99,7 +99,7 @@ function getEvents() {
 	
 		],
 		upcoming: [
-			{name: "Game Jam X", time: "11/11/16 - 11/18/16", location: "Lieb 120", theme: "TBD", link: "http://itch.io/jam/sgdc-gj10"}
+			{name: "Game Jam X", time: "11/11/16 - 11/18/16", location: "Lieb 120", theme: "Spinoff", link: "http://itch.io/jam/sgdc-gj10"}
 		],
 	};
 
