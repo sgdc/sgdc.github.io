@@ -23,6 +23,7 @@ function getRedirects()
 		{name: "itch", link: "https://sgdc.itch.io"},
 		{name: "itchio", link: "https://sgdc.itch.io"},
 		{name: "slack", link: "http://sgdclub.slack.com"},
+		{name: "discord", link: "https://discord.gg/hbsXC9f"},
 		{name: "drive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 		{name: "googledrive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 
