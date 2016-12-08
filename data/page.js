@@ -9,7 +9,7 @@ function getSocialMediaLinks()
 		{src: "./images/itchio.png", link: "https://sgdc.itch.io"},
 		{src: "./images/github.png", link: "https://github.com/sgdc"},
 		{src: "./images/youtube.png", link: "https://www.youtube.com/channel/UCLN2t6B7Sq7GVK6IqBG6cXg"},
-		{src: "./images/slack.png", link: "http://sgdclub.slack.com"},
+		{src: "./images/discord.png", link: "http://sgdc.ml/discord"},
 		{src: "./images/googledrive.png", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 	];
 }
