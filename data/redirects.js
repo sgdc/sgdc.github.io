@@ -9,6 +9,7 @@ function getRedirects()
 		{name: "sj3", link: "http://itch.io/jam/sgdc-sj3"},
 		{name: "gj9", link: "http://itch.io/jam/sgdc-gj9"},
 		{name: "gj10", link: "http://itch.io/jam/sgdc-gj10"},
+		{name: "wj", link: "https://itch.io/jam/sgdc-wj1"},
 
 		//learn jam 16
 		{name: "lj", link: "http://sgdc.ml/events/learnjam"},
