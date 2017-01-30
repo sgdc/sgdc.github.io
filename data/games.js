@@ -10,6 +10,72 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
+			//Winter Jam I
+			{
+				title: "Pause",
+				time: "Winter Jam I (1st)",
+				thumbnail: "./images/games/pause.png",
+				description: "A 2D Physics Puzzle game that allows players to freeze the world around them as they guide a single ever-moving piece to a goal.",
+				links: [{"text": "Download", "link": "https://waveparadigm.itch.io/pause"}, {text: "Play Online", link: "http://adamgincel.com/pause"}],
+				devs: ["Adam Gincel"]
+			},
+			{
+				title: "Skyland!",
+				time: "Winter Jam I (2nd)",
+				thumbnail: "./images/games/skyland.png",
+				description: "Expert adventurers are welcomed warmly to Skyland - a floating island paradise full of beautiful sights and adrenaline-pumping excursions. Travelnet's newest offering seeks to attract the best adventurers and thrillseekers to tackle the greatest challenge devised - the Island Gauntlet.",
+				links: [{"text": "Download", "link": "https://tehpilot.itch.io/skyland"}],
+				devs: ["James Romph"]
+			},
+			{
+				title: "You Stop That!",
+				time: "Winter Jam I (3rd)",
+				thumbnail: "./images/games/youstopthat.png",
+				description: "A hack-n-slash with a tycoon feel!",
+				links: [{"text": "Download", "link": "https://jakeop4444.itch.io/you-stop-that"}],
+				devs: ["Jake Lovrin", "Katie Bryant"]
+			},
+			{
+				title: "SQUR",
+				time: "Winter Jam I",
+				thumbnail: "./images/games/squr.png",
+				description: "Try to get to the end of the level in the least number of A presses, but watch out for obstacles!",
+				links: [{"text": "Download", "link": "https://ian-allemand.itch.io/squr"}],
+				devs: ["Ian Allemand"]
+			},
+			{
+				title: "Quipe",
+				time: "Winter Jam I",
+				thumbnail: "./images/games/quipe.png",
+				description: "Please swipe in at the front of the room. Quipe turns swiping events into a Pachinko game that stores scores over time!",
+				links: [{"text": "Download", "link": "https://waveparadigm.itch.io/quipe"}],
+				devs: ["Adam Gincel", "Alex Massenzio", "Matt Lagarenne"]
+			},
+			//Game Jam X
+			{
+				title: "Tangent",
+				time: "Game Jam X (1st)",
+				thumbnail: "./images/games/tangent.png",
+				description: "Release a ball from spinner to spinner as you navigate varied levels and reach the goal.",
+				links: [{"text": "Download", "link": "https://alexmassenzio.itch.io/tangent"}],
+				devs: ["Alex Massenzio"]
+			},
+			{
+				title: "Smesh",
+				time: "Game Jam X (2nd)",
+				thumbnail: "./images/games/smesh.png",
+				description: "A smash spinoff built in Python/Pygame/Flask/SocketIO/Redis with Phones as controllers over Websockets!",
+				links: [{"text": "More Information", "link": "https://reheatedcake.itch.io/smesh"}],
+				devs: ["Isaac Hirschfeld", "Katie Bryant", "Nick Ciulla", "Brad Tylutki", "PJ LoBello", "Noah Goldstein"]
+			},
+			{
+				title: "Krey-Blade",
+				time: "Game Jam X",
+				thumbnail: "./images/games/kreyblade.png",
+				description: "Beyblade 'Spin'-off. ;)",
+				links: [{"text": "Download", "link": "https://jakeop4444.itch.io/krey-blade"}],
+				devs: ["Jake Lovrin", "Katie Bryant"]
+			},
 			//Game Jam IX
 			{
 				title: "Pakij",
