@@ -4,7 +4,8 @@ function getMembers() {
 			{name: "Adam Gincel", title: "President", year: "3/4", link: "http://adamgincel.com"},
 			{name: "Alex Massenzio", title: "Vice President", year: "3/4"},
 			{name: "James Romph", title: "Treasurer", year: "3/4", link: "http://tehpilot.com"},
-			{name: "David Sternik", title: "Secretary", year: "2/4"}
+			{name: "Taber McFarlin", title: "Secretary", year: "2/4"},
+			
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
@@ -25,12 +26,12 @@ function getMembers() {
 			{name: "Richard Kopelow", year: "3/5", active: true},
 			{name: "Jack Kraszewski", year: "2/4", active: true},
 			{name: "Jake Lovrin", year: "1/4", active: true},
-			{name: "Taber McFarlin", year: "2/4", active: true},
 			{name: "Jeff Meli", year: "3/4", active: true},
 			{name: "Cyrus Merchant", year: "1/4", active: true},
 			{name: "Will Mosca", year: "3/4", active: false},
 			{name: "Caleb Obeng", year: "1/4", active: true},
-			{name: "Ryan O'Shea", year: "1/4", active: false},	
+			{name: "Ryan O'Shea", year: "1/4", active: false},
+			{name: "David Sternik", year: "2/4", active: false},
 			{name: "Josh Phillips", year: "4/5", active: false},
 			{name: "Albert Tang", year: "2/4", active: true},
 			{name: "Robyn Verrill", year: "3/4", active: true},
