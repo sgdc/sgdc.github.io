@@ -99,11 +99,11 @@ function getEvents() {
 		present: [
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
-			
+			{name: "Game Developers' Tournament Series", time: "3/25/17", location: "P116 & P120"},
 	
 		],
 		upcoming: [
-			{name: "Game Developers' Tournament Series", time: "TBD", location: "BC122"},
+			{name: "Game Jam XII", time: "4/11/17 - 4/21/17", location: "Lieb 120"},
 		],
 	};
 
