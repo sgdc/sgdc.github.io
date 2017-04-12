@@ -2,9 +2,9 @@ function getMembers() {
 	return {
 		eboard: [
 			{name: "Adam Gincel", title: "President", year: "3/4", link: "http://adamgincel.com"},
-			{name: "Alex Massenzio", title: "Vice President", year: "3/4"},
-			{name: "James Romph", title: "Treasurer", year: "3/4", link: "http://tehpilot.com"},
-			{name: "Taber McFarlin", title: "Secretary", year: "2/4"},
+			{name: "James Romph", title: "Vice President", year: "3/4", link: "http://tehpilot.com"},
+			{name: "Taber McFarlin", title: "Treasurer", year: "2/4"},
+			{name: "Jake Lovrin", title: "Secretary", year: "1/4"},
 			
 		],
 		minorboard: [
