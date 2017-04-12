@@ -100,7 +100,7 @@ function getEvents() {
 		present: [
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
-			{name: "Game Jam XII", time: "4/11/17 - 4/21/17", location: "Lieb 120", theme: "TBD", link: "http://sgdc.ml/gj"},
+			{name: "Game Jam XII", time: "4/11/17 - 4/21/17", location: "Lieb 120", theme: "Deja Vu", link: "http://sgdc.ml/gj"},
 	
 		],
 		upcoming: [
