@@ -12,6 +12,7 @@ function getRedirects()
 		{name: "wj", link: "https://itch.io/jam/sgdc-wj1"},
 		{name: "gj11", link: "https://itch.io/jam/sgdc-gj11"},
 		{name: "gj12", link: "https://itch.io/jam/sgdc-gj12"},
+		{name: "sj4", link: "https://docs.google.com/forms/d/e/1FAIpQLSeaKVznFMt9EX0-n5K92b-dY12M-DPROmXPPDQU_nZku9fdGQ/viewform"},
 
 		//learn jam 16
 		{name: "lj", link: "http://sgdc.ml/events/learnjam"},
