@@ -14,7 +14,7 @@ function getGames()
 			{
 				title: "Victor's Journey 2: Numpy's Quest",
 				time: "Game Jam XII (1st)",
-				thumbnail: "./images/games/victor2.png",
+				thumbnail: "./images/games/victor2numpy.png",
 				description: "Throw space koalas while bending time and space.",
 				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/victors-journey-2-numpys-quest"}],
 				devs: ["Chris Kuras", "Christian Bowense"]
@@ -22,7 +22,7 @@ function getGames()
 			{
 				title: "Forget Me By Morning",
 				time: "Game Jam XII (2nd)",
-				thumbnail: "./images/games/forgetmebymorning.png",
+				thumbnail: "./images/games/forget.png",
 				description: "You remember the place, but not what's there...",
 				links: [{"text": "Itch.io Page", "link": "https://rayu.itch.io/forget-me-by-morning"}],
 				devs: ["Nick Ciulla", "Jamie Shamilian", "Katie Bryant"]
