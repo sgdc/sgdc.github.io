@@ -10,6 +10,104 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
+			//Game Jam 12
+			{
+				title: "Victor's Journey 2: Numpy's Quest",
+				time: "Game Jam XII (1st)",
+				thumbnail: "./images/games/victor2.png",
+				description: "Throw space koalas while bending time and space.",
+				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/victors-journey-2-numpys-quest"}],
+				devs: ["Chris Kuras", "Christian Bowense"]
+			},
+			{
+				title: "Forget Me By Morning",
+				time: "Game Jam XII (2nd)",
+				thumbnail: "./images/games/forgetmebymorning.png",
+				description: "You remember the place, but not what's there...",
+				links: [{"text": "Itch.io Page", "link": "https://rayu.itch.io/forget-me-by-morning"}],
+				devs: ["Nick Ciulla", "Jamie Shamilian", "Katie Bryant"]
+			},
+			{
+				title: "The Adventures of Bean",
+				time: "Game Jam XII (3rd)",
+				thumbnail: "./images/games/taob.png",
+				description: "Princess Bean, from the Kingdom of Guardia, made it out of her last game into a brand new, more enjoyable top-down RPG experience.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/the-adventures-of-bean"}],
+				devs: ["Adam Gincel", "Ari Fiekowsky"]
+			},
+			{
+				title: "Ecar Vu",
+				time: "Game Jam XII",
+				thumbnail: "./images/games/ecarvu.png",
+				description: "Reach the finish line first to win! Sounds easy? You won't think so when your opponent can invert your controls. Good luck, racers!",
+				links: [{"text": "Itch.io Page", "link": "https://sdelore1.itch.io/ecar-vu"}],
+				devs: ["Sam DeLorenzo", "Caleb Obeng"]
+			},
+			{
+				title: "Create",
+				time: "Game Jam XII",
+				thumbnail: "./images/games/create.png",
+				description: "Create Things! Explore Things! Automate Things! ---  Hours of Gameplay! --- Rewind Time! Generate Electricity! Farm Plants!",
+				links: [{"text": "Play Online", "link": "https://meshiest.github.io/create"}],
+				devs: ["Isaac Hirschfeld"]
+			},
+			{
+				title: "Bbaacckkffiirree",
+				time: "Game Jam XII",
+				thumbnail: "./images/games/backfire2.png",
+				description: "An improvement on the original Backfire. New enemies new bullets, and new changes to almost every aspect of the game!",
+				links: [{"text": "Itch.io Page", "link": "https://ian-allemand.itch.io/bbaacckkffiirree"}],
+				devs: ["Ian Allemand"]
+			},
+			{
+				title: "DriftSimulator2000",
+				time: "Game Jam XII",
+				thumbnail: "./images/games/dejavu.png",
+				description: "Simulate your racing prowess using this advanced racing sim.",
+				links: [{"text": "Play Online", "link": "https://halfbro.itch.io/dejavu"}],
+				devs: ["Matt Lagarenne"]
+			},
+			//Game Jam 11
+			{
+				title: "Branch",
+				time: "Game Jam XI (1st)",
+				thumbnail: "./images/games/branch.png",
+				description: "Branch is an online multiplayer battle simulator, where commanders pit their recruits against each other. As the battle rages on, commanders can use Inversion Points (IP) to evolve their recruits and unlock special abilities.",
+				links: [{"text": "Play Online!", "link": "https://www.branchgame.tk/"}],
+				devs: ["Isaac Hirschfeld", "Jake Lovrin", "Noah Goldstein", "Katie Bryant", "David Sevilla"]
+			},
+			{
+				title: "Victor's Journey",
+				time: "Game Jam XI (2nd)",
+				thumbnail: "./images/games/victor.png",
+				description: "2D Platformer with dynamic collision, gravity, and environment.",
+				links: [{"text": "Itch.io Page", "link": "https://kurisu-squared.itch.io/victors-journey"}],
+				devs: ["Chris Kuras", "Christian Bowense"]
+			},
+			{
+				title: "Shut Up and Talk!",
+				time: "Game Jam XI (3rd)",
+				thumbnail: "./images/games/shutupandtalk.png",
+				description: "An inverted typing game -- type accurate mad libs on the fly or suffer the consequences of not having studied!",
+				links: [{"text": "Itch.io Page", "link": "https://andrewbarry1.itch.io/shut-up-and-talk"}],
+				devs: ["Andrew Barry"]
+			},
+			{
+				title: "Project Mosh",
+				time: "Game Jam XI",
+				thumbnail: "./images/games/projectmosh.gif",
+				description: "Weave around data in this endless runner. Winner of Best Visual Design!",
+				links: [{"text": "Itch.io Page", "link": "https://noisemaster.itch.io/project-mosh"}],
+				devs: ["Christian Harrypersad"]
+			},
+			{
+				title: "Flip",
+				time: "Game Jam XI",
+				thumbnail: "./images/games/flip.png",
+				description: "Flip is a thumb twiddling puzzle game in which you flip over tiles to make them all light. Clear the board and move on to the next one.",
+				links: [{"text": "", "link": "https://richardkopelow.itch.io/flip"}],
+				devs: ["Richard Kopelow"]
+			},
 			//Winter Jam I
 			{
 				title: "Pause",
