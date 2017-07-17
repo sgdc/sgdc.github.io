@@ -26,7 +26,7 @@ function getMembers() {
 			{name: "Richard Kopelow", year: "3/5", active: true},
 			{name: "Jack Kraszewski", year: "2/4", active: true},
 			{name: "Jake Lovrin", year: "1/4", active: true},
-			{name: "Alex Massenzio", year: 4/4, active: true},
+			{name: "Alex Massenzio", year: "4/4", active: true},
 			{name: "Jeff Meli", year: "3/4", active: true},
 			{name: "Cyrus Merchant", year: "1/4", active: true},
 			{name: "Will Mosca", year: "3/4", active: false},
