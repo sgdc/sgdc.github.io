@@ -566,10 +566,10 @@ function getGames()
 			},
 			{ 
 				title: "Spherical Saunter", 
-				time: "Side Project - 11/14",
+				time: "JAM Launch Title",
 				thumbnail: "./images/items/SphericalSaunter/thumb.png", 
 				description: "Spherical Saunter is a 3D Rolling Puzzle Platforming game, similar to games like Super Monkey Ball and the Kororinpa Marble series for Wii. The currently released beta has 22 normal levels, 2 secret levels, and 2 multiplayer levels.",
-				links: [{"text": "Download the beta here!", "link": "http://1drv.ms/1H48dWi"}],
+				links: [{"text": "itch.io", "link": "https://waveparadigm.itch.io/spherical-saunter"}],
 				devs: ["Adam Gincel"]
 			},
 			//Game Jam II
