@@ -49,6 +49,9 @@
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
 		<br/>
+
+		<iframe src="https://calendar.google.com/calendar/embed?src=stevensgdc%40gmail.com&ctz=America/New_York" style="border: 0" width="95%" height="600" frameborder="0" scrolling="no"></iframe>
+
 		<p ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>
 
 		<events></events> <!-- located in ./comp/events.html -->
