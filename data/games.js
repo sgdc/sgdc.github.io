@@ -10,6 +10,72 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
+			//Game Jam 13
+			{
+				title: "Souloist",
+				time: "Game Jam XIII (1st)",
+				thumbnail: "./images/games/souloist.png",
+				description: "You and up to four friends can work together as an understaffed band, who have to charge their instruments on stage with soul to keep the music alive!",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/souloist"}],
+				devs: ["Adam Gincel", "Alex Massenzio", "Katie Bryant"]
+			},
+			{
+				title: "Power Washers",
+				time: "Game Jam XIII (2nd)",
+				thumbnail: "./images/games/powerwashers.png",
+				description: "Race your friends to the top of a skyscraper while cleaning as many windows as you can!",
+				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/power-washers"}],
+				devs: ["Christian Bouwense", "Chris Kuras"]
+			},
+			{
+				title: "Siege on Goliath",
+				time: "Game Jam XIII",
+				thumbnail: "./images/games/siegeongoliath.png",
+				description: "Siege On Goliath is a multiplayer asymmetric VR game for the Oculus Rift in which one player wears the headset and the other uses mouse and keyboard.A s Goliath, fight to protect your home from the humans who seek to kill you and take it. As the maintenance worker, it is your job to protect the volcano from the vile monsters that live in the lava.",
+				links: [{"text": "Itch.io Page", "link": "https://richardkopelow.itch.io/siege-on-goliath"}],
+				devs: ["Richard Kopelow"]
+			},
+			{
+				title: "Meal Swipe",
+				time: "Game Jam XIII",
+				thumbnail: "./images/games/mealswipe.png",
+				description: "A hungry text based adventure. Start in Babbio and find yourself a meal on Stevens campus.",
+				links: [{"text": "Itch.io Page", "link": "https://ian-allemand.itch.io/meal-swipe"}],
+				devs: ["Ian Allemand"]
+			},
+			//Summer Jam 4
+			{
+				title: "Kujira",
+				time: "Summer Jam 4",
+				thumbnail: "./images/games/kujira.png",
+				description: "Whale-san needs your help in this 2D Castlevania inspired platformer.",
+				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/kujira"}],
+				devs: ["Chris Kuras", "Christian Bouwense", "Alex Massenzio"]
+			},
+			{
+				title: "Big Palladium",
+				time: "Summer Jam 4",
+				thumbnail: "./images/games/bigpalladium.png",
+				description: "A short video boardgame (playtime ~5-10 minutes) with an emphasis on risk management for 1 - 4 players. Palladium is the most fluctuating metal on the market -- make some predictions and strike it rich!",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/big-palladium"}],
+				devs: ["Adam Gincel", "Ari Fiekowsky"]
+			},
+			{
+				title: "Spin",
+				time: "Summer Jam 4",
+				thumbnail: "./images/games/spin.png",
+				description: "Spin is a game about matching colors. Spin 2x2 tile sections to group all the tiles of the same color so that they touch.",
+				links: [{"text": "Google Play", "link": "https://play.google.com/store/apps/details?id=com.RichardKopelow.Spin"}],
+				devs: ["Richard Kopelow"]
+			},
+			{
+				title: "Fighting for HAPPE-Ness",
+				time: "Summer Jam 4",
+				thumbnail: "./images/games/happe.png",
+				description: "It is the year 2075, and Evil Corp has created a new addictive device called the 'HAPPE', which literally fabricates the very essence of happiness. Logan, and his brother Oli, form the Black Knights to shut them down for good.",
+				links: [{"text": "Itch.io Page", "link": "https://sdelore1.itch.io/fighting-for-happe"}],
+				devs: ["Sam DeLorenzo"]
+			},
 			//Game Jam 12
 			{
 				title: "Victor's Journey 2: Numpy's Quest",
