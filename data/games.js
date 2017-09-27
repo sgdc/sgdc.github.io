@@ -88,7 +88,7 @@ function getGames()
 			{
 				title: "Forget Me By Morning",
 				time: "Game Jam XII (2nd)",
-				thumbnail: "./images/games/forget.png",
+				thumbnail: "./images/games/forgetmebymorning.png",
 				description: "You remember the place, but not what's there...",
 				links: [{"text": "Itch.io Page", "link": "https://rayu.itch.io/forget-me-by-morning"}],
 				devs: ["Nick Ciulla", "Jamie Shamilian", "Katie Bryant"]
