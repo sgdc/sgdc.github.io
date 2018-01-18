@@ -49,6 +49,6 @@ function getRedirects()
 		//site maintenance links
 		{name: "site", link: "https://github.com/sgdc/sgdc.github.io"},
 		{name: "addredirect", link: "https://github.com/sgdc/sgdc.github.io/edit/master/data/redirects.js"},
-
+		{name: "voting", link: "http://sgdc.ml/voting/index.html"},
 	];
 }
