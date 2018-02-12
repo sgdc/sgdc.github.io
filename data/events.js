@@ -108,6 +108,9 @@ function getEvents() {
 			{name: "Learn Jam 2017", time: "9/9/17 12-6pm", location: "BC104", link: "http://sgdc.ml/learnjam"},
 			{name: "Game Jam XIII", time: "9/22/17 - 9/24/17", location: "P116", theme: "Mundane Made Insane", link: "http://itch.io/jam/sgdc-gj13"},
 			{name: "Game Jam XIV", time: "11/3/17 - 11/10/17", location: "BC104 & BC122", theme: "Dual/Duel", link: "http://itch.io/jam/sgdc-gj14"},
+			
+			//Spring '18
+			{name: "Game Jam A", time: "2/9/18 - 2/11/18", location: "BC122 & BC104", theme: "Altitude", link: "http://itch.io/jam/sgdc-gja"},
 		],
 		present: [
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
