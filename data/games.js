@@ -10,6 +10,31 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
+			//todo add more interim games
+			{
+				title: "Go Up",
+				time: "Game Jam A (1st)",
+				thumbnail: "./images/games/goup.png",
+				description: "Help Greg the Kiwi ascend to the end of many challenging levels by bouncing off of eggs!",
+				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/go-up"}],
+				devs: ["Christian Bouwense", "Chris Kuras"]
+			},
+			{
+				title: "Spaceship Game",
+				time: "2016-2018 Project",
+				thumbnail: "./images/games/spaceshipgame.png",
+				description: "Compete for galactic supremacy in this 2-4 player twin stick arena shooter!",
+				links: [{"text": "Website", "link": "http://spaceshipga.me"}],
+				devs: ["James Romph"]
+			},
+			{
+				title: "Spherical Saunter M",
+				time: "2017-2018 Project",
+				thumbnail: "./images/games/ssm.png",
+				description: "The sequel to Spherical Saunter, tilt the course to direct the ball to the end of varied levels. Inspired by Super Monkey Ball, Kororinpa Marble Mania, and more.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/spherical-saunter-m"}],
+				devs: ["Adam Gincel"]
+			},
 			//Game Jam 13
 			{
 				title: "Souloist",
