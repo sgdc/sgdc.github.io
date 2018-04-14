@@ -85,7 +85,7 @@ function getEvents() {
 			{name: "Spring Showcase 2016", time: "4/29/16", location: "Jacobus Lounge"},
 
 	      	//Summer '16
-            {name: "Summer Jam III", time: "6/1/16 - 8/19/16", location: "N/A", link: "https://itch.io/jam/sgdc-sj3", theme: "Season"},	
+           		{name: "Summer Jam III", time: "6/1/16 - 8/19/16", location: "N/A", link: "https://itch.io/jam/sgdc-sj3", theme: "Season"},	
 
 			//Fall '16
 			{name: "Learn Jam 2016", time: "9/11/16", location: "Peirce 116", link: "events/learnjam"},
@@ -111,7 +111,7 @@ function getEvents() {
 			
 			//Spring '18
 			{name: "Game Jam A", time: "2/9/18 - 2/11/18", location: "BC122 & BC104", theme: "Altitude", link: "http://itch.io/jam/sgdc-gja"},
-			{name: "Game Jam A=B", time: "4/13/18 - 4/20/18", location: "P116", theme: "Breakpoint", link: "http://itch.io/jam/sgdc-gjb"},
+			{name: "Game Jam B", time: "4/13/18 - 4/20/18", location: "P116", theme: "Breakpoint", link: "http://itch.io/jam/sgdc-gjb"},
 		
 		],
 		present: [
