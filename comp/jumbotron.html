@@ -1,8 +1,5 @@
 <!-- Main component for a primary marketing message or call to action -->
 <div class="jumbotron jumbotron-custom" style="text-align: center;">
-
-
-
 	<article ng-show="pgCtrl.valueIs(0)" > <!-- Home and Blog -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
@@ -14,7 +11,7 @@
 
 		<!-- Featured Youtube video -->
 		<div class="videoWrapper">
-			<iframe src="https://www.youtube.com/embed/CAkFe0aDIY4" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/CAkFe0aDIY4" frameborder="0" allowFullscreen>Loading</iframe>
 		</div>
 		<br />
 
@@ -57,7 +54,18 @@
 		<events></events> <!-- located in ./comp/events.html -->
 	</article>
 
-	<article ng-show="pgCtrl.valueIs(3)" > <!-- Members -->
+	<article ng-show="pgCtrl.valueIs(3)"> <!-- Arcade -->
+		<!-- Display heading defined in page.js -->
+		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
+			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
+		<br/> <!-- create a p for each string in content -->
+		<img style="height: 200px; width: auto;" src="images/jam.png" alt="" />
+		<p style="font-size:16px;" ng-repeat="contents in pgCtrl.pageContents[pgCtrl.value].content">{{contents}}</p>	
+
+		<arcade></arcade>
+	</article>
+
+	<article ng-show="pgCtrl.valueIs(4)" > <!-- Members -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1>
 		<br/>
@@ -65,8 +73,7 @@
 		<member-tables></member-tables> <!-- located in ./comp/member-tables.html -->
 	</article>
 
-
-	<article ng-show="pgCtrl.valueIs(4)"> <!-- Catalog -->
+	<article ng-show="pgCtrl.valueIs(5)"> <!-- Catalog, deprecated? -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
 		<br/> <!-- create a p for each string in content -->
@@ -76,7 +83,7 @@
 	</article>
 
 	<!-- Unused currently -->
-	<article ng-show="pgCtrl.valueIs(5)"> <!-- Example, if anyone comes along wanting more tabs -->
+	<article ng-show="pgCtrl.valueIs(6)"> <!-- Example, if anyone comes along wanting more tabs -->
 		<!-- Display heading defined in page.js -->
 		<h1 style="font-family: arial, sans-serif; padding: 0px; margin: 0px;">
 			{{pgCtrl.pageContents[pgCtrl.value].title}}</h1> 
@@ -86,6 +93,6 @@
 		<!-- put whatever else you want -->
 
 	</article>
-
+	
 
 </div>

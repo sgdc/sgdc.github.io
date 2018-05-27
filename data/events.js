@@ -5,7 +5,7 @@
 //as they become relevant, move them to present
 //when they're done, move them to past
 function getEvents() {
-	var eventList = {
+	let eventList = {
 		past: [
 			//Spring '08
 			{name: "Dev LAN w/ C2GS", time: "4/19/08", location: "BC122"},
@@ -112,7 +112,8 @@ function getEvents() {
 			//Spring '18
 			{name: "Game Jam A", time: "2/9/18 - 2/11/18", location: "BC122 & BC104", theme: "Altitude", link: "http://itch.io/jam/sgdc-gja"},
 			{name: "Game Jam B", time: "4/13/18 - 4/20/18", location: "P116", theme: "Breakpoint", link: "http://itch.io/jam/sgdc-gjb"},
-		
+			{name: "Game Developers' Tournament Series", time: "4/28/18", location: "M103"},
+			{name: "Spring Showcase 2018", time: "5/1/18", location: "BC122"},
 		],
 		present: [
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1

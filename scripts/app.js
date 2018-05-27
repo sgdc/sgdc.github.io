@@ -1,4 +1,5 @@
 var app = angular.module('page', []);
+
 var tryJson = false;
 
 app.controller('PageController', function() {
@@ -65,8 +66,17 @@ app.controller('PageController', function() {
 	this.catalog = getCatalog();
 
 	this.events = getEvents();
+
+	this.arcade = getArcade();
 });
 
+app.config(function($sceProvider) {
+	// Completely disable SCE.
+	// Unsafe if used incorrectly.
+	$sceProvider.enabled(false);
+
+	//Disabled in this case to allow for arbitrary iframes on the /Arcade page
+  });
 
 app.directive('navbar', function(){
 	return {
@@ -109,6 +119,13 @@ app.directive('catalog', function(){
 		templateUrl: './comp/catalog.html',
 	};
 });
+
+app.directive('arcade', function() {
+	return {
+		restrict: 'E',
+		templateUrl: './comp/arcade.html',
+	}
+})
 
 app.directive('events', function(){
 	return {

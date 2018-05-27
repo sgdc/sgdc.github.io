@@ -32,7 +32,7 @@ function getNavbarMembers()
 {
 	//adding pages here will get you more tabs, define their titles and basic paragraph structures in
 	//getPageContents, then flesh them out in jumbotron.html
-	return ['Home', 'Games', 'Events', 'Members', 'Catalog'];	
+	return ['Home', 'Games', 'Events', 'Arcade', 'Members'];	
 }
 
 function getPageContents()
@@ -41,7 +41,9 @@ function getPageContents()
 			{title: "Stevens Game Development Club", content: ["Welcome to the Stevens Game Development Club! We are a Student Organization at Stevens Institute of Technology. We aim to foster a safe environment for entering the field of game development -- no experience is necessary."]},
 			{title: "Games", content: ["Our club has plenty of talent working on some awesome games. We host two Game Jams each semester, and some members go above and beyond -- working on side projects alone or in teams. This is a place to showcase some of their work."]},
 			{title: "Events", content: ["Typically, our club hosts 5 events each semester: 2 Game Jams, a public outreach event, our showcase, and a speaker event. Sometimes we host unofficial events or joint events. This page will tell you when and where events are happening."]},
+			{title: "Jacobus Arcade Machine", content: ["The Jacobus Arcade Machine (JAM) was first built in Spring of 2015, commissioned by Campus Life Committee. The machine features games made by members of SGDC, and currently runs using a custom-made launcher that displays video previews, play stats, and descriptions of the games on the machine.", "The machine is administered by the SGDC eboard and the Arcade Cabinet Manager. If there are any problems with the machine do not hesitate to reach out to the club to notify them. Below are some games featured on the machine."]},
 			{title: "Members", content: []},
-			{title: "Prize Catalog", content: ["When members win a prize in a Game Jam, we recommend our catalog of options to them. The prizes are organized by price, and may or may not be available at a given time. If you are a member who won a prize and want something not on this list, feel free to contact the e-board to work something out. Prizes are as flexible as we can make them."]}
+			//{title: "Prize Catalog", content: ["When members win a prize in a Game Jam, we recommend our catalog of options to them. The prizes are organized by price, and may or may not be available at a given time. If you are a member who won a prize and want something not on this list, feel free to contact the e-board to work something out. Prizes are as flexible as we can make them."]},
+			
 		];
 }

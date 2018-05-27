@@ -1,0 +1,9 @@
+<h1 style="font-size:56px">Arcade Games</h1>
+<section style="text-align: center; width:100%; border:1px #bbb solid; border-radius:3px; padding: 6px; margin-bottom: 20px;" ng-repeat="game in pgCtrl.arcade">
+    <h2>{{game.title}}</h2>
+    <iframe ng-src="{{game.gfycat}}" frameborder='0' scrolling='no' allowfullscreen width='640' height='360' class="gfy"></iframe>
+    <p style="font-size:14px; margin-bottom:0;">Devs: |<span ng-repeat="dev in game.devs"> {{dev}} |</span></p>
+    <p style="font-size:14px; margin-bottom:0;">Released: {{game.release}}</p>
+    <a href="{{game.link.link}}">{{game.link.text}}</a>
+    <p>{{game.description}}</p>
+</section>

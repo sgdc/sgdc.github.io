@@ -170,8 +170,6 @@ body {
 	width: 5em !important;
 }
 
-.videoWrapper {
-}
 .videoWrapper iframe {
 	display: inline-block;
 	margin-left: auto;
@@ -180,12 +178,17 @@ body {
 	height: 18vw;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 680px) {
 	/* phones */
 	.game {
 		float: none;
 		height: auto;
 		text-align: center !important;
+	}
+
+	.gfy {
+		width: 48vw;
+		height: 27vw;
 	}
 
 	#devlist {
