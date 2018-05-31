@@ -2,7 +2,7 @@ function getRedirects()
 {
 	return [
 		//game jams
-		{name: "gj", link: "http://sgdc.ml/events/gamejam"},
+		{name: "gj", link: "http://sgdc.github.io/events/gamejam"},
 		{name: "gj6", link: "http://itch.io/jam/sgdc-gj6"},
 		{name: "gj7", link: "http://itch.io/jam/sgdc-gj7"},
 		{name: "gj8", link: "http://itch.io/jam/sgdc-gj8"},
@@ -20,9 +20,9 @@ function getRedirects()
 		{name: "gjb", link: "https://itch.io/jam/sgdc-gjb"},
 
 		//learn jam 16
-		{name: "lj", link: "http://sgdc.ml/events/learnjam"},
-		{name: "lj16", link: "http://sgdc.ml/events/learnjam"},
-		{name: "learnjam", link: "http://sgdc.ml/events/learnjam"},
+		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
+		{name: "lj16", link: "http://sgdc.github.io/events/learnjam"},
+		{name: "learnjam", link: "http://sgdc.github.io/events/learnjam"},
 
 		//social media redirects
 		{name: "facebook", link: "https://www.facebook.com/groups/433857053307661/"},
@@ -48,11 +48,11 @@ function getRedirects()
 		{name: "history", link: "https://docs.google.com/document/d/1AZXTElflEoeN5jxgLK3nEjello8zRV9_afkmz5CQm5Y/"},
 		{name: "mail", link: "https://lists.stevens.edu/mailman/listinfo/sgdc"},
 		{name: "mailadmin", link: "https://lists.stevens.edu/mailman/admin/sgdc"},
-		{name: "catalog", link: "http://sgdc.ml/catalog/"},
+		{name: "catalog", link: "http://sgdc.github.io/catalog/"},
 		
 		//site maintenance links
 		{name: "site", link: "https://github.com/sgdc/sgdc.github.io"},
 		{name: "addredirect", link: "https://github.com/sgdc/sgdc.github.io/edit/master/data/redirects.js"},
-		{name: "voting", link: "http://sgdc.ml/voting/index.html"},
+		{name: "voting", link: "http://sgdc.github.io/voting/index.html"},
 	];
 }
