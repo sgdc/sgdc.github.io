@@ -4,12 +4,13 @@
 function getSocialMediaLinks()
 {
 	return [
-		{src: "./images/facebook.png", link: "https://www.facebook.com/groups/433857053307661/"},
+		{src: "./images/facebook.png", link: "https://www.facebook.com/stevensgdc"},
 		{src: "./images/twitter.png", link: "https://twitter.com/stevensgdc"},
+		{src: "./images/instagram.png", link: "https://www.instagram.com/stevensgdc/"},
 		{src: "./images/itchio.png", link: "https://sgdc.itch.io"},
 		{src: "./images/github.png", link: "https://github.com/sgdc"},
 		{src: "./images/youtube.png", link: "https://www.youtube.com/channel/UCLN2t6B7Sq7GVK6IqBG6cXg"},
-		{src: "./images/discord.png", link: "http://sgdc.ml/discord"},
+		{src: "./images/discord.png", link: "http://sgdc.github.io/discord"},
 		{src: "./images/googledrive.png", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 	];
 }
