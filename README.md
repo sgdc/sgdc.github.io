@@ -1,4 +1,4 @@
-# Welcome to <http://sgdc.ml>!
+# Welcome to <http://sgdc.github.io>!
 
 Welcome to the Stevens Game Development Club website, version 3.0, written by Adam Gincel (President starting Spring 2016)
 This website is written using both AngularJS and some Bootstrap (for mobile compatibility)
