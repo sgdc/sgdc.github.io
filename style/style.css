@@ -5,7 +5,7 @@ body {
 }
 
 .bodyOverride {
-	font-family: Verdana, Helvetica !important;
+	font-family: 'Roboto', Verdana, Helvetica !important;
 }
 
 .item-selected {
@@ -184,6 +184,10 @@ body {
 
 @media only screen and (max-width: 680px) {
 	/* phones */
+
+	.bodyOverride {
+		font-family: 'Roboto', serif !important;
+	}
 	.game {
 		float: none;
 		height: auto;
