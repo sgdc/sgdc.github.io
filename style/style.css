@@ -5,7 +5,7 @@ body {
 }
 
 .bodyOverride {
-	font-family: serif !important;
+	font-family: Verdana, Helvetica !important;
 }
 
 .item-selected {
