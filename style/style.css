@@ -193,11 +193,12 @@ body {
 	}
 
 	#devlist {
-		display: none;
+		padding-bottom: 8px !important;
 	}
 
-	#gameTime {
-
+	#devlisth {
+		margin: 0px !important;
+		padding-bottom: 0px !important;
 	}
 
 	.centered-horizontal-list li img {
