@@ -186,7 +186,8 @@ body {
 	/* phones */
 
 	.bodyOverride {
-		font-family: 'Roboto', serif !important;
+		font-family: 'Roboto', serif !important; font-size: 11px;
+		
 	}
 	.game {
 		float: none;
