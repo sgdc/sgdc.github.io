@@ -2,11 +2,10 @@ body {
 	/*background-color: #FDFDFD;*/
 	background-image: url('../images/background.png');
 	padding-top: 70px;
-	font-family: 'Roboto', sans-serif !important;
 }
 
 .bodyOverride {
-	font-family: 'Roboto', serif !important;
+	font-family: serif !important;
 }
 
 .item-selected {
