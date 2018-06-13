@@ -11,14 +11,7 @@ function getGames()
 				devs: [""]
 			},*/
 			//todo add more interim games
-			{
-				title: "Go Up",
-				time: "Game Jam A (1st)",
-				thumbnail: "./images/games/goup.png",
-				description: "Help Greg the Kiwi ascend to the end of many challenging levels by bouncing off of eggs!",
-				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/go-up"}],
-				devs: ["Christian Bouwense", "Chris Kuras"]
-			},
+			
 			{
 				title: "Spaceship Game",
 				time: "2016-2018 Project",
@@ -34,6 +27,170 @@ function getGames()
 				description: "The sequel to Spherical Saunter, tilt the course to direct the ball to the end of varied levels. Inspired by Super Monkey Ball, Kororinpa Marble Mania, and more.",
 				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/spherical-saunter-m"}],
 				devs: ["Adam Gincel"]
+			},
+			//Game Jam B
+			{
+				title: "Thalamus",
+				time: "Game Jam B (1st)",
+				thumbnail: "./images/games/thalamus.png",
+				description: "Project your soul.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/thalumus"}],
+				devs: ["Adam Gincel", "James Romph"]
+			},
+			{
+				title: "Breakers",
+				time: "Game Jam B (2nd)",
+				thumbnail: "./images/games/breakers.png",
+				description: "Find and battle breakers by scanning barcodes!",
+				links: [{"text": "Itch.io Page", "link": "https://richardkopelow.itch.io/breakers"}],
+				devs: ["Jake Lovrin", "Richard Keplow", "Alex Massenzio", "Justin Zauderer"]
+			},
+			{
+				title: "Force",
+				time: "Game Jam B",
+				thumbnail: "./images/games/force.png",
+				description: "A 2-4 player arena-style fighting game.",
+				links: [{"text": "Itch.io Page", "link": "https://st0rmrunner.itch.io/force"}],
+				devs: ["Anna Brown"]
+			},
+			//Game Jam A
+			{
+				title: "Go Up",
+				time: "Game Jam A (1st)",
+				thumbnail: "./images/games/goup.png",
+				description: "Help Greg the Kiwi ascend to the end of many challenging levels by bouncing off of eggs!",
+				links: [{"text": "Itch.io Page", "link": "https://ckuras.itch.io/go-up"}],
+				devs: ["Christian Bouwense", "Chris Kuras"]
+			},
+			{
+				title: "Alchemist's Assistant's Ascent Atop an Alp",
+				time: "Game Jam A (2nd)",
+				thumbnail: "./images/games/9a.png",
+				description: "Nine-A: A 3D platforming challenge. Collect 25 gold coins!",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/9a"}],
+				devs: ["Adam Gincel"]
+			},
+			{
+				title: "Raven",
+				time: "Game Jam A",
+				thumbnail: "./images/games/raven.png",
+				//description: ".",
+				links: [{"text": "Itch.io Page", "link": "https://tehpilot.itch.io/raven"}],
+				devs: ["James Romph"]
+			},
+			{
+				title: "The Little Plane that Could",
+				time: "Game Jam A",
+				thumbnail: "./images/games/littleplane.png",
+				//description: ".",
+				links: [{"text": "Itch.io Page", "link": "https://jbisnar.itch.io/the-little-plane-that-could"}],
+				devs: ["Jarod Binsar"]
+			},
+			{
+				title: "The Grand Adventure of Pillboy",
+				time: "Game Jam A",
+				thumbnail: "./images/games/pillboy.png",
+				description: "Play as Pillboy on his grand adventure.",
+				links: [{"text": "Itch.io Page", "link": "https://taber.itch.io/the-grand-adventure-of-pill-boy"}],
+				devs: ["Taber McFarlin"]
+			},
+			{
+				title: "Vertex Bound",
+				time: "Game Jam A",
+				thumbnail: "./images/games/vertexbound.png",
+				description: "Ascend As Fast As You Can.",
+				links: [{"text": "Itch.io Page", "link": "https://qzar24.itch.io/vertex-bound"}],
+				devs: ["Wesley McDowell", "Kieth Morel"]
+			},
+			//Winter Jam 2
+			{
+				title: "Airshot",
+				time: "Winter Jam 2",
+				thumbnail: "./images/games/airshot.png",
+				description: "No, shooting the air isn't an airshot. That's called a miss.",
+				links: [{"text": "Itch.io Page", "link": "https://jbisnar.itch.io/airshot"}],
+				devs: ["Jarod Binsar"]
+			},
+			{
+				title: "Jacob's Ladder",
+				time: "Winter Jam 2",
+				thumbnail: "./images/games/jacobsladder.png",
+				description: "A basic Pirate RPG for those who love to laugh.",
+				links: [{"text": "Itch.io Page", "link": "https://qzar24.itch.io/jacobs-ladder"}],
+				devs: ["Wesley McDowell", "Kieth Morel"]
+			},
+			{
+				title: "Arctic Mage Course",
+				time: "Winter Jam 2",
+				thumbnail: "./images/games/arcticmagecourse.png",
+				description: "Winter mages play some golf.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/arctic-mage-course"}],
+				devs: ["Adam Gincel"]
+			},
+			//Game Jam 14
+			{
+				title: "goto PAST",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/gotoPast.png",
+				description: ".",
+				links: [{"text": "Itch.io Page", "link": "https://spriter141.itch.io/goto-past"}],
+				devs: ["Katie Bryant"]
+			},
+			{
+				title: "Innis Gambit",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/innisgambit.png",
+				description: "A realtime grid-based versus game.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/innis-gambit"}],
+				devs: ["Adam Gincel"]
+			},
+			{
+				title: "Spectre Fighter",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/spectrefighter.png",
+				description: "2D versus fighter",
+				links: [{"text": "Itch.io Page", "link": "https://kurisu-squared.itch.io/spectre-fighting"}],
+				devs: ["Christian Bouwense", "Chris Kuras"]
+			},
+			{
+				title: "Escort Mission",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/escortmission.png",
+				description: "2D platformer, Forced Co-Op play",
+				links: [{"text": "Itch.io Page", "link": "https://qzar24.itch.io/escort-mission"}],
+				devs: ["Kieth Morel", "Andrew Chen", "Wesley McDowell"]
+			},
+			{
+				title: "SideTrack",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/sidetrack.png",
+				description: "Choose your tracks, activate your boosts, race to the finish line.",
+				links: [{"text": "Itch.io Page", "link": "https://rayu.itch.io/sidetrack"}],
+				devs: ["Nick Ciulla"]
+			},
+			{
+				title: "Jump and Punch 'em",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/jumpandpunch.png",
+				description: "The title says it all.",
+				links: [{"text": "Itch.io Page", "link": "https://taber.itch.io/jump-and-punch-em-or-something"}],
+				devs: ["Taber McFarlin"]
+			},
+			{
+				title: "Six Shooter",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/sixshooter.png",
+				description: "Bullet Hell meets Cowboys meets Tennis.",
+				links: [{"text": "Itch.io Page", "link": "https://westeve.itch.io/sixshooter"}],
+				devs: ["Chris Byrne"]
+			},
+			{
+				title: "Boince",
+				time: "Game Jam XIV",
+				thumbnail: "./images/games/boince.png",
+				description: "Score goals against your opponent.",
+				links: [{"text": "Itch.io Page", "link": "https://ryterex.itch.io/boince"}],
+				devs: ["Sam DeLorenzo", "Caleb Obeng"]
 			},
 			//Game Jam 13
 			{
