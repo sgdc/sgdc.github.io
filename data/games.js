@@ -10,8 +10,7 @@ function getGames()
 				links: [{"text": "", "link": ""}],
 				devs: [""]
 			},*/
-			//todo add more interim games
-			
+			//todo update games after summer jam
 			{
 				title: "Spaceship Game",
 				time: "2016-2018 Project",
