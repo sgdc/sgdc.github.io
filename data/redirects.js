@@ -50,6 +50,8 @@ function getRedirects()
 		{name: "mail", link: "https://lists.stevens.edu/mailman/listinfo/sgdc"},
 		{name: "mailadmin", link: "https://lists.stevens.edu/mailman/admin/sgdc"},
 		{name: "catalog", link: "http://sgdc.github.io/catalog/"},
+		{name: "g4c", link: "https://har494.itch.io/"},
+		{name: "har494", link: "https://har494.itch.io/"},
 		
 		//site maintenance links
 		{name: "site", link: "https://github.com/sgdc/sgdc.github.io"},
