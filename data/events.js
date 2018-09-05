@@ -114,11 +114,13 @@ function getEvents() {
 			{name: "Game Jam B", time: "4/13/18 - 4/20/18", location: "P116", theme: "Breakpoint", link: "http://itch.io/jam/sgdc-gjb"},
 			{name: "Game Developers' Tournament Series", time: "4/28/18", location: "M103"},
 			{name: "Spring Showcase 2018", time: "5/1/18", location: "BC122"},
-		],
-		present: [
+			
 			//Summer '18
 			{name: "Summer Jam V", time: "5/1/18 - 9/4/18", location: "BC122", theme: "5 Themes", link: "https://itch.io/jam/sgdc-sj5"},
 		
+		],
+		present: [
+			
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
 	
