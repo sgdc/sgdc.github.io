@@ -128,8 +128,8 @@ function getEvents() {
 		upcoming: [
 			//Fall 2018
 			{name: "Learn Jam 2017", time: "9/16/18 12-5pm", location: "K228", link: "http://sgdc.ml/learnjam"},
-			{name: "Game Jam C", time: "TBA", location: "TBA", theme: "TBA", link: "Coming soon!"},
-			{name: "Game Jam D", time: "TBA", location: "TBA", theme: "TBA", link: "Coming soon!"},
+			{name: "Game Jam C", time: "TBA", location: "TBA", theme: "TBA"},
+			{name: "Game Jam D", time: "TBA", location: "TBA", theme: "TBA"},
 			
 		], 
 	};
