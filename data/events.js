@@ -123,11 +123,11 @@ function getEvents() {
 			
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
+			{name: "Learn Jam 2018", time: "9/16/18 12-5pm", location: "BC 122", link: "http://sgdc.ml/learnjam"},
 	
 		],
 		upcoming: [
 			//Fall 2018
-			{name: "Learn Jam 2018", time: "9/16/18 12-5pm", location: "BC 122", link: "http://sgdc.ml/learnjam"},
 			{name: "Game Jam C", time: "TBA", location: "TBA", theme: "TBA"},
 			{name: "Game Jam D", time: "TBA", location: "TBA", theme: "TBA"},
 			
