@@ -10,6 +10,7 @@ function getMembers() {
 			//{name: "", title: "", year: "", link: ""},
 		],
 		members: [
+			{name: "Katie Bryant", year: "3/4", active: true},
 			{name: "Chris Byrne", year: "4/4", active: true},
 			{name: "Isaac Hirschfeld", year: "3/4", active: true},
 			{name: "Chris Hittner", year: "4/4", active: true},
