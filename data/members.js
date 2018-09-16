@@ -4,7 +4,7 @@ function getMembers() {
 			{name: "Taber McFarlin", title: "President", year: "4/4"},
 			{name: "Jake Lovrin", title: "Vice President", year: "3/4"},
 			{name: "Jared Bass", title: "Treasurer", year: "3/4"},
-			{name: "Nick Ciulla", title: "Secretary", year: "3/4"},
+			{name: "Nick Ciulla", title: "Secretary", year: "3/5"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
