@@ -31,7 +31,6 @@ function getMembers() {
 			{name: "Vinnie Simonetti", year: "2015"},
 			{name: "Frank Dicola", year: "2015", link: "http://yoshgunn.com"},
 			{name: "Kevin Quigley", year: "2016", link: "http://www.hydegriffen.com"},
-			
 			{name: "Christian Harrypersad", year: "2018", link: "http://chemicalplant.zone"},
 			{name: "James Romph", year: "2018", link: "http://tehpilot.com"},
 			{name: "Alex Massenzio", year: "2018", link: "http://alexmassenzio.com"},
