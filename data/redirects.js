@@ -19,10 +19,10 @@ function getRedirects()
 		{name: "gja", link: "https://itch.io/jam/sgdc-gja"},
 		{name: "gjb", link: "https://itch.io/jam/sgdc-gjb"},
 		{name: "sj5", link: "https://itch.io/jam/sgdc-sj5"},
+		{name: "gjc", link: "https://itch.io/jam/sgdc-gjc"},
 
-		//learn jam 16
+		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
-		{name: "lj16", link: "http://sgdc.github.io/events/learnjam"},
 		{name: "learnjam", link: "http://sgdc.github.io/events/learnjam"},
 
 		//social media redirects
