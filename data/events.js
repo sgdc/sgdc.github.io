@@ -130,7 +130,7 @@ function getEvents() {
 		],
 		upcoming: [
 			//Fall 2018
-			{name: "Game Jam C", time: "9/28/18 - 9/30/18", location: "BC 122 & BC104", theme: "TBA"},
+			{name: "Game Jam C", time: "9/28/18 - 9/30/18", location: "BC 122 & BC104", theme: "TBA", link: "https://itch.io/jam/sgdc-gjc"},
 			{name: "Game Jam D", time: "TBA", location: "TBA", theme: "TBA"},
 			
 		], 
