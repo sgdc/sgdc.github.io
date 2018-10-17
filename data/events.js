@@ -132,6 +132,7 @@ function getEvents() {
 		],
 		upcoming: [
 			//Fall 2018
+			{name: "Frank DiCola and Game Revenant Talk", time: "10/23/18", location: "BC122"},
 			{name: "Game Jam D", time: "TBA", location: "TBA", theme: "TBA"},
 			
 		], 
