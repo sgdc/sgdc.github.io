@@ -59,6 +59,6 @@ function getRedirects()
 		{name: "voting", link: "http://sgdc.github.io/voting/index.html"},
 		
 		//downloadables & tools
-		{name: "pd25", link: "https://stevens.gamedevelopment.club/dl/ParticleDesigner2_5.zip"},
+		{name: "pd25", link: "https://stevens.gamedevelopment.club/dl/pd25.zip"},
 	];
 }
