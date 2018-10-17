@@ -57,5 +57,8 @@ function getRedirects()
 		{name: "site", link: "https://github.com/sgdc/sgdc.github.io"},
 		{name: "addredirect", link: "https://github.com/sgdc/sgdc.github.io/edit/master/data/redirects.js"},
 		{name: "voting", link: "http://sgdc.github.io/voting/index.html"},
+		
+		//downloadables & tools
+		{name: "pd25", link: "https://stevens.gamedevelopment.club/particledesigner2_5.zip"},
 	];
 }
