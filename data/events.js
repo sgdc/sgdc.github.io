@@ -121,6 +121,7 @@ function getEvents() {
 			//Fall 2018
 			{name: "Learn Jam 2018", time: "9/16/18 12-5pm", location: "BC 122", link: "http://sgdc.ml/learnjam"},
 			{name: "Game Jam C", time: "9/28/18 - 9/30/18", location: "BC 122 & BC104", theme: "Cooperation", link: "https://itch.io/jam/sgdc-gjc"},
+			{name: "Game Revenant Talk and Q&A", time: "10/23/18 9-11pm", location: "BC 122"},
 			
 		],
 		present: [
