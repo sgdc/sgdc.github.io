@@ -128,12 +128,11 @@ function getEvents() {
 			
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
-			
+			{name: "Game Jam D", time: "11/2/18 - 11/9/18", location: "EAS 222 & BC 122", theme: "TBA", link: "https://itch.io/jam/sgdc-gjd"},
 	
 		],
 		upcoming: [
 			//Fall 2018
-			{name: "Game Jam D", time: "11/2/18 - 11/9/18", location: "EAS 222 & BC 122", theme: "TBA"},
 			
 		], 
 	};
