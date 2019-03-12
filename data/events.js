@@ -134,8 +134,10 @@ function getEvents() {
 			
 		],
 		upcoming: [
-			//Fall 2018
-			
+			//Spring 2019
+			{name: "Game Jam F", time: "4/12/19 - 4/19/19", location: "TBA", theme: "TBA"},
+			{name: "Game Developers' Tournament Series 2019", time: "4/27/19", location: "TBA"},
+			{name: "Spring 2019 Showcase", time: "TBA", location: "TBA"},
 		], 
 	};
 
