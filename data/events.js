@@ -124,7 +124,10 @@ function getEvents() {
 			{name: "Game Revenant Talk and Q&A", time: "10/23/18 9-11pm", location: "BC 122"},
 			{name: "Game Jam D", time: "11/2/18 - 11/9/18", location: "EAS 222 & BC 122", theme: "Delve", link: "https://itch.io/jam/sgdc-gjd"},
 			{name: "Winter Jam III", time: "12/14/18 - 1/22/19", location: "N/A", theme: "Siege, Control, Slippery, Reflect, Navigate", link: "https://itch.io/jam/sgdc-wj3"},
+			
+			//Spring 2019
 			{name: "Game Jam E", time: "2/22/19 - 2/24/19", location: "BC122 & P 120", theme: "Education", link: "https://itch.io/jam/sgdc-gje"},
+			{name: "Game Jam F", time: "4/12/19 - 4/19/19", location: "P 120 & BC 122", theme: "Film", link: "https://itch.io/jam/sgdc-gjf"},
 			
 		],
 		present: [
@@ -135,9 +138,8 @@ function getEvents() {
 		],
 		upcoming: [
 			//Spring 2019
-			{name: "Game Jam F", time: "4/12/19 - 4/19/19", location: "TBA", theme: "TBA"},
-			{name: "Game Developers' Tournament Series 2019", time: "4/27/19", location: "TBA"},
-			{name: "Spring 2019 Showcase", time: "TBA", location: "TBA"},
+			{name: "Game Developers' Tournament Series 2019", time: "4/27/19, 3:00-7:00 pm", location: "BC 122"},
+			{name: "Spring 2019 Showcase", time: "TBA", location: "BC 122"},
 		], 
 	};
 
