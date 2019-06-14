@@ -111,7 +111,7 @@ function getGames()
 			{
 				title: "T-pose Apocalypse",
 				time: "Game Jam C",
-				thumbnail: "./images/games/tpose.png",
+				thumbnail: "./images/games/tpos.png",
 				description: "Work together with your friends to assert your dominance.",
 				links: [{"text": "Itch.io Page", "link": "https://dyc3.itch.io/t-pose-apocalypse"}],
 				devs: ["Derek Kellerman"]
@@ -127,7 +127,7 @@ function getGames()
 			{
 				title: "Rewind Raiders",
 				time: "Game Jam C",
-				thumbnail: "./images/games/nothumb.png",
+				thumbnail: "./images/games/nothumb.PNG",
 				description: "Record your actions as multiple units",
 				links: [{"text": "Itch.io Page", "link": "https://jbisnar.itch.io/rewind-raiders"}],
 				devs: ["Jarod Bisnar"]
@@ -168,7 +168,7 @@ function getGames()
 			{
 				title: "The Elementor",
 				time: "Summer Jam 5",
-				thumbnail: "./images/games/nothumb.png",
+				thumbnail: "./images/games/nothumb.PNG",
 				//description: "A movement-focused game where you dodge enemies as long as you can.",
 				links: [{"text": "Itch.io Page", "link": "https://jakeop4444.itch.io/the-elementor"}],
 				devs: ["Jake Lovrin", "Anna Brown"]
