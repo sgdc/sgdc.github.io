@@ -12,6 +12,14 @@ function getGames()
 			},*/
 			//todo update games after summer jam
 			{
+				title: "Engineer Arena",
+				time: "2018-2019 Project",
+				thumbnail: "./images/games/engineerarena.jpg",
+				description: "A 1-4 player splitscreen FPS where you upgrade on the fly!",
+				links: [{"text": "Twitter", "link": "https://waveparadigm.itch.io/spherical-saunter-m"}],
+				devs: ["Adam Gincel", "Alex Massenzio", "Richard Kopelow", "Taber McFarlin", "Chris Byrne", "Albert Tang", "Justin Miller"]
+			},
+			{
 				title: "Spaceship Game",
 				time: "2016-2018 Project",
 				thumbnail: "./images/games/spaceshipgame.png",
@@ -26,6 +34,152 @@ function getGames()
 				description: "The sequel to Spherical Saunter, tilt the course to direct the ball to the end of varied levels. Inspired by Super Monkey Ball, Kororinpa Marble Mania, and more.",
 				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/spherical-saunter-m"}],
 				devs: ["Adam Gincel"]
+			},
+			//Game Jam C
+			{
+				title: "Laser Barons",
+				time: "Game Jam C (1st)",
+				thumbnail: "./images/games/laserbarons.png",
+				description: "A cooperative arcade game.",
+				links: [{"text": "Itch.io Page", "link": "https://wessles.itch.io/laser-barons"}],
+				devs: ["Jared Pincus", "Wesley LaFerriere"]
+			},
+			{
+				title: "Masque:Zero",
+				time: "Game Jam C (2nd)",
+				thumbnail: "./images/games/masque.png",
+				description: "One of many.",
+				links: [{"text": "Itch.io Page", "link": "https://rayu.itch.io/masquezero"}],
+				devs: ["Nick Ciulla"]
+			},
+			{
+				title: "Two Faced",
+				time: "Game Jam C (3rd)",
+				thumbnail: "./images/games/2faced.png",
+				description: "Competitve Co-op, in space!",
+				links: [{"text": "Itch.io Page", "link": "https://kurisu-squared.itch.io/two-faced"}],
+				devs: ["Chris Kuras", "Christian Bouwense", "Katie Bryant"]
+			},
+			{
+				title: "Coop Chicks",
+				time: "Game Jam C (Best Gameplay)",
+				thumbnail: "./images/games/coopchicks.png",
+				description: "Beak on beak competitive action!",
+				links: [{"text": "Itch.io Page", "link": "https://lwright.itch.io/coop-chicks"}],
+				devs: ["Lachlan Wright"]
+			},
+			{
+				title: "Cope",
+				time: "Game Jam C (Best Visual Design)",
+				thumbnail: "./images/games/cope.png",
+				description: "Platformer Demo - GJC",
+				links: [{"text": "Itch.io Page", "link": "https://annalog.itch.io/cope"}],
+				devs: ["Anna Brown"]
+			},
+			{
+				title: "L A M P",
+				time: "Game Jam C (Best Use of Theme)",
+				thumbnail: "./images/games/lamp.png",
+				description: "Explore the caves. Trade the light.",
+				links: [{"text": "Itch.io Page", "link": "https://otzzila.itch.io/l-a-m-p"}],
+				devs: ["Owen Zila", "Ryan Qin", "Kevin Ward", "Paul Mattaway"]
+			},
+			{
+				title: "Tel-O-Maze",
+				time: "Game Jam C",
+				thumbnail: "./images/games/telomaze.png",
+				description: "A puzzle platformer game with teleporters.",
+				links: [{"text": "Itch.io Page", "link": "https://westeve.itch.io/tel-o-maze"}],
+				devs: ["Chris Byrne"]
+			},
+			{
+				title: "Catalyst Rebound",
+				time: "Game Jam C",
+				thumbnail: "./images/games/catalystrebound.png",
+				//description: "Competitve Co-op, in space!",
+				links: [{"text": "Itch.io Page", "link": "https://myriacore.itch.io/catalyst-rebound"}],
+				devs: ["MyriaCore"]
+			},
+			{
+				title: "Kings Army",
+				time: "Game Jam C",
+				thumbnail: "./images/games/kingsarmy.png",
+				//description: "Competitve Co-op, in space!",
+				links: [{"text": "Itch.io Page", "link": "https://richardkopelow.itch.io/kings-army"}],
+				devs: ["Richard Kopelow"]
+			},
+			{
+				title: "T-pose Apocalypse",
+				time: "Game Jam C",
+				thumbnail: "./images/games/tpose.png",
+				description: "Work together with your friends to assert your dominance.",
+				links: [{"text": "Itch.io Page", "link": "https://dyc3.itch.io/t-pose-apocalypse"}],
+				devs: ["Derek Kellerman"]
+			},
+			{
+				title: "Let's Go My Dark Lord",
+				time: "Game Jam C",
+				thumbnail: "./images/games/letsgodarklord.png",
+				//description: "Competitve Co-op, in space!",
+				links: [{"text": "Itch.io Page", "link": "https://pixelbacter.itch.io/lets-go-my-dark-lord"}],
+				devs: ["Chengzhi Yang"]
+			},
+			{
+				title: "Rewind Raiders",
+				time: "Game Jam C",
+				thumbnail: "./images/games/nothumb.png",
+				description: "Record your actions as multiple units",
+				links: [{"text": "Itch.io Page", "link": "https://jbisnar.itch.io/rewind-raiders"}],
+				devs: ["Jarod Bisnar"]
+			},
+			//Summer Jam 5
+			{
+				title: "Screens",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/screens.png",
+				description: "Games within games.",
+				links: [{"text": "Itch.io Page", "link": "https://tehpilot.itch.io/screens"}],
+				devs: ["James Romph"]
+			},
+			{
+				title: "Wind Slime",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/windslime.png",
+				description: "Slimes can't jump.",
+				links: [{"text": "Itch.io Page", "link": "https://waveparadigm.itch.io/wind-slime"}],
+				devs: ["Adam Gincel"]
+			},
+			{
+				title: "Puck It",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/puckit.png",
+				description: "Get get all pucks to the end while navigating obstacles.",
+				links: [{"text": "Itch.io Page", "link": "https://richardkopelow.itch.io/puck-it"}],
+				devs: ["Richard Kopelow"]
+			},
+			{
+				title: "Electrician Survival",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/electrician.png",
+				description: "A movement-focused game where you dodge enemies as long as you can.",
+				links: [{"text": "Itch.io Page", "link": "https://jbisnar.itch.io/electrician-survival"}],
+				devs: ["Jarod Bisnar"]
+			},
+			{
+				title: "The Elementor",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/nothumb.png",
+				//description: "A movement-focused game where you dodge enemies as long as you can.",
+				links: [{"text": "Itch.io Page", "link": "https://jakeop4444.itch.io/the-elementor"}],
+				devs: ["Jake Lovrin", "Anna Brown"]
+			},
+			{
+				title: "Wizard Block",
+				time: "Summer Jam 5",
+				thumbnail: "./images/games/wizardblock.png",
+				description: "2D Platformer Puzzle Game with Electricity.",
+				links: [{"text": "Itch.io Page", "link": "https://qzar24.itch.io/wizard-block"}],
+				devs: ["qzar24"]
 			},
 			//Game Jam B
 			{
