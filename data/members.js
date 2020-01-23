@@ -1,10 +1,10 @@
 function getMembers() {
 	return {
 		eboard: [
-			{name: "Taber McFarlin", title: "President", year: "4/4"},
-			{name: "Jake Lovrin", title: "Vice President", year: "3/4"},
-			{name: "Jared Bass", title: "Treasurer", year: "3/4"},
-			{name: "Nick Ciulla", title: "Secretary", year: "3/5"},
+			{name: "Nick Ciulla", title: "President", year: "4/5"},
+			{name: "Owen Zila", title: "Vice President", year: "2/4"},
+			{name: "Wesley Laferriere", title: "Treasurer", year: "2/4"},
+			{name: "Jared Pincus", title: "Secretary", year: "2/4"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
