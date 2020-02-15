@@ -114,7 +114,7 @@ function getGames()
 				thumbnail: "./images/games/tpos.png",
 				description: "Work together with your friends to assert your dominance.",
 				links: [{"text": "Itch.io Page", "link": "https://dyc3.itch.io/t-pose-apocalypse"}],
-				devs: ["Derek Kellerman"]
+				devs: ["Carson McManus"]
 			},
 			{
 				title: "Let's Go My Dark Lord",
