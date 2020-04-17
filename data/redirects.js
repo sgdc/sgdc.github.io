@@ -28,6 +28,7 @@ function getRedirects()
                 {name: "gjh", link: "https://itch.io/jam/sgdc-gjh"},
 		{name: "wj4", link: "https://itch.io/jam/sgdc-wj4"},
 		{name: "gji", link: "https://itch.io/jam/sgdc-gji"},
+		{name: "gjj", link: "https://itch.io/jam/sgdc-gjj"},
 
 		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
