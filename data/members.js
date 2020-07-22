@@ -1,15 +1,16 @@
 function getMembers() {
 	return {
 		eboard: [
-			{name: "Nick Ciulla", title: "President", year: "4/5"},
-			{name: "Owen Zila", title: "Vice President", year: "2/4"},
-			{name: "Wesley Laferriere", title: "Treasurer", year: "2/4"},
-			{name: "Jared Pincus", title: "Secretary", year: "2/4"},
+			{name: "Owen Zila", title: "President", year: "3/3"},
+			{name: "Jared Pincus", title: "Vice President", year: "3/3"},
+			{name: "Wesley Laferriere", title: "Treasurer", year: "3/3"},
+			{name: "Franklin Shack", title: "Secretary", year: "2/3"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
 		],
 		members: [
+			{name: "Nick Ciulla", year: "5/5", active: true},
 			{name: "Katie Bryant", year: "4/4", active: true},
 			{name: "Chris Byrne", year: "4/4", active: true},
 			{name: "Isaac Hirschfeld", year: "3/4", active: true},
