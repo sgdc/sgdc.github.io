@@ -98,14 +98,14 @@ function getEvents() {
 			{name: "Winter Jam I", time: "12/16/16 - 1/24/17", location: "N/A", theme: "One Input", link: "https://itch.io/jam/sgdc-wj1"},
 			{name: "Game Jam XI", time: "2/10/16 - 2/12/17", location: "Lieb 120", theme: "Inversion", link: "https://itch.io/jam/sgdc-gj11"},
 			{name: "Game Developers' Tournament Series", time: "3/25/17", location: "P116 & P120"},
-			{name: "Game Jam XII", time: "4/11/17 - 4/21/17", location: "Lieb 120", theme: "Deja Vu", link: "http://sgdc.ml/gj12"},
+			{name: "Game Jam XII", time: "4/11/17 - 4/21/17", location: "Lieb 120", theme: "Deja Vu", link: "http://sgdc.dev/gj12"},
 			{name: "Showcase52", time: "5/2/17", location: "BC122"},
 
 			//Summer '17
-			{name: "Summer Jam IV", time: "5/7/17 - 9/5/17", location: "N/A", theme: "Pick Two", link: "http://sgdc.ml/sj4"},
+			{name: "Summer Jam IV", time: "5/7/17 - 9/5/17", location: "N/A", theme: "Pick Two", link: "http://sgdc.dev/sj4"},
 
 			//Fall '17
-			{name: "Learn Jam 2017", time: "9/9/17 12-6pm", location: "BC104", link: "http://sgdc.ml/learnjam"},
+			{name: "Learn Jam 2017", time: "9/9/17 12-6pm", location: "BC104", link: "http://sgdc.dev/learnjam"},
 			{name: "Game Jam XIII", time: "9/22/17 - 9/24/17", location: "P116", theme: "Mundane Made Insane", link: "http://itch.io/jam/sgdc-gj13"},
 			{name: "Game Jam XIV", time: "11/3/17 - 11/10/17", location: "BC104 & BC122", theme: "Dual/Duel", link: "http://itch.io/jam/sgdc-gj14"},
 			
@@ -119,7 +119,7 @@ function getEvents() {
 			{name: "Summer Jam V", time: "5/1/18 - 9/4/18", location: "BC122", theme: "5 Themes", link: "https://itch.io/jam/sgdc-sj5"},
 			
 			//Fall 2018
-			{name: "Learn Jam 2018", time: "9/16/18 12-5pm", location: "BC 122", link: "http://sgdc.ml/learnjam"},
+			{name: "Learn Jam 2018", time: "9/16/18 12-5pm", location: "BC 122", link: "http://sgdc.dev/learnjam"},
 			{name: "Game Jam C", time: "9/28/18 - 9/30/18", location: "BC 122 & BC104", theme: "Cooperation", link: "https://itch.io/jam/sgdc-gjc"},
 			{name: "Game Revenant Talk and Q&A", time: "10/23/18 9-11pm", location: "BC 122"},
 			{name: "Game Jam D", time: "11/2/18 - 11/9/18", location: "EAS 222 & BC 122", theme: "Delve", link: "https://itch.io/jam/sgdc-gjd"},
@@ -131,15 +131,31 @@ function getEvents() {
 			{name: "Game Developers' Tournament Series 2019", time: "4/27/19, 3:00-7:00 pm", location: "BC 122"},
 			{name: "Spring 2019 Showcase", time: "4/30/19, 9:00 pm", location: "BC 122"},
 			
+			//Summer 2019
+			{name: "Summer Jam VI", time: "4/30/19 - 9/3/19", location: "BC122", theme: "Contagious, Synergy, Micro"},
+			
+			//Fall 2019
+			{name: "Learn Jam 2019", time: "9/21/19 12-5pm", location: "BC122", link: "http://sgdc.dev/learnjam"},
+			{name: "Game Jam G", time: "10/4/19 - 10/6/19", location: "P120", theme: "Glamour", link: "https://itch.io/jam/sgdc-gjk"},
+			{name: "Game Jam H", time: "11/8/20 - 11/15/20", location: "P120", theme: "Hyper", link: "https://itch.io/jam/sgdc-gjk"},
+			
+			//Spring 2020
+			{name: "Game Jam I", time: "2/28/20 - 3/1/20", location: "BC122, GS216, & BC210", theme: "Illuminate", link: "https://itch.io/jam/sgdc-gjk"},
+			{name: "Game Jam J", time: "4/17/20 - 4/24/20", location: "Online", theme: "Journey", link: "https://itch.io/jam/sgdc-gjk"},
+			
+			//Fall 2020
+			{name: "Learn Jam 2020", time: "9/19/20 12-5pm", location: "Online", link: "http://sgdc.dev/learnjam"},
+			{name: "Game Jam K", time: "10/9/20 - 10/12/20", location: "Online", theme: "Keep", link: "https://itch.io/jam/sgdc-gjk"},
+			
 		],
 		present: [
-			{name: "Summer Jam VI", time: "4/30/19 - 9/3/19", location: "BC122", theme: "Contagious, Synergy, Micro"},
+			{name: "Game Jam L", time: "11/24/20 - 12/1/20", location: "Online", theme: "TBA", link: "https://itch.io/jam/sgdc-gjl"},
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
 			
 		],
 		upcoming: [
-			//Fall 2019
+			//Fall 2020
 			
 		], 
 	};
