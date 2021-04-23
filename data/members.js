@@ -48,7 +48,7 @@ function getMembers() {
 			{name: "Eric Londres", year: "4/4", active: true},
 			{name: "Tyler La Tourrette", year: "2/4", active: true},
 			{name: "Derek Kellerman", year: "2/4", active: true},
-			{name: "Luca Pieples", title: "Secretary", year: "2/3"},
+			{name: "Luca Pieples", year: "2/3", active: true},
 		],
 		alumni: [
 			{name: "Andrew Grapsas", year: "20--"},
