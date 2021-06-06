@@ -2,7 +2,7 @@ function getMembers() {
 	return {
 		eboard: [
 			{name: "Franklin Shack", title: "President", year: "3/4"},
-			{name: "Angelo Saez", title: "Vice President", year: "2/3"},
+			{name: "Angelo Saez", title: "Vice President", year: "2/4"},
 			{name: "Luca Pieples", title: "Treasurer", year: "3/3"},
 			{name: "Stephen Scmidt", title: "Secretary", year: "2/4"},
 		],
