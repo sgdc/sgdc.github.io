@@ -147,18 +147,27 @@ function getEvents() {
 			{name: "Learn Jam 2020", time: "9/19/20 12-5pm", location: "Online", link: "http://sgdc.dev/learnjam"},
 			{name: "Game Jam K", time: "10/9/20 - 10/12/20", location: "Online", theme: "Keep", link: "https://itch.io/jam/sgdc-gjk"},
 			{name: "Game Jam L", time: "11/24/20 - 12/1/20", location: "Online", theme: "Loop", link: "https://itch.io/jam/sgdc-gjl"},
+			
+			//Spring 2021
 			{name: "Game Jam M", time: "3/12/21 - 3/14/21", location: "Online", theme: "Mutate", link: "https://itch.io/jam/sgdc-gjm"},
+			{name: "Game Jam N", time: "4/16/21 - 4/23/21", location: "Online", theme: "Navigate", link: "https://itch.io/jam/sgdc-gjn"},
+			
+			//Fall 2021
+			
+			
+			//Spring 2022
 			
 		],
 		present: [
-			{name: "Game Jam N", time: "4/16/21 - 4/23/21", location: "Online", theme: "Navigate", link: "https://itch.io/jam/sgdc-gjn"},
+			{name: "Summer Jam VII", time: "5/12/21 - 8/30/21", location: "Online", theme: "N/A", link: "https://itch.io/jam/sgdc-sj7"},
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
 			
 		],
 		upcoming: [
-			//Fall 2020
-			
+			//Fall 2021
+			{name: "Game Jam O", time: "TBA", location: "TBA", theme: "TBA"},
+			{name: "Game Jam P", time: "TBA", location: "TBA", theme: "TBA"},
 		], 
 	};
 
