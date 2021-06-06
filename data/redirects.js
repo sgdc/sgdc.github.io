@@ -32,6 +32,10 @@ function getRedirects()
 		{name: "gjk", link: "https://itch.io/jam/sgdc-gjk"},
 		{name: "gjl", link: "https://itch.io/jam/sgdc-gjl"},
 		{name: "gjm", link: "https://itch.io/jam/sgdc-gjm"},
+		{name: "gjn", link: "https://itch.io/jam/sgdc-gjn"},
+		{name: "sj7", link: "https://itch.io/jam/sgdc-sj7"},
+		{name: "gjo", link: "https://itch.io/jam/sgdc-gjo"},
+		{name: "gjp", link: "https://itch.io/jam/sgdc-gjp"},
 
 		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
@@ -48,6 +52,7 @@ function getRedirects()
 		{name: "discord", link: "https://discord.gg/hbsXC9f"},
 		{name: "drive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
 		{name: "googledrive", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
+		{name: "ducklink", link: "https://stevens.campuslabs.com/engage/organization/sgdc"},
 
 		//ducksync redirects
 		{name: "ducksync", link: "https://orgsync.com/48081/chapter"},
