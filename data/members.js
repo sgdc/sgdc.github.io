@@ -1,17 +1,15 @@
 function getMembers() {
 	return {
 		eboard: [
-			{name: "Owen Zila", title: "President", year: "3/3"},
-			{name: "Wesley Laferriere", title: "Vice President", year: "3/3"},
-			{name: "Franklin Shack", title: "Treasurer", year: "2/3"},
-			{name: "Luca Pieples", title: "Secretary", year: "2/3"},
+			{name: "Franklin Shack", title: "President", year: "3/4"},
+			{name: "Angelo Saez", title: "Vice President", year: "2/3"},
+			{name: "Luca Pieples", title: "Treasurer", year: "3/3"},
+			{name: "Stephen Scmidt", title: "Secretary", year: "2/4"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
 		],
 		members: [
-			{name: "Nick Ciulla", year: "5/5", active: true},
-			{name: "Katie Bryant", year: "4/4", active: true},
 			{name: "Chris Byrne", year: "4/4", active: true},
 			{name: "Isaac Hirschfeld", year: "3/4", active: true},
 			{name: "Richard Kopelow", year: "5/5", active: true},
@@ -22,7 +20,6 @@ function getMembers() {
 			{name: "Quinn Corcoran", year: "2/4", active: true},
 			{name: "David Sevilla", year: "3/4", active: true},
 			{name: "Aaron Jin", year: "4/4", active: true},
-			{name: "Owen Zila", year: "2/4", active: true},
 			{name: "Michael Lyons", year: "2/4", active: true},
 			{name: "Zachary Lee", year: "2/4", active: true},
 			{name: "Leo Ouyang", year: "2/4", active: true},
@@ -64,6 +61,11 @@ function getMembers() {
 			{name: "James Romph", year: "2018", link: "http://tehpilot.com"},
 			{name: "Alex Massenzio", year: "2018", link: "http://alexmassenzio.com"},
 			{name: "Adam Gincel", year: "2018", link: "http://waveparadigm.net"},
+			{name: "Nick Ciulla", year: "2020"},
+			{name: "Katie Bryant", year: "2020"},
+			{name: "Wesley LaFerriere", year: "2021"},
+			{name: "Jared Pincus", year: "2021"},
+			{name: "Owen Zila", year: "2021"},
 		]
 	}
 }
