@@ -12,6 +12,7 @@ function getSocialMediaLinks()
 		{src: "./images/youtube.png", link: "https://www.youtube.com/channel/UCLN2t6B7Sq7GVK6IqBG6cXg"},
 		{src: "./images/discord.png", link: "https://discord.gg/NEE5UCCQ5A"},
 		{src: "./images/googledrive.png", link: "https://drive.google.com/folderview?id=0B5hkX3lT9Ze6fnZZc2JYZm9JaXg2b0Y5QkRPU2V0TmJrdy1xclVYR2xiY2FSZ0hZR1VYbkU"},
+		{src: "./images/stevens.png", link: "https://stevens.campuslabs.com/engage/organization/sgdc"},	
 	];
 }
 
