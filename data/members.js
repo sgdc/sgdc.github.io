@@ -4,12 +4,13 @@ function getMembers() {
 			{name: "Franklin Shack", title: "President", year: "3/4"},
 			{name: "Angelo Saez", title: "Vice President", year: "2/4"},
 			{name: "Luca Pieples", title: "Treasurer", year: "3/3"},
-			{name: "Stephen Scmidt", title: "Secretary", year: "2/4"},
+			{name: "Stephen Scmidt", title: "Secretary", year: "3/4"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
 		],
 		members: [
+	/*			
 			{name: "Chris Byrne", year: "4/4", active: true},
 			{name: "Isaac Hirschfeld", year: "3/4", active: true},
 			{name: "Richard Kopelow", year: "5/5", active: true},
@@ -46,6 +47,7 @@ function getMembers() {
 			{name: "Tyler La Tourrette", year: "2/4", active: true},
 			{name: "Derek Kellerman", year: "2/4", active: true},
 			{name: "Luca Pieples", year: "2/3", active: true},
+	*/
 		],
 		alumni: [
 			{name: "Andrew Grapsas", year: "20--"},
