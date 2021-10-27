@@ -62,7 +62,7 @@ function getMembers() {
 			{name: "Christian Harrypersad", year: "2018", link: "http://chemicalplant.zone"},
 			{name: "James Romph", year: "2018", link: "http://tehpilot.com"},
 			{name: "Alex Massenzio", year: "2018", link: "http://alexmassenzio.com"},
-			{name: "Adam Gincel", year: "2018", link: "http://waveparadigm.net"},
+			{name: "Adam Gincel", year: "2018", link: "http://waveparadigm.com"},
 			{name: "Nick Ciulla", year: "2020"},
 			{name: "Katie Bryant", year: "2020"},
 			{name: "Wesley LaFerriere", year: "2021"},
