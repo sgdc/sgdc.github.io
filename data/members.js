@@ -53,7 +53,7 @@ function getMembers() {
 			{name: "Andrew Grapsas", year: "20--"},
 			{name: "Willy Abeel", year: "2011", link: "http://willy-world.net/"},
 			{name: "Dan Katz", year: "2011"},
-			{name: "Greg McLeod", year: "2012", link: "http://www.greg-mcleod.com/"},
+			{name: "Greg McLeod", year: "2012"},
 			{name: "Jack Kelly", year: "2013"},
 			{name: "Kenny Goff", year: "2015"},
 			{name: "Vinnie Simonetti", year: "2015"},
