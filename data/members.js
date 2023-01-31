@@ -1,10 +1,10 @@
 function getMembers() {
 	return {
 		eboard: [
-			{name: "Franklin Shack", title: "President", year: "3/4"},
-			{name: "Stephen Scmidt", title: "Vice President", year: "3/4"},
-			{name: "Nicholas Buckley", title: "Treasurer", year: "1/4"},
-			{name: "Christopher Kang", title: "Secretary", year: "1/4"},
+			{name: "Nicholas Buckley", title: "President", year: "2/4"},
+			{name: "Stephen Schmidt", title: "Vice President", year: "4/4"},
+			{name: "Christopher Kang", title: "Treasurer", year: "2/4"},
+			{name: "Logan Tenner", title: "Secretary", year: "2/4"},
 		],
 		minorboard: [
 			//{name: "", title: "", year: "", link: ""},
