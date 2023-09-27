@@ -161,20 +161,20 @@ function getEvents() {
 			{name: "Game Jam P", time: "11/30/21 - 12/7/21", location: "K228", theme: "Pressure", link: "https://itch.io/jam/sgdc-gjp"},
 			
 			//Spring 2022
-			{name: "Game Jam Q", time: "2/25/22 - 2/27/22", location: "BA122", theme: "Quad", link: "https://itch.io/jam/sgdc-gjq"},
-			{name: "Game Jam R", time: "4/5/22 - 4/12/22", location: "BA112", theme: "Random", link: "https://itch.io/jam/sgdc-gjr"},
+			{name: "Game Jam Q", time: "2/25/22 - 2/27/22", location: "BC122", theme: "Quad", link: "https://itch.io/jam/sgdc-gjq"},
+			{name: "Game Jam R", time: "4/5/22 - 4/12/22", location: "BC112", theme: "Random", link: "https://itch.io/jam/sgdc-gjr"},
 
 			//Fall 2022
-			{name: "Learn Jam 2022", time: "9/17/22", location: "BA104", theme: "N/A", link: "http://sgdc.dev/learnjam"},
-			{name: "Game Jam S", time: "10/7/21 - 10/9/21", location: "BA122", theme: "Scale", link: "https://itch.io/jam/sgdc-gjs"},
-			{name: "Game Jam T", time: "11/8/21 - 11/14/21", location: "BA122", theme: "Transport", link: "https://itch.io/jam/sgdc-gjt"},
+			{name: "Learn Jam 2022", time: "9/17/22", location: "BC104", theme: "N/A", link: "http://sgdc.dev/learnjam"},
+			{name: "Game Jam S", time: "10/7/21 - 10/9/21", location: "BC122", theme: "Scale", link: "https://itch.io/jam/sgdc-gjs"},
+			{name: "Game Jam T", time: "11/8/21 - 11/14/21", location: "BC122", theme: "Transport", link: "https://itch.io/jam/sgdc-gjt"},
 
 			//Spring 2023
-			{name: "Game Jam U", time: "2/17/22 - 2/19/22", location: "BA122", theme: "Undead", link: "https://itch.io/jam/sgdc-gju"},
-			{name: "Game Jam V", time: "4/11/22 - 4/18/22", location: "BA112", theme: "Volatile", link: "https://itch.io/jam/sgdc-gjv"},
+			{name: "Game Jam U", time: "2/17/22 - 2/19/22", location: "BC122", theme: "Undead", link: "https://itch.io/jam/sgdc-gju"},
+			{name: "Game Jam V", time: "4/11/22 - 4/18/22", location: "BC112", theme: "Volatile", link: "https://itch.io/jam/sgdc-gjv"},
 
 			//Fall 2022
-			{name: "Learn Jam 2023", time: "9/16/22", location: "BA122", theme: "N/A", link: "http://sgdc.dev/learnjam"},
+			{name: "Learn Jam 2023", time: "9/16/22 12-5pm", location: "BC122", theme: "N/A", link: "http://sgdc.dev/learnjam"},
 			
 		],
 		present: [
@@ -185,8 +185,8 @@ function getEvents() {
 		],
 		upcoming: [
 			//Fall 2021
-			{name: "Game Jam W", time: "10/13/21 - 10/15/21", location: "BA122", theme: "TBD"},
-			{name: "Game Jam X", time: "11/7/21 - 11/14/21", location: "BA122", theme: "TBD"},
+			{name: "Game Jam W", time: "10/13/21 - 10/15/21", location: "BC122", theme: "TBD"},
+			{name: "Game Jam X", time: "11/7/21 - 11/14/21", location: "BC122", theme: "TBD"},
 		], 
 	};
 
