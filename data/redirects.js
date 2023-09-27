@@ -25,7 +25,7 @@ function getRedirects()
 		{name: "gje", link: "https://itch.io/jam/sgdc-gje"},
 		{name: "gjf", link: "https://itch.io/jam/sgdc-gjf"},
 		{name: "gjg", link: "https://itch.io/jam/sgdc-gjg"},
-                {name: "gjh", link: "https://itch.io/jam/sgdc-gjh"},
+		{name: "gjh", link: "https://itch.io/jam/sgdc-gjh"},
 		{name: "wj4", link: "https://itch.io/jam/sgdc-wj4"},
 		{name: "gji", link: "https://itch.io/jam/sgdc-gji"},
 		{name: "gjj", link: "https://itch.io/jam/sgdc-gjj"},
@@ -36,6 +36,12 @@ function getRedirects()
 		{name: "sj7", link: "https://itch.io/jam/sgdc-sj7"},
 		{name: "gjo", link: "https://itch.io/jam/sgdc-gjo"},
 		{name: "gjp", link: "https://itch.io/jam/sgdc-gjp"},
+		{name: "gjq", link: "https://itch.io/jam/sgdc-gjq"},
+		{name: "gjr", link: "https://itch.io/jam/sgdc-gjr"},
+		{name: "gjs", link: "https://itch.io/jam/sgdc-gjs"},
+		{name: "gjt", link: "https://itch.io/jam/sgdc-gjt"},
+		{name: "gju", link: "https://itch.io/jam/sgdc-gju"},
+		{name: "gjv", link: "https://itch.io/jam/sgdc-gjv"},
 
 		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},

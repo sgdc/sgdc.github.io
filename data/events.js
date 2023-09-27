@@ -156,22 +156,37 @@ function getEvents() {
 			{name: "Summer Jam VII", time: "5/12/21 - 8/30/21", location: "B118", theme: "N/A", link: "https://itch.io/jam/sgdc-sj7"},
 			
 			//Fall 2021
-			
-			
+			{name: "Learn Jam 2021", time: "10/9/21", location: "B111", theme: "N/A", link: "http://sgdc.dev/learnjam"},
+			{name: "Game Jam O", time: "10/22/21 - 10/24/21", location: "GN204", theme: "Obscure", link: "https://itch.io/jam/sgdc-gjo"},
+			{name: "Game Jam P", time: "11/30/21 - 12/7/21", location: "K228", theme: "Pressure", link: "https://itch.io/jam/sgdc-gjp"},
 			
 			//Spring 2022
+			{name: "Game Jam Q", time: "2/25/22 - 2/27/22", location: "BA122", theme: "Quad", link: "https://itch.io/jam/sgdc-gjq"},
+			{name: "Game Jam R", time: "4/5/22 - 4/12/22", location: "BA112", theme: "Random", link: "https://itch.io/jam/sgdc-gjr"},
+
+			//Fall 2022
+			{name: "Learn Jam 2022", time: "9/17/22", location: "BA104", theme: "N/A", link: "http://sgdc.dev/learnjam"},
+			{name: "Game Jam S", time: "10/7/21 - 10/9/21", location: "BA122", theme: "Scale", link: "https://itch.io/jam/sgdc-gjs"},
+			{name: "Game Jam T", time: "11/8/21 - 11/14/21", location: "BA122", theme: "Transport", link: "https://itch.io/jam/sgdc-gjt"},
+
+			//Spring 2023
+			{name: "Game Jam U", time: "2/17/22 - 2/19/22", location: "BA122", theme: "Undead", link: "https://itch.io/jam/sgdc-gju"},
+			{name: "Game Jam V", time: "4/11/22 - 4/18/22", location: "BA112", theme: "Volatile", link: "https://itch.io/jam/sgdc-gjv"},
+
+			//Fall 2022
+			{name: "Learn Jam 2023", time: "9/16/22", location: "BA122", theme: "N/A", link: "http://sgdc.dev/learnjam"},
 			
 		],
 		present: [
-			{name: "Learn Jam 2021", time: "10/9/21", location: "Online", theme: "N/A", link: "http://sgdc.dev/learnjam"},
+
 			//really should only be one event here...just in case, I made the 's' conditionally appear if this is longer than 1
 			//don't worry if this is empty, the table will hide itself until it is populated
 			
 		],
 		upcoming: [
 			//Fall 2021
-			{name: "Game Jam O", time: "TBA", location: "TBA", theme: "TBA"},
-			{name: "Game Jam P", time: "TBA", location: "TBA", theme: "TBA"},
+			{name: "Game Jam W", time: "10/13/21 - 10/15/21", location: "BA122", theme: "TBD"},
+			{name: "Game Jam X", time: "11/7/21 - 11/14/21", location: "BA122", theme: "TBD"},
 		], 
 	};
 
