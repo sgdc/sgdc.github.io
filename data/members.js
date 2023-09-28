@@ -65,6 +65,7 @@ function getMembers() {
 			{name: "Adam Gincel", year: "2018", link: "http://waveparadigm.com"},
 			{name: "Nick Ciulla", year: "2020"},
 			{name: "Katie Bryant", year: "2020"},
+			{name:"Jake Lovrin", year: "2020", link: "https://lovrin.dev/"},
 			{name: "Wesley LaFerriere", year: "2021"},
 			{name: "Jared Pincus", year: "2021"},
 			{name: "Owen Zila", year: "2021"},
