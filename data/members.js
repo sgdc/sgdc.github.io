@@ -1,5 +1,5 @@
 function getMembers() {
-	return {
+	let memberList =  {
 		eboard: [
 			{name: "Nicholas Buckley", title: "President", year: "3/4"},
 			{name: "Christopher Kang", title: "Vice President", year: "3/4"},
@@ -71,4 +71,7 @@ function getMembers() {
 			{name: "Owen Zila", year: "2021"},
 		]
 	}
+
+	memberList.alumni.reverse();
+	return memberList;
 }
