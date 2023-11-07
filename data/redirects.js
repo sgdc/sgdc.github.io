@@ -43,6 +43,7 @@ function getRedirects()
 		{name: "gju", link: "https://itch.io/jam/sgdc-gju"},
 		{name: "gjv", link: "https://itch.io/jam/sgdc-gjv"},
 		{name: "gjw", link: "https://itch.io/jam/sgdc-gjw"},
+		{name: "gjx", link: "https://itch.io/jam/sgdc-gjx"},
 
 		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
