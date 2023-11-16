@@ -45,7 +45,7 @@ function getRedirects()
 		{name: "gjw", link: "https://itch.io/jam/sgdc-gjw"},
 
 		{name: "gjx", link: "https://itch.io/jam/sgdc-gjx"},
-		{name: "gjx/voting", link: "https://docs.google.com/forms/d/e/1FAIpQLSeU48cL319kz58SQkOZsmtNVCEvPoNogmSPp50Axn3wPT7U-Q/viewform"},
+		{name: "gjx-voting", link: "https://docs.google.com/forms/d/e/1FAIpQLSeU48cL319kz58SQkOZsmtNVCEvPoNogmSPp50Axn3wPT7U-Q/viewform"},
 
 		//learn jam
 		{name: "lj", link: "http://sgdc.github.io/events/learnjam"},
