@@ -73,6 +73,8 @@ function getRedirects()
 		//
 
 		//other...
+		{name: "constitution", link: "https://drive.google.com/file/d/0B4V6h-fMgMqTSkJOUDRnTExLN00/view?usp=sharing&resourcekey=0-YV-SbhZdm0oAIximfWYIIQ"}
+		{name: "bylaws", link:"https://drive.google.com/file/d/0B4V6h-fMgMqTVFRpV3NfRlBkR3M/view?usp=sharing&resourcekey=0-IV7wuPTcVV-E2GMvd3SLfA"}
 		{name: "history", link: "https://docs.google.com/document/d/1AZXTElflEoeN5jxgLK3nEjello8zRV9_afkmz5CQm5Y/"},
 		{name: "mail", link: "https://lists.stevens.edu/mailman/listinfo/sgdc"},
 		{name: "mailadmin", link: "https://lists.stevens.edu/mailman/admin/sgdc"},
@@ -83,7 +85,7 @@ function getRedirects()
 		//site maintenance links
 		{name: "site", link: "https://github.com/sgdc/sgdc.github.io"},
 		{name: "addredirect", link: "https://github.com/sgdc/sgdc.github.io/edit/master/data/redirects.js"},
-		//{name: "voting", link: "http://sgdc.github.io/voting/index.html"},
+		{name: "voting", link: "http://sgdc.github.io/voting/index.html"},
 		
 		//downloadables & tools
 		{name: "pd25", link: "https://stevens.gamedevelopment.club/dl/pd25.zip"},
