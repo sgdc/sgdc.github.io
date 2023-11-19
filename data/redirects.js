@@ -73,8 +73,8 @@ function getRedirects()
 		//
 
 		//other...
-		{name: "constitution", link: "https://drive.google.com/file/d/0B4V6h-fMgMqTSkJOUDRnTExLN00/view?usp=sharing&resourcekey=0-YV-SbhZdm0oAIximfWYIIQ"}
-		{name: "bylaws", link:"https://drive.google.com/file/d/0B4V6h-fMgMqTVFRpV3NfRlBkR3M/view?usp=sharing&resourcekey=0-IV7wuPTcVV-E2GMvd3SLfA"}
+		{name: "constitution", link: "https://drive.google.com/file/d/0B4V6h-fMgMqTSkJOUDRnTExLN00/view?usp=sharing&resourcekey=0-YV-SbhZdm0oAIximfWYIIQ"},
+		{name: "bylaws", link:"https://drive.google.com/file/d/0B4V6h-fMgMqTVFRpV3NfRlBkR3M/view?usp=sharing&resourcekey=0-IV7wuPTcVV-E2GMvd3SLfA"},
 		{name: "history", link: "https://docs.google.com/document/d/1AZXTElflEoeN5jxgLK3nEjello8zRV9_afkmz5CQm5Y/"},
 		{name: "mail", link: "https://lists.stevens.edu/mailman/listinfo/sgdc"},
 		{name: "mailadmin", link: "https://lists.stevens.edu/mailman/admin/sgdc"},
